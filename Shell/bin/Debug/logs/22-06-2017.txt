@@ -1,0 +1,243 @@
+22-06-2017 14:51:33|FATAL|IKSAR|System.IO.FileNotFoundException: Не удалось загрузить файл или сборку "Microsoft.Practices.ServiceLocation, Version=1.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" либо одну из их зависимостей. Не удается найти указанный файл.
+Имя файла: 'Microsoft.Practices.ServiceLocation, Version=1.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'
+   в Prism.Unity.UnityBootstrapper.ConfigureContainer()
+   в Classification.Shell.Bootstrapper.ConfigureContainer() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\UnityBootstrapper.cs:строка 32
+   в Prism.Unity.UnityBootstrapper.Run(Boolean runWithDefaultConfiguration)
+   в Prism.Bootstrapper.Run()
+   в Classification.Shell.App.OnStartup(StartupEventArgs e) в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\App.xaml.cs:строка 24
+
+=== Информация о состоянии предварительной привязки ===
+Журнал: DisplayName = Microsoft.Practices.ServiceLocation, Version=1.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+ (Fully-specified)
+Журнал: Appbase = file:///C:/Users/Iksar/Documents/Visual Studio 2015/Projects/Classification_with_live_word_selection/Shell/bin/Debug/
+Журнал: Initial PrivatePath = NULL
+Вызов сборки: Prism.Unity.Wpf, Version=6.2.0.0, Culture=neutral, PublicKeyToken=91a96d2a154366d8.
+===
+Журнал: данная привязка начинается в контексте загрузки default.
+Журнал: используется файл конфигурации приложения: C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.vshost.exe.config.
+Журнал: используется файл конфигурации главного узла: 
+Журнал: используется файл конфигурации компьютера из C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config.
+Журнал: ссылка после применения политики: Microsoft.Practices.ServiceLocation, Version=1.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+Журнал: попытка скачивания нового URL file:///C:/Users/Iksar/Documents/Visual Studio 2015/Projects/Classification_with_live_word_selection/Shell/bin/Debug/Microsoft.Practices.ServiceLocation.DLL.
+Журнал: попытка скачивания нового URL file:///C:/Users/Iksar/Documents/Visual Studio 2015/Projects/Classification_with_live_word_selection/Shell/bin/Debug/Microsoft.Practices.ServiceLocation/Microsoft.Practices.ServiceLocation.DLL.
+Журнал: попытка скачивания нового URL file:///C:/Users/Iksar/Documents/Visual Studio 2015/Projects/Classification_with_live_word_selection/Shell/bin/Debug/Microsoft.Practices.ServiceLocation.EXE.
+Журнал: попытка скачивания нового URL file:///C:/Users/Iksar/Documents/Visual Studio 2015/Projects/Classification_with_live_word_selection/Shell/bin/Debug/Microsoft.Practices.ServiceLocation/Microsoft.Practices.ServiceLocation.EXE.
+|System.IO.FileNotFoundException: Не удалось загрузить файл или сборку "Microsoft.Practices.ServiceLocation, Version=1.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" либо одну из их зависимостей. Не удается найти указанный файл.
+Имя файла: 'Microsoft.Practices.ServiceLocation, Version=1.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'
+   в Prism.Unity.UnityBootstrapper.ConfigureContainer()
+   в Classification.Shell.Bootstrapper.ConfigureContainer() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\UnityBootstrapper.cs:строка 32
+   в Prism.Unity.UnityBootstrapper.Run(Boolean runWithDefaultConfiguration)
+   в Prism.Bootstrapper.Run()
+   в Classification.Shell.App.OnStartup(StartupEventArgs e) в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\App.xaml.cs:строка 24
+
+=== Информация о состоянии предварительной привязки ===
+Журнал: DisplayName = Microsoft.Practices.ServiceLocation, Version=1.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+ (Fully-specified)
+Журнал: Appbase = file:///C:/Users/Iksar/Documents/Visual Studio 2015/Projects/Classification_with_live_word_selection/Shell/bin/Debug/
+Журнал: Initial PrivatePath = NULL
+Вызов сборки: Prism.Unity.Wpf, Version=6.2.0.0, Culture=neutral, PublicKeyToken=91a96d2a154366d8.
+===
+Журнал: данная привязка начинается в контексте загрузки default.
+Журнал: используется файл конфигурации приложения: C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.vshost.exe.config.
+Журнал: используется файл конфигурации главного узла: 
+Журнал: используется файл конфигурации компьютера из C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config.
+Журнал: ссылка после применения политики: Microsoft.Practices.ServiceLocation, Version=1.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+Журнал: попытка скачивания нового URL file:///C:/Users/Iksar/Documents/Visual Studio 2015/Projects/Classification_with_live_word_selection/Shell/bin/Debug/Microsoft.Practices.ServiceLocation.DLL.
+Журнал: попытка скачивания нового URL file:///C:/Users/Iksar/Documents/Visual Studio 2015/Projects/Classification_with_live_word_selection/Shell/bin/Debug/Microsoft.Practices.ServiceLocation/Microsoft.Practices.ServiceLocation.DLL.
+Журнал: попытка скачивания нового URL file:///C:/Users/Iksar/Documents/Visual Studio 2015/Projects/Classification_with_live_word_selection/Shell/bin/Debug/Microsoft.Practices.ServiceLocation.EXE.
+Журнал: попытка скачивания нового URL file:///C:/Users/Iksar/Documents/Visual Studio 2015/Projects/Classification_with_live_word_selection/Shell/bin/Debug/Microsoft.Practices.ServiceLocation/Microsoft.Practices.ServiceLocation.EXE.
+
+22-06-2017 14:52:05|FATAL|IKSAR|System.IO.FileNotFoundException: Не удалось загрузить файл или сборку "Microsoft.Practices.ServiceLocation, Version=1.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" либо одну из их зависимостей. Не удается найти указанный файл.
+Имя файла: 'Microsoft.Practices.ServiceLocation, Version=1.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'
+   в Prism.Unity.UnityBootstrapper.ConfigureServiceLocator()
+   в Prism.Unity.UnityBootstrapper.Run(Boolean runWithDefaultConfiguration)
+   в Prism.Bootstrapper.Run()
+   в Classification.Shell.App.OnStartup(StartupEventArgs e) в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\App.xaml.cs:строка 24
+
+=== Информация о состоянии предварительной привязки ===
+Журнал: DisplayName = Microsoft.Practices.ServiceLocation, Version=1.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+ (Fully-specified)
+Журнал: Appbase = file:///C:/Users/Iksar/Documents/Visual Studio 2015/Projects/Classification_with_live_word_selection/Shell/bin/Debug/
+Журнал: Initial PrivatePath = NULL
+Вызов сборки: Prism.Unity.Wpf, Version=6.2.0.0, Culture=neutral, PublicKeyToken=91a96d2a154366d8.
+===
+Журнал: данная привязка начинается в контексте загрузки default.
+Журнал: используется файл конфигурации приложения: C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.vshost.exe.config.
+Журнал: используется файл конфигурации главного узла: 
+Журнал: используется файл конфигурации компьютера из C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config.
+Журнал: ссылка после применения политики: Microsoft.Practices.ServiceLocation, Version=1.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+Журнал: попытка скачивания нового URL file:///C:/Users/Iksar/Documents/Visual Studio 2015/Projects/Classification_with_live_word_selection/Shell/bin/Debug/Microsoft.Practices.ServiceLocation.DLL.
+Журнал: попытка скачивания нового URL file:///C:/Users/Iksar/Documents/Visual Studio 2015/Projects/Classification_with_live_word_selection/Shell/bin/Debug/Microsoft.Practices.ServiceLocation/Microsoft.Practices.ServiceLocation.DLL.
+Журнал: попытка скачивания нового URL file:///C:/Users/Iksar/Documents/Visual Studio 2015/Projects/Classification_with_live_word_selection/Shell/bin/Debug/Microsoft.Practices.ServiceLocation.EXE.
+Журнал: попытка скачивания нового URL file:///C:/Users/Iksar/Documents/Visual Studio 2015/Projects/Classification_with_live_word_selection/Shell/bin/Debug/Microsoft.Practices.ServiceLocation/Microsoft.Practices.ServiceLocation.EXE.
+|System.IO.FileNotFoundException: Не удалось загрузить файл или сборку "Microsoft.Practices.ServiceLocation, Version=1.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" либо одну из их зависимостей. Не удается найти указанный файл.
+Имя файла: 'Microsoft.Practices.ServiceLocation, Version=1.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'
+   в Prism.Unity.UnityBootstrapper.ConfigureServiceLocator()
+   в Prism.Unity.UnityBootstrapper.Run(Boolean runWithDefaultConfiguration)
+   в Prism.Bootstrapper.Run()
+   в Classification.Shell.App.OnStartup(StartupEventArgs e) в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\App.xaml.cs:строка 24
+
+=== Информация о состоянии предварительной привязки ===
+Журнал: DisplayName = Microsoft.Practices.ServiceLocation, Version=1.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+ (Fully-specified)
+Журнал: Appbase = file:///C:/Users/Iksar/Documents/Visual Studio 2015/Projects/Classification_with_live_word_selection/Shell/bin/Debug/
+Журнал: Initial PrivatePath = NULL
+Вызов сборки: Prism.Unity.Wpf, Version=6.2.0.0, Culture=neutral, PublicKeyToken=91a96d2a154366d8.
+===
+Журнал: данная привязка начинается в контексте загрузки default.
+Журнал: используется файл конфигурации приложения: C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.vshost.exe.config.
+Журнал: используется файл конфигурации главного узла: 
+Журнал: используется файл конфигурации компьютера из C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config.
+Журнал: ссылка после применения политики: Microsoft.Practices.ServiceLocation, Version=1.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+Журнал: попытка скачивания нового URL file:///C:/Users/Iksar/Documents/Visual Studio 2015/Projects/Classification_with_live_word_selection/Shell/bin/Debug/Microsoft.Practices.ServiceLocation.DLL.
+Журнал: попытка скачивания нового URL file:///C:/Users/Iksar/Documents/Visual Studio 2015/Projects/Classification_with_live_word_selection/Shell/bin/Debug/Microsoft.Practices.ServiceLocation/Microsoft.Practices.ServiceLocation.DLL.
+Журнал: попытка скачивания нового URL file:///C:/Users/Iksar/Documents/Visual Studio 2015/Projects/Classification_with_live_word_selection/Shell/bin/Debug/Microsoft.Practices.ServiceLocation.EXE.
+Журнал: попытка скачивания нового URL file:///C:/Users/Iksar/Documents/Visual Studio 2015/Projects/Classification_with_live_word_selection/Shell/bin/Debug/Microsoft.Practices.ServiceLocation/Microsoft.Practices.ServiceLocation.EXE.
+
+22-06-2017 14:54:40|FATAL|IKSAR|Microsoft.Practices.Unity.ResolutionFailedException: Resolution of the dependency failed, type = "Microsoft.Practices.ServiceLocation.IServiceLocator", name = "(none)".
+Exception occurred while: while resolving.
+Exception is: InvalidOperationException - The current type, Microsoft.Practices.ServiceLocation.IServiceLocator, is an interface and cannot be constructed. Are you missing a type mapping?
+-----------------------------------------------
+At the time of the exception, the container was:
+
+  Resolving Microsoft.Practices.ServiceLocation.IServiceLocator,(none)
+ ---> System.InvalidOperationException: The current type, Microsoft.Practices.ServiceLocation.IServiceLocator, is an interface and cannot be constructed. Are you missing a type mapping?
+   в Microsoft.Practices.ObjectBuilder2.DynamicMethodConstructorStrategy.ThrowForAttemptingToConstructInterface(IBuilderContext context)
+   в lambda_method(Closure , IBuilderContext )
+   в Microsoft.Practices.ObjectBuilder2.DynamicBuildPlanGenerationContext.<>c__DisplayClass1.<GetBuildMethod>b__0(IBuilderContext context)
+   в Microsoft.Practices.ObjectBuilder2.DynamicMethodBuildPlan.BuildUp(IBuilderContext context)
+   в Microsoft.Practices.ObjectBuilder2.BuildPlanStrategy.PreBuildUp(IBuilderContext context)
+   в Microsoft.Practices.ObjectBuilder2.StrategyChain.ExecuteBuildUp(IBuilderContext context)
+   в Microsoft.Practices.Unity.UnityContainer.DoBuildUp(Type t, Object existing, String name, IEnumerable`1 resolverOverrides)
+   --- Конец трассировки внутреннего стека исключений ---
+   в Microsoft.Practices.Unity.UnityContainer.DoBuildUp(Type t, Object existing, String name, IEnumerable`1 resolverOverrides)
+   в Microsoft.Practices.Unity.UnityContainer.Resolve(Type t, String name, ResolverOverride[] resolverOverrides)
+   в Microsoft.Practices.Unity.UnityContainerExtensions.Resolve[T](IUnityContainer container, ResolverOverride[] overrides)
+   в Prism.Unity.UnityBootstrapper.<ConfigureServiceLocator>b__6_0()
+   в Microsoft.Practices.ServiceLocation.ServiceLocator.get_Current()
+   в Prism.Bootstrapper.ConfigureRegionAdapterMappings()
+   в Prism.Unity.UnityBootstrapper.Run(Boolean runWithDefaultConfiguration)
+   в Prism.Bootstrapper.Run()
+   в Classification.Shell.App.OnStartup(StartupEventArgs e) в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\App.xaml.cs:строка 24|Microsoft.Practices.Unity.ResolutionFailedException: Resolution of the dependency failed, type = "Microsoft.Practices.ServiceLocation.IServiceLocator", name = "(none)".
+Exception occurred while: while resolving.
+Exception is: InvalidOperationException - The current type, Microsoft.Practices.ServiceLocation.IServiceLocator, is an interface and cannot be constructed. Are you missing a type mapping?
+-----------------------------------------------
+At the time of the exception, the container was:
+
+  Resolving Microsoft.Practices.ServiceLocation.IServiceLocator,(none)
+ ---> System.InvalidOperationException: The current type, Microsoft.Practices.ServiceLocation.IServiceLocator, is an interface and cannot be constructed. Are you missing a type mapping?
+   в Microsoft.Practices.ObjectBuilder2.DynamicMethodConstructorStrategy.ThrowForAttemptingToConstructInterface(IBuilderContext context)
+   в lambda_method(Closure , IBuilderContext )
+   в Microsoft.Practices.ObjectBuilder2.DynamicBuildPlanGenerationContext.<>c__DisplayClass1.<GetBuildMethod>b__0(IBuilderContext context)
+   в Microsoft.Practices.ObjectBuilder2.DynamicMethodBuildPlan.BuildUp(IBuilderContext context)
+   в Microsoft.Practices.ObjectBuilder2.BuildPlanStrategy.PreBuildUp(IBuilderContext context)
+   в Microsoft.Practices.ObjectBuilder2.StrategyChain.ExecuteBuildUp(IBuilderContext context)
+   в Microsoft.Practices.Unity.UnityContainer.DoBuildUp(Type t, Object existing, String name, IEnumerable`1 resolverOverrides)
+   --- Конец трассировки внутреннего стека исключений ---
+   в Microsoft.Practices.Unity.UnityContainer.DoBuildUp(Type t, Object existing, String name, IEnumerable`1 resolverOverrides)
+   в Microsoft.Practices.Unity.UnityContainer.Resolve(Type t, String name, ResolverOverride[] resolverOverrides)
+   в Microsoft.Practices.Unity.UnityContainerExtensions.Resolve[T](IUnityContainer container, ResolverOverride[] overrides)
+   в Prism.Unity.UnityBootstrapper.<ConfigureServiceLocator>b__6_0()
+   в Microsoft.Practices.ServiceLocation.ServiceLocator.get_Current()
+   в Prism.Bootstrapper.ConfigureRegionAdapterMappings()
+   в Prism.Unity.UnityBootstrapper.Run(Boolean runWithDefaultConfiguration)
+   в Prism.Bootstrapper.Run()
+   в Classification.Shell.App.OnStartup(StartupEventArgs e) в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\App.xaml.cs:строка 24
+22-06-2017 14:56:32|FATAL|IKSAR|Microsoft.Practices.Unity.ResolutionFailedException: Resolution of the dependency failed, type = "Microsoft.Practices.ServiceLocation.IServiceLocator", name = "(none)".
+Exception occurred while: while resolving.
+Exception is: InvalidOperationException - The current type, Microsoft.Practices.ServiceLocation.IServiceLocator, is an interface and cannot be constructed. Are you missing a type mapping?
+-----------------------------------------------
+At the time of the exception, the container was:
+
+  Resolving Microsoft.Practices.ServiceLocation.IServiceLocator,(none)
+ ---> System.InvalidOperationException: The current type, Microsoft.Practices.ServiceLocation.IServiceLocator, is an interface and cannot be constructed. Are you missing a type mapping?
+   в Microsoft.Practices.ObjectBuilder2.DynamicMethodConstructorStrategy.ThrowForAttemptingToConstructInterface(IBuilderContext context)
+   в lambda_method(Closure , IBuilderContext )
+   в Microsoft.Practices.ObjectBuilder2.DynamicBuildPlanGenerationContext.<>c__DisplayClass1.<GetBuildMethod>b__0(IBuilderContext context)
+   в Microsoft.Practices.ObjectBuilder2.DynamicMethodBuildPlan.BuildUp(IBuilderContext context)
+   в Microsoft.Practices.ObjectBuilder2.BuildPlanStrategy.PreBuildUp(IBuilderContext context)
+   в Microsoft.Practices.ObjectBuilder2.StrategyChain.ExecuteBuildUp(IBuilderContext context)
+   в Microsoft.Practices.Unity.UnityContainer.DoBuildUp(Type t, Object existing, String name, IEnumerable`1 resolverOverrides)
+   --- Конец трассировки внутреннего стека исключений ---
+   в Microsoft.Practices.Unity.UnityContainer.DoBuildUp(Type t, Object existing, String name, IEnumerable`1 resolverOverrides)
+   в Microsoft.Practices.Unity.UnityContainer.Resolve(Type t, String name, ResolverOverride[] resolverOverrides)
+   в Microsoft.Practices.Unity.UnityContainerExtensions.Resolve[T](IUnityContainer container, ResolverOverride[] overrides)
+   в Prism.Unity.UnityBootstrapper.<ConfigureServiceLocator>b__6_0()
+   в Microsoft.Practices.ServiceLocation.ServiceLocator.get_Current()
+   в Prism.Bootstrapper.ConfigureRegionAdapterMappings()
+   в Prism.Unity.UnityBootstrapper.Run(Boolean runWithDefaultConfiguration)
+   в Prism.Bootstrapper.Run()
+   в Classification.Shell.App.OnStartup(StartupEventArgs e) в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\App.xaml.cs:строка 24|Microsoft.Practices.Unity.ResolutionFailedException: Resolution of the dependency failed, type = "Microsoft.Practices.ServiceLocation.IServiceLocator", name = "(none)".
+Exception occurred while: while resolving.
+Exception is: InvalidOperationException - The current type, Microsoft.Practices.ServiceLocation.IServiceLocator, is an interface and cannot be constructed. Are you missing a type mapping?
+-----------------------------------------------
+At the time of the exception, the container was:
+
+  Resolving Microsoft.Practices.ServiceLocation.IServiceLocator,(none)
+ ---> System.InvalidOperationException: The current type, Microsoft.Practices.ServiceLocation.IServiceLocator, is an interface and cannot be constructed. Are you missing a type mapping?
+   в Microsoft.Practices.ObjectBuilder2.DynamicMethodConstructorStrategy.ThrowForAttemptingToConstructInterface(IBuilderContext context)
+   в lambda_method(Closure , IBuilderContext )
+   в Microsoft.Practices.ObjectBuilder2.DynamicBuildPlanGenerationContext.<>c__DisplayClass1.<GetBuildMethod>b__0(IBuilderContext context)
+   в Microsoft.Practices.ObjectBuilder2.DynamicMethodBuildPlan.BuildUp(IBuilderContext context)
+   в Microsoft.Practices.ObjectBuilder2.BuildPlanStrategy.PreBuildUp(IBuilderContext context)
+   в Microsoft.Practices.ObjectBuilder2.StrategyChain.ExecuteBuildUp(IBuilderContext context)
+   в Microsoft.Practices.Unity.UnityContainer.DoBuildUp(Type t, Object existing, String name, IEnumerable`1 resolverOverrides)
+   --- Конец трассировки внутреннего стека исключений ---
+   в Microsoft.Practices.Unity.UnityContainer.DoBuildUp(Type t, Object existing, String name, IEnumerable`1 resolverOverrides)
+   в Microsoft.Practices.Unity.UnityContainer.Resolve(Type t, String name, ResolverOverride[] resolverOverrides)
+   в Microsoft.Practices.Unity.UnityContainerExtensions.Resolve[T](IUnityContainer container, ResolverOverride[] overrides)
+   в Prism.Unity.UnityBootstrapper.<ConfigureServiceLocator>b__6_0()
+   в Microsoft.Practices.ServiceLocation.ServiceLocator.get_Current()
+   в Prism.Bootstrapper.ConfigureRegionAdapterMappings()
+   в Prism.Unity.UnityBootstrapper.Run(Boolean runWithDefaultConfiguration)
+   в Prism.Bootstrapper.Run()
+   в Classification.Shell.App.OnStartup(StartupEventArgs e) в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\App.xaml.cs:строка 24
+22-06-2017 14:57:37|FATAL|IKSAR|Microsoft.Practices.Unity.ResolutionFailedException: Resolution of the dependency failed, type = "Microsoft.Practices.ServiceLocation.IServiceLocator", name = "(none)".
+Exception occurred while: while resolving.
+Exception is: InvalidOperationException - The current type, Microsoft.Practices.ServiceLocation.IServiceLocator, is an interface and cannot be constructed. Are you missing a type mapping?
+-----------------------------------------------
+At the time of the exception, the container was:
+
+  Resolving Microsoft.Practices.ServiceLocation.IServiceLocator,(none)
+ ---> System.InvalidOperationException: The current type, Microsoft.Practices.ServiceLocation.IServiceLocator, is an interface and cannot be constructed. Are you missing a type mapping?
+   в Microsoft.Practices.ObjectBuilder2.DynamicMethodConstructorStrategy.ThrowForAttemptingToConstructInterface(IBuilderContext context)
+   в lambda_method(Closure , IBuilderContext )
+   в Microsoft.Practices.ObjectBuilder2.DynamicBuildPlanGenerationContext.<>c__DisplayClass1.<GetBuildMethod>b__0(IBuilderContext context)
+   в Microsoft.Practices.ObjectBuilder2.DynamicMethodBuildPlan.BuildUp(IBuilderContext context)
+   в Microsoft.Practices.ObjectBuilder2.BuildPlanStrategy.PreBuildUp(IBuilderContext context)
+   в Microsoft.Practices.ObjectBuilder2.StrategyChain.ExecuteBuildUp(IBuilderContext context)
+   в Microsoft.Practices.Unity.UnityContainer.DoBuildUp(Type t, Object existing, String name, IEnumerable`1 resolverOverrides)
+   --- Конец трассировки внутреннего стека исключений ---
+   в Microsoft.Practices.Unity.UnityContainer.DoBuildUp(Type t, Object existing, String name, IEnumerable`1 resolverOverrides)
+   в Microsoft.Practices.Unity.UnityContainer.Resolve(Type t, String name, ResolverOverride[] resolverOverrides)
+   в Microsoft.Practices.Unity.UnityContainerExtensions.Resolve[T](IUnityContainer container, ResolverOverride[] overrides)
+   в Prism.Unity.UnityBootstrapper.<ConfigureServiceLocator>b__6_0()
+   в Microsoft.Practices.ServiceLocation.ServiceLocator.get_Current()
+   в Prism.Bootstrapper.ConfigureRegionAdapterMappings()
+   в Prism.Unity.UnityBootstrapper.Run(Boolean runWithDefaultConfiguration)
+   в Prism.Bootstrapper.Run()
+   в Classification.Shell.App.OnStartup(StartupEventArgs e) в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\App.xaml.cs:строка 24|Microsoft.Practices.Unity.ResolutionFailedException: Resolution of the dependency failed, type = "Microsoft.Practices.ServiceLocation.IServiceLocator", name = "(none)".
+Exception occurred while: while resolving.
+Exception is: InvalidOperationException - The current type, Microsoft.Practices.ServiceLocation.IServiceLocator, is an interface and cannot be constructed. Are you missing a type mapping?
+-----------------------------------------------
+At the time of the exception, the container was:
+
+  Resolving Microsoft.Practices.ServiceLocation.IServiceLocator,(none)
+ ---> System.InvalidOperationException: The current type, Microsoft.Practices.ServiceLocation.IServiceLocator, is an interface and cannot be constructed. Are you missing a type mapping?
+   в Microsoft.Practices.ObjectBuilder2.DynamicMethodConstructorStrategy.ThrowForAttemptingToConstructInterface(IBuilderContext context)
+   в lambda_method(Closure , IBuilderContext )
+   в Microsoft.Practices.ObjectBuilder2.DynamicBuildPlanGenerationContext.<>c__DisplayClass1.<GetBuildMethod>b__0(IBuilderContext context)
+   в Microsoft.Practices.ObjectBuilder2.DynamicMethodBuildPlan.BuildUp(IBuilderContext context)
+   в Microsoft.Practices.ObjectBuilder2.BuildPlanStrategy.PreBuildUp(IBuilderContext context)
+   в Microsoft.Practices.ObjectBuilder2.StrategyChain.ExecuteBuildUp(IBuilderContext context)
+   в Microsoft.Practices.Unity.UnityContainer.DoBuildUp(Type t, Object existing, String name, IEnumerable`1 resolverOverrides)
+   --- Конец трассировки внутреннего стека исключений ---
+   в Microsoft.Practices.Unity.UnityContainer.DoBuildUp(Type t, Object existing, String name, IEnumerable`1 resolverOverrides)
+   в Microsoft.Practices.Unity.UnityContainer.Resolve(Type t, String name, ResolverOverride[] resolverOverrides)
+   в Microsoft.Practices.Unity.UnityContainerExtensions.Resolve[T](IUnityContainer container, ResolverOverride[] overrides)
+   в Prism.Unity.UnityBootstrapper.<ConfigureServiceLocator>b__6_0()
+   в Microsoft.Practices.ServiceLocation.ServiceLocator.get_Current()
+   в Prism.Bootstrapper.ConfigureRegionAdapterMappings()
+   в Prism.Unity.UnityBootstrapper.Run(Boolean runWithDefaultConfiguration)
+   в Prism.Bootstrapper.Run()
+   в Classification.Shell.App.OnStartup(StartupEventArgs e) в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\App.xaml.cs:строка 24

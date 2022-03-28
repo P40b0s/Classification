@@ -1,0 +1,40 @@
+28-06-2017 10:43:59|FATAL|IKSAR|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в Classification.DB.DbReader.<FillActKeysDictionary>b__8_0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 110|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в Classification.DB.DbReader.<FillActKeysDictionary>b__8_0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 110
+28-06-2017 10:44:24|FATAL|IKSAR|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в Classification.DB.DbReader.<FillActKeysDictionary>b__8_0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 110|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в Classification.DB.DbReader.<FillActKeysDictionary>b__8_0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 110
+28-06-2017 11:00:36|FATAL|IKSAR|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в Classification.DB.DbReader.<FillActKeysDictionary>b__8_0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 110|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в Classification.DB.DbReader.<FillActKeysDictionary>b__8_0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 110
+28-06-2017 11:03:59|FATAL|IKSAR|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в Classification.DB.DbReader.<FillActKeysDictionary>b__8_0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 110|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в Classification.DB.DbReader.<FillActKeysDictionary>b__8_0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 110
+28-06-2017 11:06:44|FATAL|IKSAR|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в Classification.DB.DbReader.<FillActKeysDictionary>b__8_0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 110|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в Classification.DB.DbReader.<FillActKeysDictionary>b__8_0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 110
+28-06-2017 11:20:56|FATAL|IKSAR|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в Classification.DB.DbReader.<FillActRubricsDictionary>b__10_0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 180|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в Classification.DB.DbReader.<FillActRubricsDictionary>b__10_0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 180
+28-06-2017 11:22:15|FATAL|IKSAR|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в Classification.DB.DbReader.<FillActRubricsDictionary>b__10_0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 180|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в Classification.DB.DbReader.<FillActRubricsDictionary>b__10_0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 180
+28-06-2017 11:22:53|FATAL|IKSAR|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в Classification.DB.DbReader.<FillActRubricsDictionary>b__10_0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 175|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в Classification.DB.DbReader.<FillActRubricsDictionary>b__10_0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 175

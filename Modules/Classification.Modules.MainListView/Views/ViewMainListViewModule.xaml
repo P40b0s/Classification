@@ -1,0 +1,142 @@
+﻿<UserControl x:Class="Classification.Modules.MainListViewModule.Views.ViewMainListViewModule"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:prism="http://prismlibrary.com/"
+             prism:ViewModelLocator.AutoWireViewModel="True"
+             xmlns:filterEnum="clr-namespace:Classification.Core.Enums;assembly=Classification.Core"
+             xmlns:local="clr-namespace:Classification.Modules.MainListViewModule.ViewModels"
+             xmlns:converters="clr-namespace:Classification.Modules.MainListViewModule.Converters"
+             xmlns:metro="http://metro.mahapps.com/winfx/xaml/controls"
+             xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity">
+
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/MainListViewModule;component/Templates/ListView/Headers.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/MainListViewModule;component/Templates/ListView/Cells.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/MainListViewModule;component/Templates/ListView/ItemStyle.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/Classification.Core;component/Styles/Buttons.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+            <converters:BooleanToStyleConverter x:Key="ListViewStyleConverter"/>
+        </ResourceDictionary>
+
+    </UserControl.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        
+        <metro:Flyout Position="Left"
+                      IsOpen="{Binding SerializeInterfaceIsOpen, Mode=TwoWay}"
+                      Panel.ZIndex="1">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="100"/>
+                    <RowDefinition Height="200"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+
+                <StackPanel Grid.Row="0">
+                    <TextBlock HorizontalAlignment="Center" FontSize="30" Text="Экспорт готовых документов в файл EXCEL"/>
+                    <Button FontSize="16" Height="30" Content="Начать выгрузку" Command="{Binding ExportToExcelCommand}" Style="{StaticResource OkButton}"/>
+                    <Grid>
+                        <TextBlock Panel.ZIndex="1" FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Center">
+                             <Run Text="{Binding UploadToExcelValue}"/>
+                             <Run Text="\"/>
+                             <Run Text="{Binding UploadToExcelMaximum}"/>
+                        </TextBlock>
+                        <ProgressBar Height="30" Value="{Binding UploadToExcelValue}" Maximum="{Binding UploadToExcelMaximum}"/>
+                    </Grid>
+                </StackPanel>
+
+                <Image Source="{StaticResource KoteImage}" Grid.Row="1"/>
+
+                <StackPanel Grid.Row="2">
+                    <TextBlock HorizontalAlignment="Center" FontSize="30" Text="Импорт новой порции в базу данных"/>
+                    <ListBox ItemsSource="{Binding ImportFilesList}"
+                             FontSize="16"
+                             SelectedItem="{Binding SelectedFile, Mode=TwoWay}">
+
+                    </ListBox>
+                    <ListView ItemsSource="{Binding ExcelRows}" MaxHeight="200">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn 
+                                        Header="Номер" 
+                                        Width="105" 
+                                        DisplayMemberBinding="{Binding ActNumber}"/>
+                                <GridViewColumn 
+                                        Header="Дата" 
+                                        Width="105" 
+                                        DisplayMemberBinding="{Binding SignDate, StringFormat={}{0:dd.MM.yyy}}"/>
+                                <GridViewColumn 
+                                        Header="Наименование" 
+                                        Width="370" 
+                                        DisplayMemberBinding="{Binding ActName}"
+                                       />
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <Button FontSize="16" Height="30" Content="Загрузить" Command="{Binding ImportFromExcelCommand}" Style="{StaticResource OkButton}"/>
+                    <Grid>
+                        <TextBlock Panel.ZIndex="1" FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Center">
+                             <Run Text="{Binding ImportActsValue}"/>
+                             <Run Text="\"/>
+                             <Run Text="{Binding ImportActsMaximum}"/>
+                        </TextBlock>
+                        <ProgressBar Height="30" Value="{Binding ImportActsValue}" Maximum="{Binding ImportActsMaximum}"/>
+                    </Grid>
+                </StackPanel>
+            </Grid>
+        </metro:Flyout>
+        
+        
+        <ListView ItemsSource="{Binding CCollection, Mode=OneWay}" 
+                  SelectedItem="{Binding SelectedItem}"
+                  ItemContainerStyle="{Binding ShowReadyDocumentsInListView, Converter={StaticResource ListViewStyleConverter}}"
+                  MaxHeight="820"
+                  Background="#FFCDFDFB"
+                  
+                  VirtualizingPanel.IsContainerVirtualizable="True"
+                  VirtualizingPanel.IsVirtualizing="True"
+                  VirtualizingPanel.VirtualizationMode="Recycling"
+                  VirtualizingPanel.CacheLength="20"
+                  Grid.Row="1">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn 
+                        Header="Наименование" 
+                        Width="425" 
+                        HeaderContainerStyle="{StaticResource NameHeader}" 
+                        CellTemplate="{StaticResource ActNameCellTemplate}"/>
+
+                    <GridViewColumn 
+                        Header="Номер" 
+                        Width="125" 
+                        HeaderContainerStyle="{StaticResource UsualyListViewHeader}" 
+                        CellTemplate="{StaticResource NumberCellTemplate}"/>
+
+                    <GridViewColumn 
+                        Header="Дата" 
+                        Width="125" 
+                        HeaderContainerStyle="{StaticResource UsualyListViewHeader}" 
+                        CellTemplate="{StaticResource SignDateCellTemplate}"/>
+
+                    <GridViewColumn 
+                        Header="Рубрики" 
+                        Width="350" 
+                        HeaderContainerStyle="{StaticResource RubricsHeader}"
+                         CellTemplate="{StaticResource RubricsCellTemplate}"/>
+
+                    <GridViewColumn 
+                        Header="Ключевые слова" 
+                        Width="200" 
+                        HeaderContainerStyle="{StaticResource KeywordsHeader}"
+                        CellTemplate="{StaticResource KeysCellTemplate}"/>
+
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
+</UserControl>

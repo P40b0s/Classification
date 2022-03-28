@@ -1,0 +1,961 @@
+04-07-2017 08:42:47|INFO|IKSAR|Удалено 0 ключевых слов из документа 80b713e5-c574-4336-9cf5-84c8dddf2cb3 на замену|
+04-07-2017 08:42:47|INFO|IKSAR|К документу 80b713e5-c574-4336-9cf5-84c8dddf2cb3 добавлено ключевое слово: Комплекс|
+04-07-2017 08:42:47|INFO|IKSAR|К документу 80b713e5-c574-4336-9cf5-84c8dddf2cb3 добавлено ключевое слово: Объект|
+04-07-2017 08:42:47|INFO|IKSAR|К документу 80b713e5-c574-4336-9cf5-84c8dddf2cb3 добавлено ключевое слово: Природа|
+04-07-2017 08:42:47|INFO|IKSAR|К документу 80b713e5-c574-4336-9cf5-84c8dddf2cb3 добавлено ключевое слово: Проект|
+04-07-2017 08:42:47|INFO|IKSAR|К документу 80b713e5-c574-4336-9cf5-84c8dddf2cb3 добавлено ключевое слово: Территория|
+04-07-2017 08:42:47|INFO|IKSAR|К документу 80b713e5-c574-4336-9cf5-84c8dddf2cb3 добавлено ключевое слово: Утверждение|
+04-07-2017 08:42:47|INFO|IKSAR|Удалено 0 рубрик из документа 80b713e5-c574-4336-9cf5-84c8dddf2cb3 на замену|
+04-07-2017 08:42:47|INFO|IKSAR|К документу 80b713e5-c574-4336-9cf5-84c8dddf2cb3 добавлена рубрика: 090.050.030 Основные направления градостроительной деятельности|
+04-07-2017 08:42:47|INFO|IKSAR|Документу 80b713e5-c574-4336-9cf5-84c8dddf2cb3 выставлен флаг IsReadyToExport = True, Строк обработано 1|
+04-07-2017 08:43:07|FATAL|IKSAR|System.NotSupportedException: Данный тип CollectionView не поддерживает изменения в своем SourceCollection из потока, отличного от потока Dispatcher.
+   в System.Windows.Data.CollectionView.OnCollectionChanged(Object sender, NotifyCollectionChangedEventArgs args)
+   в System.Collections.Specialized.NotifyCollectionChangedEventHandler.Invoke(Object sender, NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.ClearItems()
+   в System.Collections.ObjectModel.Collection`1.Clear()
+   в Classification.DB.DbReader.<>c__DisplayClass19_0.<RefreshKeys>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 506Ключевое слово = 00000000-0000-0000-0000-000000000000 Документ = 80b713e5-c574-4336-9cf5-84c8dddf2cb3|
+04-07-2017 08:43:07|FATAL|IKSAR|System.NotSupportedException: Данный тип CollectionView не поддерживает изменения в своем SourceCollection из потока, отличного от потока Dispatcher.
+   в System.Windows.Data.CollectionView.OnCollectionChanged(Object sender, NotifyCollectionChangedEventArgs args)
+   в System.Collections.Specialized.NotifyCollectionChangedEventHandler.Invoke(Object sender, NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.ClearItems()
+   в System.Collections.ObjectModel.Collection`1.Clear()
+   в Classification.DB.DbReader.<>c__DisplayClass18_0.<RefreshRubrics>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 467Рубрика = 00000000-0000-0000-0000-000000000000 Документ = 80b713e5-c574-4336-9cf5-84c8dddf2cb3|
+04-07-2017 08:43:37|FATAL|IKSAR|System.NotSupportedException: Данный тип CollectionView не поддерживает изменения в своем SourceCollection из потока, отличного от потока Dispatcher.
+   в System.Windows.Data.CollectionView.OnCollectionChanged(Object sender, NotifyCollectionChangedEventArgs args)
+   в System.Collections.Specialized.NotifyCollectionChangedEventHandler.Invoke(Object sender, NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.ClearItems()
+   в System.Collections.ObjectModel.Collection`1.Clear()
+   в Classification.DB.DbReader.<>c__DisplayClass19_0.<RefreshKeys>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 506Ключевое слово = 00000000-0000-0000-0000-000000000000 Документ = 80b713e5-c574-4336-9cf5-84c8dddf2cb3|
+04-07-2017 08:43:37|FATAL|IKSAR|System.NotSupportedException: Данный тип CollectionView не поддерживает изменения в своем SourceCollection из потока, отличного от потока Dispatcher.
+   в System.Windows.Data.CollectionView.OnCollectionChanged(Object sender, NotifyCollectionChangedEventArgs args)
+   в System.Collections.Specialized.NotifyCollectionChangedEventHandler.Invoke(Object sender, NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.ClearItems()
+   в System.Collections.ObjectModel.Collection`1.Clear()
+   в Classification.DB.DbReader.<>c__DisplayClass18_0.<RefreshRubrics>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 467Рубрика = 00000000-0000-0000-0000-000000000000 Документ = 80b713e5-c574-4336-9cf5-84c8dddf2cb3|
+04-07-2017 08:44:07|FATAL|IKSAR|System.NotSupportedException: Данный тип CollectionView не поддерживает изменения в своем SourceCollection из потока, отличного от потока Dispatcher.
+   в System.Windows.Data.CollectionView.OnCollectionChanged(Object sender, NotifyCollectionChangedEventArgs args)
+   в System.Collections.Specialized.NotifyCollectionChangedEventHandler.Invoke(Object sender, NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.ClearItems()
+   в System.Collections.ObjectModel.Collection`1.Clear()
+   в Classification.DB.DbReader.<>c__DisplayClass18_0.<RefreshRubrics>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 467Рубрика = 00000000-0000-0000-0000-000000000000 Документ = 80b713e5-c574-4336-9cf5-84c8dddf2cb3|
+04-07-2017 08:44:07|FATAL|IKSAR|System.NotSupportedException: Данный тип CollectionView не поддерживает изменения в своем SourceCollection из потока, отличного от потока Dispatcher.
+   в System.Windows.Data.CollectionView.OnCollectionChanged(Object sender, NotifyCollectionChangedEventArgs args)
+   в System.Collections.Specialized.NotifyCollectionChangedEventHandler.Invoke(Object sender, NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.ClearItems()
+   в System.Collections.ObjectModel.Collection`1.Clear()
+   в Classification.DB.DbReader.<>c__DisplayClass19_0.<RefreshKeys>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 506Ключевое слово = 00000000-0000-0000-0000-000000000000 Документ = 80b713e5-c574-4336-9cf5-84c8dddf2cb3|
+04-07-2017 08:44:37|FATAL|IKSAR|System.NotSupportedException: Данный тип CollectionView не поддерживает изменения в своем SourceCollection из потока, отличного от потока Dispatcher.
+   в System.Windows.Data.CollectionView.OnCollectionChanged(Object sender, NotifyCollectionChangedEventArgs args)
+   в System.Collections.Specialized.NotifyCollectionChangedEventHandler.Invoke(Object sender, NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.ClearItems()
+   в System.Collections.ObjectModel.Collection`1.Clear()
+   в Classification.DB.DbReader.<>c__DisplayClass19_0.<RefreshKeys>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 506Ключевое слово = 00000000-0000-0000-0000-000000000000 Документ = 80b713e5-c574-4336-9cf5-84c8dddf2cb3|
+04-07-2017 08:44:37|FATAL|IKSAR|System.NotSupportedException: Данный тип CollectionView не поддерживает изменения в своем SourceCollection из потока, отличного от потока Dispatcher.
+   в System.Windows.Data.CollectionView.OnCollectionChanged(Object sender, NotifyCollectionChangedEventArgs args)
+   в System.Collections.Specialized.NotifyCollectionChangedEventHandler.Invoke(Object sender, NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.ClearItems()
+   в System.Collections.ObjectModel.Collection`1.Clear()
+   в Classification.DB.DbReader.<>c__DisplayClass18_0.<RefreshRubrics>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 467Рубрика = 00000000-0000-0000-0000-000000000000 Документ = 80b713e5-c574-4336-9cf5-84c8dddf2cb3|
+04-07-2017 08:45:07|FATAL|IKSAR|System.NotSupportedException: Данный тип CollectionView не поддерживает изменения в своем SourceCollection из потока, отличного от потока Dispatcher.
+   в System.Windows.Data.CollectionView.OnCollectionChanged(Object sender, NotifyCollectionChangedEventArgs args)
+   в System.Collections.Specialized.NotifyCollectionChangedEventHandler.Invoke(Object sender, NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.ClearItems()
+   в System.Collections.ObjectModel.Collection`1.Clear()
+   в Classification.DB.DbReader.<>c__DisplayClass19_0.<RefreshKeys>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 506Ключевое слово = 00000000-0000-0000-0000-000000000000 Документ = 80b713e5-c574-4336-9cf5-84c8dddf2cb3|
+04-07-2017 08:45:07|FATAL|IKSAR|System.NotSupportedException: Данный тип CollectionView не поддерживает изменения в своем SourceCollection из потока, отличного от потока Dispatcher.
+   в System.Windows.Data.CollectionView.OnCollectionChanged(Object sender, NotifyCollectionChangedEventArgs args)
+   в System.Collections.Specialized.NotifyCollectionChangedEventHandler.Invoke(Object sender, NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.ClearItems()
+   в System.Collections.ObjectModel.Collection`1.Clear()
+   в Classification.DB.DbReader.<>c__DisplayClass18_0.<RefreshRubrics>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 467Рубрика = 00000000-0000-0000-0000-000000000000 Документ = 80b713e5-c574-4336-9cf5-84c8dddf2cb3|
+04-07-2017 08:45:37|FATAL|IKSAR|System.NotSupportedException: Данный тип CollectionView не поддерживает изменения в своем SourceCollection из потока, отличного от потока Dispatcher.
+   в System.Windows.Data.CollectionView.OnCollectionChanged(Object sender, NotifyCollectionChangedEventArgs args)
+   в System.Collections.Specialized.NotifyCollectionChangedEventHandler.Invoke(Object sender, NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.ClearItems()
+   в System.Collections.ObjectModel.Collection`1.Clear()
+   в Classification.DB.DbReader.<>c__DisplayClass19_0.<RefreshKeys>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 506Ключевое слово = 00000000-0000-0000-0000-000000000000 Документ = 80b713e5-c574-4336-9cf5-84c8dddf2cb3|
+04-07-2017 08:45:37|FATAL|IKSAR|System.NotSupportedException: Данный тип CollectionView не поддерживает изменения в своем SourceCollection из потока, отличного от потока Dispatcher.
+   в System.Windows.Data.CollectionView.OnCollectionChanged(Object sender, NotifyCollectionChangedEventArgs args)
+   в System.Collections.Specialized.NotifyCollectionChangedEventHandler.Invoke(Object sender, NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.ClearItems()
+   в System.Collections.ObjectModel.Collection`1.Clear()
+   в Classification.DB.DbReader.<>c__DisplayClass18_0.<RefreshRubrics>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 467Рубрика = 00000000-0000-0000-0000-000000000000 Документ = 80b713e5-c574-4336-9cf5-84c8dddf2cb3|
+04-07-2017 08:46:07|FATAL|IKSAR|System.NotSupportedException: Данный тип CollectionView не поддерживает изменения в своем SourceCollection из потока, отличного от потока Dispatcher.
+   в System.Windows.Data.CollectionView.OnCollectionChanged(Object sender, NotifyCollectionChangedEventArgs args)
+   в System.Collections.Specialized.NotifyCollectionChangedEventHandler.Invoke(Object sender, NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.ClearItems()
+   в System.Collections.ObjectModel.Collection`1.Clear()
+   в Classification.DB.DbReader.<>c__DisplayClass18_0.<RefreshRubrics>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 467Рубрика = 00000000-0000-0000-0000-000000000000 Документ = 80b713e5-c574-4336-9cf5-84c8dddf2cb3|
+04-07-2017 08:46:07|FATAL|IKSAR|System.NotSupportedException: Данный тип CollectionView не поддерживает изменения в своем SourceCollection из потока, отличного от потока Dispatcher.
+   в System.Windows.Data.CollectionView.OnCollectionChanged(Object sender, NotifyCollectionChangedEventArgs args)
+   в System.Collections.Specialized.NotifyCollectionChangedEventHandler.Invoke(Object sender, NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.ClearItems()
+   в System.Collections.ObjectModel.Collection`1.Clear()
+   в Classification.DB.DbReader.<>c__DisplayClass19_0.<RefreshKeys>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 506Ключевое слово = 00000000-0000-0000-0000-000000000000 Документ = 80b713e5-c574-4336-9cf5-84c8dddf2cb3|
+04-07-2017 08:46:37|FATAL|IKSAR|System.NotSupportedException: Данный тип CollectionView не поддерживает изменения в своем SourceCollection из потока, отличного от потока Dispatcher.
+   в System.Windows.Data.CollectionView.OnCollectionChanged(Object sender, NotifyCollectionChangedEventArgs args)
+   в System.Collections.Specialized.NotifyCollectionChangedEventHandler.Invoke(Object sender, NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.ClearItems()
+   в System.Collections.ObjectModel.Collection`1.Clear()
+   в Classification.DB.DbReader.<>c__DisplayClass18_0.<RefreshRubrics>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 467Рубрика = 00000000-0000-0000-0000-000000000000 Документ = 80b713e5-c574-4336-9cf5-84c8dddf2cb3|
+04-07-2017 08:46:37|FATAL|IKSAR|System.NotSupportedException: Данный тип CollectionView не поддерживает изменения в своем SourceCollection из потока, отличного от потока Dispatcher.
+   в System.Windows.Data.CollectionView.OnCollectionChanged(Object sender, NotifyCollectionChangedEventArgs args)
+   в System.Collections.Specialized.NotifyCollectionChangedEventHandler.Invoke(Object sender, NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.ClearItems()
+   в System.Collections.ObjectModel.Collection`1.Clear()
+   в Classification.DB.DbReader.<>c__DisplayClass19_0.<RefreshKeys>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 506Ключевое слово = 00000000-0000-0000-0000-000000000000 Документ = 80b713e5-c574-4336-9cf5-84c8dddf2cb3|
+04-07-2017 08:47:07|FATAL|IKSAR|System.NotSupportedException: Данный тип CollectionView не поддерживает изменения в своем SourceCollection из потока, отличного от потока Dispatcher.
+   в System.Windows.Data.CollectionView.OnCollectionChanged(Object sender, NotifyCollectionChangedEventArgs args)
+   в System.Collections.Specialized.NotifyCollectionChangedEventHandler.Invoke(Object sender, NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.ClearItems()
+   в System.Collections.ObjectModel.Collection`1.Clear()
+   в Classification.DB.DbReader.<>c__DisplayClass18_0.<RefreshRubrics>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 467Рубрика = 00000000-0000-0000-0000-000000000000 Документ = 80b713e5-c574-4336-9cf5-84c8dddf2cb3|
+04-07-2017 08:47:07|FATAL|IKSAR|System.NotSupportedException: Данный тип CollectionView не поддерживает изменения в своем SourceCollection из потока, отличного от потока Dispatcher.
+   в System.Windows.Data.CollectionView.OnCollectionChanged(Object sender, NotifyCollectionChangedEventArgs args)
+   в System.Collections.Specialized.NotifyCollectionChangedEventHandler.Invoke(Object sender, NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.ClearItems()
+   в System.Collections.ObjectModel.Collection`1.Clear()
+   в Classification.DB.DbReader.<>c__DisplayClass19_0.<RefreshKeys>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 506Ключевое слово = 00000000-0000-0000-0000-000000000000 Документ = 80b713e5-c574-4336-9cf5-84c8dddf2cb3|
+04-07-2017 08:47:37|FATAL|IKSAR|System.NotSupportedException: Данный тип CollectionView не поддерживает изменения в своем SourceCollection из потока, отличного от потока Dispatcher.
+   в System.Windows.Data.CollectionView.OnCollectionChanged(Object sender, NotifyCollectionChangedEventArgs args)
+   в System.Collections.Specialized.NotifyCollectionChangedEventHandler.Invoke(Object sender, NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.ClearItems()
+   в System.Collections.ObjectModel.Collection`1.Clear()
+   в Classification.DB.DbReader.<>c__DisplayClass18_0.<RefreshRubrics>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 467Рубрика = 00000000-0000-0000-0000-000000000000 Документ = 80b713e5-c574-4336-9cf5-84c8dddf2cb3|
+04-07-2017 08:47:37|FATAL|IKSAR|System.NotSupportedException: Данный тип CollectionView не поддерживает изменения в своем SourceCollection из потока, отличного от потока Dispatcher.
+   в System.Windows.Data.CollectionView.OnCollectionChanged(Object sender, NotifyCollectionChangedEventArgs args)
+   в System.Collections.Specialized.NotifyCollectionChangedEventHandler.Invoke(Object sender, NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.ClearItems()
+   в System.Collections.ObjectModel.Collection`1.Clear()
+   в Classification.DB.DbReader.<>c__DisplayClass19_0.<RefreshKeys>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 506Ключевое слово = 00000000-0000-0000-0000-000000000000 Документ = 80b713e5-c574-4336-9cf5-84c8dddf2cb3|
+04-07-2017 08:48:07|FATAL|IKSAR|System.NotSupportedException: Данный тип CollectionView не поддерживает изменения в своем SourceCollection из потока, отличного от потока Dispatcher.
+   в System.Windows.Data.CollectionView.OnCollectionChanged(Object sender, NotifyCollectionChangedEventArgs args)
+   в System.Collections.Specialized.NotifyCollectionChangedEventHandler.Invoke(Object sender, NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.ClearItems()
+   в System.Collections.ObjectModel.Collection`1.Clear()
+   в Classification.DB.DbReader.<>c__DisplayClass19_0.<RefreshKeys>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 506Ключевое слово = 00000000-0000-0000-0000-000000000000 Документ = 80b713e5-c574-4336-9cf5-84c8dddf2cb3|
+04-07-2017 08:48:07|FATAL|IKSAR|System.NotSupportedException: Данный тип CollectionView не поддерживает изменения в своем SourceCollection из потока, отличного от потока Dispatcher.
+   в System.Windows.Data.CollectionView.OnCollectionChanged(Object sender, NotifyCollectionChangedEventArgs args)
+   в System.Collections.Specialized.NotifyCollectionChangedEventHandler.Invoke(Object sender, NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.ClearItems()
+   в System.Collections.ObjectModel.Collection`1.Clear()
+   в Classification.DB.DbReader.<>c__DisplayClass18_0.<RefreshRubrics>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 467Рубрика = 00000000-0000-0000-0000-000000000000 Документ = 80b713e5-c574-4336-9cf5-84c8dddf2cb3|
+04-07-2017 08:52:22|FATAL|IKSAR|System.ArgumentException: Такой ключ уже был добавлен к ключевым словам документа
+   в Classification.Modules.MainListViewModule.ViewModels.ViewMainListViewModuleViewModel.AddingKey(Guid Id) в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ViewModels\ViewMainListViewModuleViewModel.cs:строка 113|System.ArgumentException: Такой ключ уже был добавлен к ключевым словам документа
+   в Classification.Modules.MainListViewModule.ViewModels.ViewMainListViewModuleViewModel.AddingKey(Guid Id) в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ViewModels\ViewMainListViewModuleViewModel.cs:строка 113
+04-07-2017 08:52:42|INFO|IKSAR|Удалено 0 ключевых слов из документа fa4d3b35-68c0-4201-9e44-9817f2f98f5e на замену|
+04-07-2017 08:52:42|INFO|IKSAR|К документу fa4d3b35-68c0-4201-9e44-9817f2f98f5e добавлено ключевое слово: Граница|
+04-07-2017 08:52:42|INFO|IKSAR|К документу fa4d3b35-68c0-4201-9e44-9817f2f98f5e добавлено ключевое слово: Комплекс|
+04-07-2017 08:52:42|INFO|IKSAR|К документу fa4d3b35-68c0-4201-9e44-9817f2f98f5e добавлено ключевое слово: Проект|
+04-07-2017 08:52:42|INFO|IKSAR|К документу fa4d3b35-68c0-4201-9e44-9817f2f98f5e добавлено ключевое слово: Территория|
+04-07-2017 08:52:42|INFO|IKSAR|К документу fa4d3b35-68c0-4201-9e44-9817f2f98f5e добавлено ключевое слово: Утверждение|
+04-07-2017 08:52:42|INFO|IKSAR|Удалено 2 рубрик из документа fa4d3b35-68c0-4201-9e44-9817f2f98f5e на замену|
+04-07-2017 08:52:42|INFO|IKSAR|К документу fa4d3b35-68c0-4201-9e44-9817f2f98f5e добавлена рубрика: 090.050.030 Основные направления градостроительной деятельности|
+04-07-2017 08:52:42|INFO|IKSAR|К документу fa4d3b35-68c0-4201-9e44-9817f2f98f5e добавлена рубрика: 090.050.050 Градостроительные нормативы. Градостроительная документация. Экспертиза|
+04-07-2017 08:52:42|INFO|IKSAR|Документу fa4d3b35-68c0-4201-9e44-9817f2f98f5e выставлен флаг IsReadyToExport = True, Строк обработано 1|
+04-07-2017 09:10:08|FATAL|IKSAR|System.ArgumentException: Такой ключ уже был добавлен к рубрикам документа
+   в Classification.Modules.MainListViewModule.ViewModels.ViewMainListViewModuleViewModel.AddingRubric(Guid Id) в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ViewModels\ViewMainListViewModuleViewModel.cs:строка 142|System.ArgumentException: Такой ключ уже был добавлен к рубрикам документа
+   в Classification.Modules.MainListViewModule.ViewModels.ViewMainListViewModuleViewModel.AddingRubric(Guid Id) в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ViewModels\ViewMainListViewModuleViewModel.cs:строка 142
+04-07-2017 09:29:15|INFO|IKSAR|Удалено 0 ключевых слов из документа 5e2231f7-2ffb-4a72-bdb1-80ce62a8af29 на замену|
+04-07-2017 09:29:15|INFO|IKSAR|К документу 5e2231f7-2ffb-4a72-bdb1-80ce62a8af29 добавлено ключевое слово: Благодарность|
+04-07-2017 09:29:15|INFO|IKSAR|К документу 5e2231f7-2ffb-4a72-bdb1-80ce62a8af29 добавлено ключевое слово: Защита|
+04-07-2017 09:29:15|INFO|IKSAR|К документу 5e2231f7-2ffb-4a72-bdb1-80ce62a8af29 добавлено ключевое слово: Население|
+04-07-2017 09:29:15|INFO|IKSAR|К документу 5e2231f7-2ffb-4a72-bdb1-80ce62a8af29 добавлено ключевое слово: Труд|
+04-07-2017 09:29:15|INFO|IKSAR|К документу 5e2231f7-2ffb-4a72-bdb1-80ce62a8af29 добавлено ключевое слово: Учреждение|
+04-07-2017 09:29:15|INFO|IKSAR|Удалено 1 рубрик из документа 5e2231f7-2ffb-4a72-bdb1-80ce62a8af29 на замену|
+04-07-2017 09:29:15|INFO|IKSAR|К документу 5e2231f7-2ffb-4a72-bdb1-80ce62a8af29 добавлена рубрика: 210.000.000 Индивидуальные правовые акты по кадровым вопросам, вопросам награждения, помилования, гражданства, присвоения почетных и иных званий|
+04-07-2017 09:29:15|INFO|IKSAR|Документу 5e2231f7-2ffb-4a72-bdb1-80ce62a8af29 выставлен флаг IsReadyToExport = True, Строк обработано 1|
+04-07-2017 14:04:47|INFO|IKSAR|Удалено 0 ключевых слов из документа 24a019d6-9333-4429-9047-4e07fede4654 на замену|
+04-07-2017 14:04:47|INFO|IKSAR|К документу 24a019d6-9333-4429-9047-4e07fede4654 добавлено ключевое слово: Государство|
+04-07-2017 14:04:47|INFO|IKSAR|К документу 24a019d6-9333-4429-9047-4e07fede4654 добавлено ключевое слово: Программа|
+04-07-2017 14:04:47|INFO|IKSAR|К документу 24a019d6-9333-4429-9047-4e07fede4654 добавлено ключевое слово: Реализация|
+04-07-2017 14:04:47|INFO|IKSAR|К документу 24a019d6-9333-4429-9047-4e07fede4654 добавлено ключевое слово: Утверждение|
+04-07-2017 14:04:47|INFO|IKSAR|Удалено 0 рубрик из документа 24a019d6-9333-4429-9047-4e07fede4654 на замену|
+04-07-2017 14:04:47|INFO|IKSAR|К документу 24a019d6-9333-4429-9047-4e07fede4654 добавлена рубрика: 020.030.020 Государственные программы. Концепции|
+04-07-2017 14:04:47|INFO|IKSAR|Документу 24a019d6-9333-4429-9047-4e07fede4654 выставлен флаг IsReadyToExport = True, Строк обработано 1|
+04-07-2017 14:05:31|FATAL|IKSAR|System.NotSupportedException: Данный тип CollectionView не поддерживает изменения в своем SourceCollection из потока, отличного от потока Dispatcher.
+   в System.Windows.Data.CollectionView.OnCollectionChanged(Object sender, NotifyCollectionChangedEventArgs args)
+   в System.Collections.Specialized.NotifyCollectionChangedEventHandler.Invoke(Object sender, NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.ClearItems()
+   в System.Collections.ObjectModel.Collection`1.Clear()
+   в Classification.DB.DbReader.<>c__DisplayClass21_0.<RefreshKeys>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 590Ключевое слово = 00000000-0000-0000-0000-000000000000 Документ = 24a019d6-9333-4429-9047-4e07fede4654|
+04-07-2017 14:05:31|FATAL|IKSAR|System.NotSupportedException: Данный тип CollectionView не поддерживает изменения в своем SourceCollection из потока, отличного от потока Dispatcher.
+   в System.Windows.Data.CollectionView.OnCollectionChanged(Object sender, NotifyCollectionChangedEventArgs args)
+   в System.Collections.Specialized.NotifyCollectionChangedEventHandler.Invoke(Object sender, NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.ClearItems()
+   в System.Collections.ObjectModel.Collection`1.Clear()
+   в Classification.DB.DbReader.<>c__DisplayClass20_0.<RefreshRubrics>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 544Рубрика = 00000000-0000-0000-0000-000000000000 Документ = 24a019d6-9333-4429-9047-4e07fede4654|
+04-07-2017 14:16:00|INFO|IKSAR|Установлены рубрики для 53 документов|
+04-07-2017 14:16:00|INFO|IKSAR|Удалено 0 ключевых слов из документа 0601b5b8-79b6-46a4-80e3-b90ddc513417 на замену|
+04-07-2017 14:16:00|INFO|IKSAR|Удалено 0 ключевых слов из документа fa4d3b35-68c0-4201-9e44-9817f2f98f5e на замену|
+04-07-2017 14:16:00|INFO|IKSAR|Удалено 0 ключевых слов из документа e99a23ed-4228-4d17-9e86-4ed1f034b99f на замену|
+04-07-2017 14:16:00|INFO|IKSAR|Удалено 0 ключевых слов из документа 5ef7eb85-ac96-47c8-971f-87810d1cf35d на замену|
+04-07-2017 14:16:00|INFO|IKSAR|Удалено 0 ключевых слов из документа 82a981f3-1758-4de9-ad0f-61bd208a2a91 на замену|
+04-07-2017 14:16:00|INFO|IKSAR|Удалено 0 ключевых слов из документа cf6e8d08-bf6f-4ff2-81fb-f06bb7c05bd5 на замену|
+04-07-2017 14:16:00|INFO|IKSAR|Удалено 0 рубрик из документа 0601b5b8-79b6-46a4-80e3-b90ddc513417 на замену|
+04-07-2017 14:16:00|INFO|IKSAR|Удалено 0 рубрик из документа fa4d3b35-68c0-4201-9e44-9817f2f98f5e на замену|
+04-07-2017 14:16:00|INFO|IKSAR|Удалено 0 рубрик из документа 82a981f3-1758-4de9-ad0f-61bd208a2a91 на замену|
+04-07-2017 14:16:00|INFO|IKSAR|Удалено 0 ключевых слов из документа c5b91dde-1fa8-492e-bf02-9ccfe5703ef6 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 ключевых слов из документа 06ae6cdd-1d11-4d63-b897-7ade4ef44202 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 ключевых слов из документа 6b117d4c-ec62-488e-9dd4-7b7caafb70c4 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 рубрик из документа c5b91dde-1fa8-492e-bf02-9ccfe5703ef6 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|К документу 0601b5b8-79b6-46a4-80e3-b90ddc513417 добавлена рубрика: 090.050.030 Основные направления градостроительной деятельности|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 рубрик из документа 5ef7eb85-ac96-47c8-971f-87810d1cf35d на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 рубрик из документа e99a23ed-4228-4d17-9e86-4ed1f034b99f на замену|
+04-07-2017 14:16:01|INFO|IKSAR|К документу fa4d3b35-68c0-4201-9e44-9817f2f98f5e добавлена рубрика: 090.050.030 Основные направления градостроительной деятельности|
+04-07-2017 14:16:01|INFO|IKSAR|К документу 82a981f3-1758-4de9-ad0f-61bd208a2a91 добавлена рубрика: 020.030.020 Государственные программы. Концепции|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 ключевых слов из документа f526da1d-5a03-4b7d-b8ce-9de3da19e120 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 ключевых слов из документа fc2f2d11-4119-4d83-b315-9fc553055204 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|К документу 0601b5b8-79b6-46a4-80e3-b90ddc513417 добавлена рубрика: 090.050.050 Градостроительные нормативы. Градостроительная документация. Экспертиза|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 ключевых слов из документа c209824d-a27f-4ae1-9f61-c25507af1f4c на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 ключевых слов из документа 859795bb-265c-4fe3-8dd2-0105940da492 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 ключевых слов из документа ab09eebe-3ec1-4349-a61d-f73c584b2486 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 ключевых слов из документа 9f70f5e8-8de6-40f5-9e3a-37ad665c6413 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 рубрик из документа ab09eebe-3ec1-4349-a61d-f73c584b2486 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 ключевых слов из документа 91e4b277-ec49-44d7-8804-4ea26be122f8 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 ключевых слов из документа c8c599fc-9efa-4eab-845c-9acc5b2b02d8 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 ключевых слов из документа fd24f0f5-7b57-4bc5-8918-b5da71a3b677 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 ключевых слов из документа 85a903af-75c7-4645-ba2a-ebd6a3f641b3 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 ключевых слов из документа a20c0e3c-5204-45af-a1cd-a590f7d04606 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 ключевых слов из документа d3fa36eb-9714-4a04-9f35-a0d3e2661807 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 ключевых слов из документа a3299340-6aec-4ee8-8152-ec566dd57a7c на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 рубрик из документа cf6e8d08-bf6f-4ff2-81fb-f06bb7c05bd5 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 рубрик из документа 06ae6cdd-1d11-4d63-b897-7ade4ef44202 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 рубрик из документа 6b117d4c-ec62-488e-9dd4-7b7caafb70c4 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 рубрик из документа 85a903af-75c7-4645-ba2a-ebd6a3f641b3 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 рубрик из документа a20c0e3c-5204-45af-a1cd-a590f7d04606 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 рубрик из документа d3fa36eb-9714-4a04-9f35-a0d3e2661807 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 ключевых слов из документа d710ac59-3934-407c-86f1-5965a95caabb на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 ключевых слов из документа 92acbc0b-1188-437e-83be-b9cad49fc0e6 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 ключевых слов из документа cf345495-0072-4200-b4b7-c3f4b6a1ed39 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 ключевых слов из документа 667c029c-864c-464a-a894-edbbd0a03cb1 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 ключевых слов из документа b60253df-becf-49fe-aa62-eb0467969d83 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 ключевых слов из документа ad0b40db-3986-4433-88b9-035a1330d095 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 ключевых слов из документа 137df292-9360-4b1c-95e0-370d28f8e16e на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Документу 0601b5b8-79b6-46a4-80e3-b90ddc513417 выставлен флаг IsReadyToExport = False, Строк обработано 1|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 рубрик из документа c209824d-a27f-4ae1-9f61-c25507af1f4c на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 рубрик из документа 859795bb-265c-4fe3-8dd2-0105940da492 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 рубрик из документа cf345495-0072-4200-b4b7-c3f4b6a1ed39 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 рубрик из документа 667c029c-864c-464a-a894-edbbd0a03cb1 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 рубрик из документа b60253df-becf-49fe-aa62-eb0467969d83 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 рубрик из документа ad0b40db-3986-4433-88b9-035a1330d095 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 ключевых слов из документа ef1ce3f4-bb27-4caf-b860-1ae1b2302b59 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|К документу c5b91dde-1fa8-492e-bf02-9ccfe5703ef6 добавлена рубрика: 020.030.020 Государственные программы. Концепции|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 ключевых слов из документа 4aac68ee-81b6-4069-bbe7-9ec199cff5df на замену|
+04-07-2017 14:16:01|INFO|IKSAR|К документу fa4d3b35-68c0-4201-9e44-9817f2f98f5e добавлена рубрика: 090.050.050 Градостроительные нормативы. Градостроительная документация. Экспертиза|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 ключевых слов из документа bb42cc2a-4039-4a48-a071-d5e596afa53c на замену|
+04-07-2017 14:16:01|INFO|IKSAR|К документу 82a981f3-1758-4de9-ad0f-61bd208a2a91 добавлена рубрика: 080.060.030 Расходы бюджетов субъектов Российской Федерации|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 рубрик из документа 9f70f5e8-8de6-40f5-9e3a-37ad665c6413 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 ключевых слов из документа 53c3b747-e5e9-44fd-b81a-013f1551022d на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 ключевых слов из документа deb9a7a8-5306-4b48-ac3b-5741008fb2ec на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 ключевых слов из документа 39bf0b2a-a3b0-4319-aa3c-c28cd309f9d9 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 ключевых слов из документа 01392d4b-9c19-494e-86b6-23c9645cc721 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 рубрик из документа fc2f2d11-4119-4d83-b315-9fc553055204 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 рубрик из документа fd24f0f5-7b57-4bc5-8918-b5da71a3b677 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 ключевых слов из документа 6b688675-1ae4-4ba2-b89d-b16a46709880 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|К документу ab09eebe-3ec1-4349-a61d-f73c584b2486 добавлена рубрика: 090.050.030 Основные направления градостроительной деятельности|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 рубрик из документа c8c599fc-9efa-4eab-845c-9acc5b2b02d8 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 рубрик из документа d710ac59-3934-407c-86f1-5965a95caabb на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 рубрик из документа 92acbc0b-1188-437e-83be-b9cad49fc0e6 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 ключевых слов из документа 5e31346a-20e5-4c3c-905e-4a5ada862774 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 рубрик из документа bb42cc2a-4039-4a48-a071-d5e596afa53c на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 ключевых слов из документа 13982731-9e5a-401f-96fa-3af093bd81b7 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 ключевых слов из документа 93605677-d8b2-42d8-a792-d47087272bbf на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 ключевых слов из документа 916e572a-b1d3-44af-97d7-1740cc0d7c8f на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 рубрик из документа 53c3b747-e5e9-44fd-b81a-013f1551022d на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 рубрик из документа deb9a7a8-5306-4b48-ac3b-5741008fb2ec на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 рубрик из документа 39bf0b2a-a3b0-4319-aa3c-c28cd309f9d9 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 рубрик из документа 01392d4b-9c19-494e-86b6-23c9645cc721 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 рубрик из документа f526da1d-5a03-4b7d-b8ce-9de3da19e120 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|К документу b60253df-becf-49fe-aa62-eb0467969d83 добавлена рубрика: 020.030.020 Государственные программы. Концепции|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 рубрик из документа ef1ce3f4-bb27-4caf-b860-1ae1b2302b59 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 рубрик из документа 4aac68ee-81b6-4069-bbe7-9ec199cff5df на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 ключевых слов из документа 6144f6d8-0a58-4d33-8179-580439ce01ce на замену|
+04-07-2017 14:16:01|INFO|IKSAR|К документу 5ef7eb85-ac96-47c8-971f-87810d1cf35d добавлена рубрика: 020.030.020 Государственные программы. Концепции|
+04-07-2017 14:16:01|INFO|IKSAR|К документу c5b91dde-1fa8-492e-bf02-9ccfe5703ef6 добавлена рубрика: 080.060.030 Расходы бюджетов субъектов Российской Федерации|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 рубрик из документа 91e4b277-ec49-44d7-8804-4ea26be122f8 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 ключевых слов из документа df070ca2-2493-4c01-b526-483accfc2004 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 ключевых слов из документа acb83a14-7072-495c-8e76-21e68eb7fd80 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 ключевых слов из документа b8c71063-93f4-4f2d-9c1d-8d1d34e0f313 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 ключевых слов из документа c8345c4f-2fcd-44d8-8dfe-14e3810eb6f9 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 рубрик из документа a3299340-6aec-4ee8-8152-ec566dd57a7c на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 ключевых слов из документа 3cd45d73-9cf0-4165-a900-b5e2da7e6f39 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 ключевых слов из документа aaa6c5f2-d466-4a7b-9cbb-b9d0bf333e40 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 ключевых слов из документа 678ffaf5-515e-433e-9399-41178f4526fd на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 рубрик из документа 137df292-9360-4b1c-95e0-370d28f8e16e на замену|
+04-07-2017 14:16:01|INFO|IKSAR|К документу c8c599fc-9efa-4eab-845c-9acc5b2b02d8 добавлена рубрика: 020.030.020 Государственные программы. Концепции|
+04-07-2017 14:16:01|INFO|IKSAR|К документу 9f70f5e8-8de6-40f5-9e3a-37ad665c6413 добавлена рубрика: 090.050.030 Основные направления градостроительной деятельности|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 ключевых слов из документа fbf93b58-f4db-496e-aebd-47e84c216bd8 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Документу 82a981f3-1758-4de9-ad0f-61bd208a2a91 выставлен флаг IsReadyToExport = False, Строк обработано 1|
+04-07-2017 14:16:01|INFO|IKSAR|К документу d710ac59-3934-407c-86f1-5965a95caabb добавлена рубрика: 020.030.020 Государственные программы. Концепции|
+04-07-2017 14:16:01|INFO|IKSAR|К документу ab09eebe-3ec1-4349-a61d-f73c584b2486 добавлена рубрика: 090.050.050 Градостроительные нормативы. Градостроительная документация. Экспертиза|
+04-07-2017 14:16:01|INFO|IKSAR|К документу 06ae6cdd-1d11-4d63-b897-7ade4ef44202 добавлена рубрика: 020.030.020 Государственные программы. Концепции|
+04-07-2017 14:16:01|INFO|IKSAR|К документу cf6e8d08-bf6f-4ff2-81fb-f06bb7c05bd5 добавлена рубрика: 020.030.020 Государственные программы. Концепции|
+04-07-2017 14:16:01|INFO|IKSAR|К документу fc2f2d11-4119-4d83-b315-9fc553055204 добавлена рубрика: 110.020.000 Использование и охрана земель|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 рубрик из документа 6b688675-1ae4-4ba2-b89d-b16a46709880 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 ключевых слов из документа b81aa6fb-2486-4391-b55e-b759bb002436 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|К документу c209824d-a27f-4ae1-9f61-c25507af1f4c добавлена рубрика: 090.050.030 Основные направления градостроительной деятельности|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 рубрик из документа aaa6c5f2-d466-4a7b-9cbb-b9d0bf333e40 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 ключевых слов из документа 5f70e8cf-84a8-4dd0-bb05-3bbfcdb9aaa9 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|К документу cf345495-0072-4200-b4b7-c3f4b6a1ed39 добавлена рубрика: 090.050.030 Основные направления градостроительной деятельности|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 ключевых слов из документа 54a83fcf-33cc-45be-97ef-7f1cb8c46358 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|К документу 667c029c-864c-464a-a894-edbbd0a03cb1 добавлена рубрика: 020.030.020 Государственные программы. Концепции|
+04-07-2017 14:16:01|INFO|IKSAR|К документу b60253df-becf-49fe-aa62-eb0467969d83 добавлена рубрика: 080.060.030 Расходы бюджетов субъектов Российской Федерации|
+04-07-2017 14:16:01|INFO|IKSAR|К документу 91e4b277-ec49-44d7-8804-4ea26be122f8 добавлена рубрика: 090.050.030 Основные направления градостроительной деятельности|
+04-07-2017 14:16:01|INFO|IKSAR|К документу bb42cc2a-4039-4a48-a071-d5e596afa53c добавлена рубрика: 020.030.020 Государственные программы. Концепции|
+04-07-2017 14:16:01|INFO|IKSAR|К документу 92acbc0b-1188-437e-83be-b9cad49fc0e6 добавлена рубрика: 020.030.020 Государственные программы. Концепции|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 рубрик из документа 5e31346a-20e5-4c3c-905e-4a5ada862774 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 рубрик из документа 13982731-9e5a-401f-96fa-3af093bd81b7 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|К документу 53c3b747-e5e9-44fd-b81a-013f1551022d добавлена рубрика: 090.050.030 Основные направления градостроительной деятельности|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 рубрик из документа 3cd45d73-9cf0-4165-a900-b5e2da7e6f39 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|К документу 85a903af-75c7-4645-ba2a-ebd6a3f641b3 добавлена рубрика: 090.050.030 Основные направления градостроительной деятельности|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 рубрик из документа 678ffaf5-515e-433e-9399-41178f4526fd на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 рубрик из документа fbf93b58-f4db-496e-aebd-47e84c216bd8 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|К документу 4aac68ee-81b6-4069-bbe7-9ec199cff5df добавлена рубрика: 020.030.020 Государственные программы. Концепции|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 рубрик из документа 93605677-d8b2-42d8-a792-d47087272bbf на замену|
+04-07-2017 14:16:01|INFO|IKSAR|К документу 39bf0b2a-a3b0-4319-aa3c-c28cd309f9d9 добавлена рубрика: 020.030.020 Государственные программы. Концепции|
+04-07-2017 14:16:01|INFO|IKSAR|К документу 137df292-9360-4b1c-95e0-370d28f8e16e добавлена рубрика: 090.050.030 Основные направления градостроительной деятельности|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 рубрик из документа 916e572a-b1d3-44af-97d7-1740cc0d7c8f на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 рубрик из документа 6144f6d8-0a58-4d33-8179-580439ce01ce на замену|
+04-07-2017 14:16:01|INFO|IKSAR|К документу c8c599fc-9efa-4eab-845c-9acc5b2b02d8 добавлена рубрика: 080.060.030 Расходы бюджетов субъектов Российской Федерации|
+04-07-2017 14:16:01|INFO|IKSAR|К документу d710ac59-3934-407c-86f1-5965a95caabb добавлена рубрика: 080.060.030 Расходы бюджетов субъектов Российской Федерации|
+04-07-2017 14:16:01|INFO|IKSAR|К документу 9f70f5e8-8de6-40f5-9e3a-37ad665c6413 добавлена рубрика: 090.050.050 Градостроительные нормативы. Градостроительная документация. Экспертиза|
+04-07-2017 14:16:01|INFO|IKSAR|К документу f526da1d-5a03-4b7d-b8ce-9de3da19e120 добавлена рубрика: 020.030.020 Государственные программы. Концепции|
+04-07-2017 14:16:01|INFO|IKSAR|К документу 92acbc0b-1188-437e-83be-b9cad49fc0e6 добавлена рубрика: 080.060.030 Расходы бюджетов субъектов Российской Федерации|
+04-07-2017 14:16:01|INFO|IKSAR|К документу 5e31346a-20e5-4c3c-905e-4a5ada862774 добавлена рубрика: 090.050.030 Основные направления градостроительной деятельности|
+04-07-2017 14:16:01|INFO|IKSAR|К документу bb42cc2a-4039-4a48-a071-d5e596afa53c добавлена рубрика: 080.060.030 Расходы бюджетов субъектов Российской Федерации|
+04-07-2017 14:16:01|INFO|IKSAR|К документу a3299340-6aec-4ee8-8152-ec566dd57a7c добавлена рубрика: 020.030.020 Государственные программы. Концепции|
+04-07-2017 14:16:01|INFO|IKSAR|К документу 6b117d4c-ec62-488e-9dd4-7b7caafb70c4 добавлена рубрика: 020.030.020 Государственные программы. Концепции|
+04-07-2017 14:16:01|INFO|IKSAR|К документу d3fa36eb-9714-4a04-9f35-a0d3e2661807 добавлена рубрика: 020.030.020 Государственные программы. Концепции|
+04-07-2017 14:16:01|INFO|IKSAR|К документу fc2f2d11-4119-4d83-b315-9fc553055204 добавлена рубрика: 110.020.050 Землеустройство. Землеустроительный процесс. Установление границ|
+04-07-2017 14:16:01|INFO|IKSAR|К документу fd24f0f5-7b57-4bc5-8918-b5da71a3b677 добавлена рубрика: 090.050.030 Основные направления градостроительной деятельности|
+04-07-2017 14:16:01|INFO|IKSAR|К документу 859795bb-265c-4fe3-8dd2-0105940da492 добавлена рубрика: 020.030.020 Государственные программы. Концепции|
+04-07-2017 14:16:01|INFO|IKSAR|Документу d710ac59-3934-407c-86f1-5965a95caabb выставлен флаг IsReadyToExport = False, Строк обработано 1|
+04-07-2017 14:16:01|INFO|IKSAR|К документу f526da1d-5a03-4b7d-b8ce-9de3da19e120 добавлена рубрика: 080.060.030 Расходы бюджетов субъектов Российской Федерации|
+04-07-2017 14:16:01|INFO|IKSAR|Документу c8c599fc-9efa-4eab-845c-9acc5b2b02d8 выставлен флаг IsReadyToExport = False, Строк обработано 1|
+04-07-2017 14:16:01|INFO|IKSAR|К документу 91e4b277-ec49-44d7-8804-4ea26be122f8 добавлена рубрика: 090.050.050 Градостроительные нормативы. Градостроительная документация. Экспертиза|
+04-07-2017 14:16:01|INFO|IKSAR|К документу 13982731-9e5a-401f-96fa-3af093bd81b7 добавлена рубрика: 020.030.020 Государственные программы. Концепции|
+04-07-2017 14:16:01|INFO|IKSAR|К документу 3cd45d73-9cf0-4165-a900-b5e2da7e6f39 добавлена рубрика: 020.030.020 Государственные программы. Концепции|
+04-07-2017 14:16:01|INFO|IKSAR|Документу ab09eebe-3ec1-4349-a61d-f73c584b2486 выставлен флаг IsReadyToExport = False, Строк обработано 1|
+04-07-2017 14:16:01|INFO|IKSAR|К документу fbf93b58-f4db-496e-aebd-47e84c216bd8 добавлена рубрика: 020.030.020 Государственные программы. Концепции|
+04-07-2017 14:16:01|INFO|IKSAR|К документу 678ffaf5-515e-433e-9399-41178f4526fd добавлена рубрика: 020.030.020 Государственные программы. Концепции|
+04-07-2017 14:16:01|INFO|IKSAR|К документу 01392d4b-9c19-494e-86b6-23c9645cc721 добавлена рубрика: 020.030.020 Государственные программы. Концепции|
+04-07-2017 14:16:01|INFO|IKSAR|К документу 53c3b747-e5e9-44fd-b81a-013f1551022d добавлена рубрика: 090.050.050 Градостроительные нормативы. Градостроительная документация. Экспертиза|
+04-07-2017 14:16:01|INFO|IKSAR|К документу deb9a7a8-5306-4b48-ac3b-5741008fb2ec добавлена рубрика: 020.030.020 Государственные программы. Концепции|
+04-07-2017 14:16:01|INFO|IKSAR|К документу aaa6c5f2-d466-4a7b-9cbb-b9d0bf333e40 добавлена рубрика: 020.030.020 Государственные программы. Концепции|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 рубрик из документа 5f70e8cf-84a8-4dd0-bb05-3bbfcdb9aaa9 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 рубрик из документа 54a83fcf-33cc-45be-97ef-7f1cb8c46358 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|К документу 678ffaf5-515e-433e-9399-41178f4526fd добавлена рубрика: 080.060.030 Расходы бюджетов субъектов Российской Федерации|
+04-07-2017 14:16:01|INFO|IKSAR|К документу fbf93b58-f4db-496e-aebd-47e84c216bd8 добавлена рубрика: 080.060.030 Расходы бюджетов субъектов Российской Федерации|
+04-07-2017 14:16:01|INFO|IKSAR|К документу 39bf0b2a-a3b0-4319-aa3c-c28cd309f9d9 добавлена рубрика: 080.060.030 Расходы бюджетов субъектов Российской Федерации|
+04-07-2017 14:16:01|INFO|IKSAR|К документу fc2f2d11-4119-4d83-b315-9fc553055204 добавлена рубрика: 130.030.030 Национальное культурное наследие народов Российской Федерации|
+04-07-2017 14:16:01|INFO|IKSAR|Документу fa4d3b35-68c0-4201-9e44-9817f2f98f5e выставлен флаг IsReadyToExport = False, Строк обработано 1|
+04-07-2017 14:16:01|INFO|IKSAR|К документу 6b688675-1ae4-4ba2-b89d-b16a46709880 добавлена рубрика: 020.030.020 Государственные программы. Концепции|
+04-07-2017 14:16:01|INFO|IKSAR|К документу fd24f0f5-7b57-4bc5-8918-b5da71a3b677 добавлена рубрика: 090.050.050 Градостроительные нормативы. Градостроительная документация. Экспертиза|
+04-07-2017 14:16:01|INFO|IKSAR|К документу ad0b40db-3986-4433-88b9-035a1330d095 добавлена рубрика: 020.030.020 Государственные программы. Концепции|
+04-07-2017 14:16:01|INFO|IKSAR|К документу 6b688675-1ae4-4ba2-b89d-b16a46709880 добавлена рубрика: 080.060.030 Расходы бюджетов субъектов Российской Федерации|
+04-07-2017 14:16:01|INFO|IKSAR|Документу fc2f2d11-4119-4d83-b315-9fc553055204 выставлен флаг IsReadyToExport = False, Строк обработано 1|
+04-07-2017 14:16:01|INFO|IKSAR|Документу 39bf0b2a-a3b0-4319-aa3c-c28cd309f9d9 выставлен флаг IsReadyToExport = False, Строк обработано 1|
+04-07-2017 14:16:01|INFO|IKSAR|Документу fbf93b58-f4db-496e-aebd-47e84c216bd8 выставлен флаг IsReadyToExport = False, Строк обработано 1|
+04-07-2017 14:16:01|INFO|IKSAR|Документу 678ffaf5-515e-433e-9399-41178f4526fd выставлен флаг IsReadyToExport = False, Строк обработано 1|
+04-07-2017 14:16:01|INFO|IKSAR|К документу ef1ce3f4-bb27-4caf-b860-1ae1b2302b59 добавлена рубрика: 090.050.030 Основные направления градостроительной деятельности|
+04-07-2017 14:16:01|INFO|IKSAR|Документу fd24f0f5-7b57-4bc5-8918-b5da71a3b677 выставлен флаг IsReadyToExport = False, Строк обработано 1|
+04-07-2017 14:16:01|INFO|IKSAR|К документу 01392d4b-9c19-494e-86b6-23c9645cc721 добавлена рубрика: 080.060.030 Расходы бюджетов субъектов Российской Федерации|
+04-07-2017 14:16:01|INFO|IKSAR|Документу 53c3b747-e5e9-44fd-b81a-013f1551022d выставлен флаг IsReadyToExport = False, Строк обработано 1|
+04-07-2017 14:16:01|INFO|IKSAR|К документу deb9a7a8-5306-4b48-ac3b-5741008fb2ec добавлена рубрика: 080.060.030 Расходы бюджетов субъектов Российской Федерации|
+04-07-2017 14:16:01|INFO|IKSAR|Документу 9f70f5e8-8de6-40f5-9e3a-37ad665c6413 выставлен флаг IsReadyToExport = False, Строк обработано 1|
+04-07-2017 14:16:01|INFO|IKSAR|Документу bb42cc2a-4039-4a48-a071-d5e596afa53c выставлен флаг IsReadyToExport = False, Строк обработано 1|
+04-07-2017 14:16:01|INFO|IKSAR|Документу b60253df-becf-49fe-aa62-eb0467969d83 выставлен флаг IsReadyToExport = False, Строк обработано 1|
+04-07-2017 14:16:01|INFO|IKSAR|К документу 5e31346a-20e5-4c3c-905e-4a5ada862774 добавлена рубрика: 090.050.050 Градостроительные нормативы. Градостроительная документация. Экспертиза|
+04-07-2017 14:16:01|INFO|IKSAR|К документу cf6e8d08-bf6f-4ff2-81fb-f06bb7c05bd5 добавлена рубрика: 080.060.030 Расходы бюджетов субъектов Российской Федерации|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 рубрик из документа df070ca2-2493-4c01-b526-483accfc2004 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 рубрик из документа acb83a14-7072-495c-8e76-21e68eb7fd80 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 рубрик из документа b8c71063-93f4-4f2d-9c1d-8d1d34e0f313 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 рубрик из документа c8345c4f-2fcd-44d8-8dfe-14e3810eb6f9 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|Удалено 0 рубрик из документа b81aa6fb-2486-4391-b55e-b759bb002436 на замену|
+04-07-2017 14:16:01|INFO|IKSAR|К документу 13982731-9e5a-401f-96fa-3af093bd81b7 добавлена рубрика: 080.060.030 Расходы бюджетов субъектов Российской Федерации|
+04-07-2017 14:16:01|INFO|IKSAR|Документу f526da1d-5a03-4b7d-b8ce-9de3da19e120 выставлен флаг IsReadyToExport = False, Строк обработано 1|
+04-07-2017 14:16:01|INFO|IKSAR|Документу 92acbc0b-1188-437e-83be-b9cad49fc0e6 выставлен флаг IsReadyToExport = False, Строк обработано 1|
+04-07-2017 14:16:01|INFO|IKSAR|К документу 4aac68ee-81b6-4069-bbe7-9ec199cff5df добавлена рубрика: 080.060.030 Расходы бюджетов субъектов Российской Федерации|
+04-07-2017 14:16:01|INFO|IKSAR|Документу 91e4b277-ec49-44d7-8804-4ea26be122f8 выставлен флаг IsReadyToExport = False, Строк обработано 1|
+04-07-2017 14:16:01|INFO|IKSAR|К документу 3cd45d73-9cf0-4165-a900-b5e2da7e6f39 добавлена рубрика: 080.060.030 Расходы бюджетов субъектов Российской Федерации|
+04-07-2017 14:16:01|INFO|IKSAR|К документу a3299340-6aec-4ee8-8152-ec566dd57a7c добавлена рубрика: 080.060.030 Расходы бюджетов субъектов Российской Федерации|
+04-07-2017 14:16:01|INFO|IKSAR|К документу 85a903af-75c7-4645-ba2a-ebd6a3f641b3 добавлена рубрика: 090.050.050 Градостроительные нормативы. Градостроительная документация. Экспертиза|
+04-07-2017 14:16:01|INFO|IKSAR|К документу e99a23ed-4228-4d17-9e86-4ed1f034b99f добавлена рубрика: 020.030.020 Государственные программы. Концепции|
+04-07-2017 14:16:01|INFO|IKSAR|К документу a20c0e3c-5204-45af-a1cd-a590f7d04606 добавлена рубрика: 020.030.020 Государственные программы. Концепции|
+04-07-2017 14:16:01|INFO|IKSAR|Документу c5b91dde-1fa8-492e-bf02-9ccfe5703ef6 выставлен флаг IsReadyToExport = False, Строк обработано 1|
+04-07-2017 14:16:01|INFO|IKSAR|К документу 6b117d4c-ec62-488e-9dd4-7b7caafb70c4 добавлена рубрика: 080.060.030 Расходы бюджетов субъектов Российской Федерации|
+04-07-2017 14:16:01|INFO|IKSAR|К документу 06ae6cdd-1d11-4d63-b897-7ade4ef44202 добавлена рубрика: 080.060.030 Расходы бюджетов субъектов Российской Федерации|
+04-07-2017 14:16:01|INFO|IKSAR|К документу d3fa36eb-9714-4a04-9f35-a0d3e2661807 добавлена рубрика: 080.060.030 Расходы бюджетов субъектов Российской Федерации|
+04-07-2017 14:16:01|INFO|IKSAR|К документу 93605677-d8b2-42d8-a792-d47087272bbf добавлена рубрика: 090.050.030 Основные направления градостроительной деятельности|
+04-07-2017 14:16:01|INFO|IKSAR|К документу 137df292-9360-4b1c-95e0-370d28f8e16e добавлена рубрика: 090.050.050 Градостроительные нормативы. Градостроительная документация. Экспертиза|
+04-07-2017 14:16:01|INFO|IKSAR|К документу 916e572a-b1d3-44af-97d7-1740cc0d7c8f добавлена рубрика: 020.030.020 Государственные программы. Концепции|
+04-07-2017 14:16:01|INFO|IKSAR|К документу 6144f6d8-0a58-4d33-8179-580439ce01ce добавлена рубрика: 020.030.020 Государственные программы. Концепции|
+04-07-2017 14:16:01|INFO|IKSAR|К документу c209824d-a27f-4ae1-9f61-c25507af1f4c добавлена рубрика: 090.050.050 Градостроительные нормативы. Градостроительная документация. Экспертиза|
+04-07-2017 14:16:01|INFO|IKSAR|К документу 859795bb-265c-4fe3-8dd2-0105940da492 добавлена рубрика: 080.060.030 Расходы бюджетов субъектов Российской Федерации|
+04-07-2017 14:16:01|INFO|IKSAR|К документу cf345495-0072-4200-b4b7-c3f4b6a1ed39 добавлена рубрика: 090.050.050 Градостроительные нормативы. Градостроительная документация. Экспертиза|
+04-07-2017 14:16:01|INFO|IKSAR|К документу aaa6c5f2-d466-4a7b-9cbb-b9d0bf333e40 добавлена рубрика: 080.060.030 Расходы бюджетов субъектов Российской Федерации|
+04-07-2017 14:16:01|INFO|IKSAR|К документу 5f70e8cf-84a8-4dd0-bb05-3bbfcdb9aaa9 добавлена рубрика: 020.030.020 Государственные программы. Концепции|
+04-07-2017 14:16:01|INFO|IKSAR|К документу 54a83fcf-33cc-45be-97ef-7f1cb8c46358 добавлена рубрика: 090.050.030 Основные направления градостроительной деятельности|
+04-07-2017 14:16:01|INFO|IKSAR|К документу 667c029c-864c-464a-a894-edbbd0a03cb1 добавлена рубрика: 080.060.030 Расходы бюджетов субъектов Российской Федерации|
+04-07-2017 14:16:01|INFO|IKSAR|К документу 5ef7eb85-ac96-47c8-971f-87810d1cf35d добавлена рубрика: 080.060.030 Расходы бюджетов субъектов Российской Федерации|
+04-07-2017 14:16:01|INFO|IKSAR|К документу ad0b40db-3986-4433-88b9-035a1330d095 добавлена рубрика: 080.060.030 Расходы бюджетов субъектов Российской Федерации|
+04-07-2017 14:16:01|INFO|IKSAR|К документу ef1ce3f4-bb27-4caf-b860-1ae1b2302b59 добавлена рубрика: 090.050.050 Градостроительные нормативы. Градостроительная документация. Экспертиза|
+04-07-2017 14:16:01|INFO|IKSAR|К документу df070ca2-2493-4c01-b526-483accfc2004 добавлена рубрика: 020.030.020 Государственные программы. Концепции|
+04-07-2017 14:16:01|INFO|IKSAR|К документу acb83a14-7072-495c-8e76-21e68eb7fd80 добавлена рубрика: 090.050.030 Основные направления градостроительной деятельности|
+04-07-2017 14:16:01|INFO|IKSAR|К документу b8c71063-93f4-4f2d-9c1d-8d1d34e0f313 добавлена рубрика: 090.050.030 Основные направления градостроительной деятельности|
+04-07-2017 14:16:01|INFO|IKSAR|К документу c8345c4f-2fcd-44d8-8dfe-14e3810eb6f9 добавлена рубрика: 090.050.030 Основные направления градостроительной деятельности|
+04-07-2017 14:16:01|INFO|IKSAR|К документу 93605677-d8b2-42d8-a792-d47087272bbf добавлена рубрика: 090.050.050 Градостроительные нормативы. Градостроительная документация. Экспертиза|
+04-07-2017 14:16:01|INFO|IKSAR|К документу b81aa6fb-2486-4391-b55e-b759bb002436 добавлена рубрика: 090.050.030 Основные направления градостроительной деятельности|
+04-07-2017 14:16:01|INFO|IKSAR|К документу 916e572a-b1d3-44af-97d7-1740cc0d7c8f добавлена рубрика: 080.060.030 Расходы бюджетов субъектов Российской Федерации|
+04-07-2017 14:16:01|INFO|IKSAR|К документу a20c0e3c-5204-45af-a1cd-a590f7d04606 добавлена рубрика: 080.060.030 Расходы бюджетов субъектов Российской Федерации|
+04-07-2017 14:16:01|INFO|IKSAR|К документу e99a23ed-4228-4d17-9e86-4ed1f034b99f добавлена рубрика: 080.060.030 Расходы бюджетов субъектов Российской Федерации|
+04-07-2017 14:16:01|INFO|IKSAR|К документу 6144f6d8-0a58-4d33-8179-580439ce01ce добавлена рубрика: 080.060.030 Расходы бюджетов субъектов Российской Федерации|
+04-07-2017 14:16:01|INFO|IKSAR|К документу 5f70e8cf-84a8-4dd0-bb05-3bbfcdb9aaa9 добавлена рубрика: 080.060.030 Расходы бюджетов субъектов Российской Федерации|
+04-07-2017 14:16:01|INFO|IKSAR|К документу 54a83fcf-33cc-45be-97ef-7f1cb8c46358 добавлена рубрика: 090.050.050 Градостроительные нормативы. Градостроительная документация. Экспертиза|
+04-07-2017 14:16:01|INFO|IKSAR|Документу 6b688675-1ae4-4ba2-b89d-b16a46709880 выставлен флаг IsReadyToExport = False, Строк обработано 1|
+04-07-2017 14:16:01|INFO|IKSAR|Документу 01392d4b-9c19-494e-86b6-23c9645cc721 выставлен флаг IsReadyToExport = False, Строк обработано 1|
+04-07-2017 14:16:01|INFO|IKSAR|Документу deb9a7a8-5306-4b48-ac3b-5741008fb2ec выставлен флаг IsReadyToExport = False, Строк обработано 1|
+04-07-2017 14:16:01|INFO|IKSAR|К документу df070ca2-2493-4c01-b526-483accfc2004 добавлена рубрика: 080.060.030 Расходы бюджетов субъектов Российской Федерации|
+04-07-2017 14:16:01|INFO|IKSAR|Документу 5e31346a-20e5-4c3c-905e-4a5ada862774 выставлен флаг IsReadyToExport = False, Строк обработано 1|
+04-07-2017 14:16:01|INFO|IKSAR|Документу cf6e8d08-bf6f-4ff2-81fb-f06bb7c05bd5 выставлен флаг IsReadyToExport = False, Строк обработано 1|
+04-07-2017 14:16:01|INFO|IKSAR|Документу 85a903af-75c7-4645-ba2a-ebd6a3f641b3 выставлен флаг IsReadyToExport = False, Строк обработано 1|
+04-07-2017 14:16:01|INFO|IKSAR|Документу 13982731-9e5a-401f-96fa-3af093bd81b7 выставлен флаг IsReadyToExport = False, Строк обработано 1|
+04-07-2017 14:16:01|INFO|IKSAR|Документу 6b117d4c-ec62-488e-9dd4-7b7caafb70c4 выставлен флаг IsReadyToExport = False, Строк обработано 1|
+04-07-2017 14:16:01|INFO|IKSAR|Документу 4aac68ee-81b6-4069-bbe7-9ec199cff5df выставлен флаг IsReadyToExport = False, Строк обработано 1|
+04-07-2017 14:16:01|INFO|IKSAR|Документу 06ae6cdd-1d11-4d63-b897-7ade4ef44202 выставлен флаг IsReadyToExport = False, Строк обработано 1|
+04-07-2017 14:16:01|INFO|IKSAR|К документу acb83a14-7072-495c-8e76-21e68eb7fd80 добавлена рубрика: 090.050.050 Градостроительные нормативы. Градостроительная документация. Экспертиза|
+04-07-2017 14:16:01|INFO|IKSAR|Документу 3cd45d73-9cf0-4165-a900-b5e2da7e6f39 выставлен флаг IsReadyToExport = False, Строк обработано 1|
+04-07-2017 14:16:01|INFO|IKSAR|Документу a3299340-6aec-4ee8-8152-ec566dd57a7c выставлен флаг IsReadyToExport = False, Строк обработано 1|
+04-07-2017 14:16:01|INFO|IKSAR|Документу 137df292-9360-4b1c-95e0-370d28f8e16e выставлен флаг IsReadyToExport = False, Строк обработано 1|
+04-07-2017 14:16:01|INFO|IKSAR|Документу d3fa36eb-9714-4a04-9f35-a0d3e2661807 выставлен флаг IsReadyToExport = False, Строк обработано 1|
+04-07-2017 14:16:01|INFO|IKSAR|К документу b8c71063-93f4-4f2d-9c1d-8d1d34e0f313 добавлена рубрика: 090.050.050 Градостроительные нормативы. Градостроительная документация. Экспертиза|
+04-07-2017 14:16:01|INFO|IKSAR|Документу 859795bb-265c-4fe3-8dd2-0105940da492 выставлен флаг IsReadyToExport = False, Строк обработано 1|
+04-07-2017 14:16:01|INFO|IKSAR|К документу c8345c4f-2fcd-44d8-8dfe-14e3810eb6f9 добавлена рубрика: 090.050.050 Градостроительные нормативы. Градостроительная документация. Экспертиза|
+04-07-2017 14:16:01|INFO|IKSAR|Документу cf345495-0072-4200-b4b7-c3f4b6a1ed39 выставлен флаг IsReadyToExport = False, Строк обработано 1|
+04-07-2017 14:16:01|INFO|IKSAR|Документу aaa6c5f2-d466-4a7b-9cbb-b9d0bf333e40 выставлен флаг IsReadyToExport = False, Строк обработано 1|
+04-07-2017 14:16:01|INFO|IKSAR|Документу c209824d-a27f-4ae1-9f61-c25507af1f4c выставлен флаг IsReadyToExport = False, Строк обработано 1|
+04-07-2017 14:16:01|INFO|IKSAR|Документу 5ef7eb85-ac96-47c8-971f-87810d1cf35d выставлен флаг IsReadyToExport = False, Строк обработано 1|
+04-07-2017 14:16:01|INFO|IKSAR|Документу 667c029c-864c-464a-a894-edbbd0a03cb1 выставлен флаг IsReadyToExport = False, Строк обработано 1|
+04-07-2017 14:16:01|INFO|IKSAR|К документу b81aa6fb-2486-4391-b55e-b759bb002436 добавлена рубрика: 090.050.050 Градостроительные нормативы. Градостроительная документация. Экспертиза|
+04-07-2017 14:16:01|INFO|IKSAR|Документу ad0b40db-3986-4433-88b9-035a1330d095 выставлен флаг IsReadyToExport = False, Строк обработано 1|
+04-07-2017 14:16:01|INFO|IKSAR|Документу ef1ce3f4-bb27-4caf-b860-1ae1b2302b59 выставлен флаг IsReadyToExport = False, Строк обработано 1|
+04-07-2017 14:16:01|INFO|IKSAR|Документу 93605677-d8b2-42d8-a792-d47087272bbf выставлен флаг IsReadyToExport = False, Строк обработано 1|
+04-07-2017 14:16:01|INFO|IKSAR|Документу 916e572a-b1d3-44af-97d7-1740cc0d7c8f выставлен флаг IsReadyToExport = False, Строк обработано 1|
+04-07-2017 14:16:01|INFO|IKSAR|Документу a20c0e3c-5204-45af-a1cd-a590f7d04606 выставлен флаг IsReadyToExport = False, Строк обработано 1|
+04-07-2017 14:16:01|INFO|IKSAR|Документу e99a23ed-4228-4d17-9e86-4ed1f034b99f выставлен флаг IsReadyToExport = False, Строк обработано 1|
+04-07-2017 14:16:01|INFO|IKSAR|Документу 6144f6d8-0a58-4d33-8179-580439ce01ce выставлен флаг IsReadyToExport = False, Строк обработано 1|
+04-07-2017 14:16:01|INFO|IKSAR|Документу 5f70e8cf-84a8-4dd0-bb05-3bbfcdb9aaa9 выставлен флаг IsReadyToExport = False, Строк обработано 1|
+04-07-2017 14:16:01|INFO|IKSAR|Документу 54a83fcf-33cc-45be-97ef-7f1cb8c46358 выставлен флаг IsReadyToExport = False, Строк обработано 1|
+04-07-2017 14:16:01|INFO|IKSAR|Документу df070ca2-2493-4c01-b526-483accfc2004 выставлен флаг IsReadyToExport = False, Строк обработано 1|
+04-07-2017 14:16:01|INFO|IKSAR|Документу acb83a14-7072-495c-8e76-21e68eb7fd80 выставлен флаг IsReadyToExport = False, Строк обработано 1|
+04-07-2017 14:16:01|INFO|IKSAR|Документу b8c71063-93f4-4f2d-9c1d-8d1d34e0f313 выставлен флаг IsReadyToExport = False, Строк обработано 1|
+04-07-2017 14:16:01|INFO|IKSAR|Документу c8345c4f-2fcd-44d8-8dfe-14e3810eb6f9 выставлен флаг IsReadyToExport = False, Строк обработано 1|
+04-07-2017 14:16:01|INFO|IKSAR|Документу b81aa6fb-2486-4391-b55e-b759bb002436 выставлен флаг IsReadyToExport = False, Строк обработано 1|
+04-07-2017 14:16:17|FATAL|IKSAR|System.NotSupportedException: Данный тип CollectionView не поддерживает изменения в своем SourceCollection из потока, отличного от потока Dispatcher.
+   в System.Windows.Data.CollectionView.OnCollectionChanged(Object sender, NotifyCollectionChangedEventArgs args)
+   в System.Collections.Specialized.NotifyCollectionChangedEventHandler.Invoke(Object sender, NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.ClearItems()
+   в System.Collections.ObjectModel.Collection`1.Clear()
+   в Classification.DB.DbReader.<>c__DisplayClass21_0.<RefreshKeys>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 590Ключевое слово = 00000000-0000-0000-0000-000000000000 Документ = 859795bb-265c-4fe3-8dd2-0105940da492|
+04-07-2017 14:16:21|FATAL|IKSAR|System.NotSupportedException: Данный тип CollectionView не поддерживает изменения в своем SourceCollection из потока, отличного от потока Dispatcher.
+   в System.Windows.Data.CollectionView.OnCollectionChanged(Object sender, NotifyCollectionChangedEventArgs args)
+   в System.Collections.Specialized.NotifyCollectionChangedEventHandler.Invoke(Object sender, NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.ClearItems()
+   в System.Collections.ObjectModel.Collection`1.Clear()
+   в Classification.DB.DbReader.<>c__DisplayClass20_0.<RefreshRubrics>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 544Рубрика = 00000000-0000-0000-0000-000000000000 Документ = 859795bb-265c-4fe3-8dd2-0105940da492|
+04-07-2017 14:16:42|FATAL|IKSAR|System.NotSupportedException: Данный тип CollectionView не поддерживает изменения в своем SourceCollection из потока, отличного от потока Dispatcher.
+   в System.Windows.Data.CollectionView.OnCollectionChanged(Object sender, NotifyCollectionChangedEventArgs args)
+   в System.Collections.Specialized.NotifyCollectionChangedEventHandler.Invoke(Object sender, NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.ClearItems()
+   в System.Collections.ObjectModel.Collection`1.Clear()
+   в Classification.DB.DbReader.<>c__DisplayClass21_0.<RefreshKeys>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 590Ключевое слово = 00000000-0000-0000-0000-000000000000 Документ = 859795bb-265c-4fe3-8dd2-0105940da492|
+04-07-2017 14:16:42|FATAL|IKSAR|System.NotSupportedException: Данный тип CollectionView не поддерживает изменения в своем SourceCollection из потока, отличного от потока Dispatcher.
+   в System.Windows.Data.CollectionView.OnCollectionChanged(Object sender, NotifyCollectionChangedEventArgs args)
+   в System.Collections.Specialized.NotifyCollectionChangedEventHandler.Invoke(Object sender, NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.ClearItems()
+   в System.Collections.ObjectModel.Collection`1.Clear()
+   в Classification.DB.DbReader.<>c__DisplayClass20_0.<RefreshRubrics>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 544Рубрика = 00000000-0000-0000-0000-000000000000 Документ = 859795bb-265c-4fe3-8dd2-0105940da492|
+04-07-2017 14:17:12|FATAL|IKSAR|System.NotSupportedException: Данный тип CollectionView не поддерживает изменения в своем SourceCollection из потока, отличного от потока Dispatcher.
+   в System.Windows.Data.CollectionView.OnCollectionChanged(Object sender, NotifyCollectionChangedEventArgs args)
+   в System.Collections.Specialized.NotifyCollectionChangedEventHandler.Invoke(Object sender, NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.ClearItems()
+   в System.Collections.ObjectModel.Collection`1.Clear()
+   в Classification.DB.DbReader.<>c__DisplayClass20_0.<RefreshRubrics>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 544Рубрика = 00000000-0000-0000-0000-000000000000 Документ = 859795bb-265c-4fe3-8dd2-0105940da492|
+04-07-2017 14:17:12|FATAL|IKSAR|System.NotSupportedException: Данный тип CollectionView не поддерживает изменения в своем SourceCollection из потока, отличного от потока Dispatcher.
+   в System.Windows.Data.CollectionView.OnCollectionChanged(Object sender, NotifyCollectionChangedEventArgs args)
+   в System.Collections.Specialized.NotifyCollectionChangedEventHandler.Invoke(Object sender, NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.ClearItems()
+   в System.Collections.ObjectModel.Collection`1.Clear()
+   в Classification.DB.DbReader.<>c__DisplayClass21_0.<RefreshKeys>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 590Ключевое слово = 00000000-0000-0000-0000-000000000000 Документ = 859795bb-265c-4fe3-8dd2-0105940da492|
+04-07-2017 14:17:42|FATAL|IKSAR|System.NotSupportedException: Данный тип CollectionView не поддерживает изменения в своем SourceCollection из потока, отличного от потока Dispatcher.
+   в System.Windows.Data.CollectionView.OnCollectionChanged(Object sender, NotifyCollectionChangedEventArgs args)
+   в System.Collections.Specialized.NotifyCollectionChangedEventHandler.Invoke(Object sender, NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.ClearItems()
+   в System.Collections.ObjectModel.Collection`1.Clear()
+   в Classification.DB.DbReader.<>c__DisplayClass20_0.<RefreshRubrics>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 544Рубрика = 00000000-0000-0000-0000-000000000000 Документ = 859795bb-265c-4fe3-8dd2-0105940da492|
+04-07-2017 14:17:42|FATAL|IKSAR|System.NotSupportedException: Данный тип CollectionView не поддерживает изменения в своем SourceCollection из потока, отличного от потока Dispatcher.
+   в System.Windows.Data.CollectionView.OnCollectionChanged(Object sender, NotifyCollectionChangedEventArgs args)
+   в System.Collections.Specialized.NotifyCollectionChangedEventHandler.Invoke(Object sender, NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.ClearItems()
+   в System.Collections.ObjectModel.Collection`1.Clear()
+   в Classification.DB.DbReader.<>c__DisplayClass21_0.<RefreshKeys>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 590Ключевое слово = 00000000-0000-0000-0000-000000000000 Документ = 859795bb-265c-4fe3-8dd2-0105940da492|
+04-07-2017 14:18:12|FATAL|IKSAR|System.NotSupportedException: Данный тип CollectionView не поддерживает изменения в своем SourceCollection из потока, отличного от потока Dispatcher.
+   в System.Windows.Data.CollectionView.OnCollectionChanged(Object sender, NotifyCollectionChangedEventArgs args)
+   в System.Collections.Specialized.NotifyCollectionChangedEventHandler.Invoke(Object sender, NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.ClearItems()
+   в System.Collections.ObjectModel.Collection`1.Clear()
+   в Classification.DB.DbReader.<>c__DisplayClass21_0.<RefreshKeys>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 590Ключевое слово = 00000000-0000-0000-0000-000000000000 Документ = 859795bb-265c-4fe3-8dd2-0105940da492|
+04-07-2017 14:18:12|FATAL|IKSAR|System.NotSupportedException: Данный тип CollectionView не поддерживает изменения в своем SourceCollection из потока, отличного от потока Dispatcher.
+   в System.Windows.Data.CollectionView.OnCollectionChanged(Object sender, NotifyCollectionChangedEventArgs args)
+   в System.Collections.Specialized.NotifyCollectionChangedEventHandler.Invoke(Object sender, NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.ClearItems()
+   в System.Collections.ObjectModel.Collection`1.Clear()
+   в Classification.DB.DbReader.<>c__DisplayClass20_0.<RefreshRubrics>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 544Рубрика = 00000000-0000-0000-0000-000000000000 Документ = 859795bb-265c-4fe3-8dd2-0105940da492|
+04-07-2017 14:18:42|FATAL|IKSAR|System.NotSupportedException: Данный тип CollectionView не поддерживает изменения в своем SourceCollection из потока, отличного от потока Dispatcher.
+   в System.Windows.Data.CollectionView.OnCollectionChanged(Object sender, NotifyCollectionChangedEventArgs args)
+   в System.Collections.Specialized.NotifyCollectionChangedEventHandler.Invoke(Object sender, NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.ClearItems()
+   в System.Collections.ObjectModel.Collection`1.Clear()
+   в Classification.DB.DbReader.<>c__DisplayClass20_0.<RefreshRubrics>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 544Рубрика = 00000000-0000-0000-0000-000000000000 Документ = 859795bb-265c-4fe3-8dd2-0105940da492|
+04-07-2017 14:18:42|FATAL|IKSAR|System.NotSupportedException: Данный тип CollectionView не поддерживает изменения в своем SourceCollection из потока, отличного от потока Dispatcher.
+   в System.Windows.Data.CollectionView.OnCollectionChanged(Object sender, NotifyCollectionChangedEventArgs args)
+   в System.Collections.Specialized.NotifyCollectionChangedEventHandler.Invoke(Object sender, NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.ClearItems()
+   в System.Collections.ObjectModel.Collection`1.Clear()
+   в Classification.DB.DbReader.<>c__DisplayClass21_0.<RefreshKeys>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 590Ключевое слово = 00000000-0000-0000-0000-000000000000 Документ = 859795bb-265c-4fe3-8dd2-0105940da492|
+04-07-2017 14:19:12|FATAL|IKSAR|System.NotSupportedException: Данный тип CollectionView не поддерживает изменения в своем SourceCollection из потока, отличного от потока Dispatcher.
+   в System.Windows.Data.CollectionView.OnCollectionChanged(Object sender, NotifyCollectionChangedEventArgs args)
+   в System.Collections.Specialized.NotifyCollectionChangedEventHandler.Invoke(Object sender, NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.ClearItems()
+   в System.Collections.ObjectModel.Collection`1.Clear()
+   в Classification.DB.DbReader.<>c__DisplayClass20_0.<RefreshRubrics>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 544Рубрика = 00000000-0000-0000-0000-000000000000 Документ = 859795bb-265c-4fe3-8dd2-0105940da492|
+04-07-2017 14:19:12|FATAL|IKSAR|System.NotSupportedException: Данный тип CollectionView не поддерживает изменения в своем SourceCollection из потока, отличного от потока Dispatcher.
+   в System.Windows.Data.CollectionView.OnCollectionChanged(Object sender, NotifyCollectionChangedEventArgs args)
+   в System.Collections.Specialized.NotifyCollectionChangedEventHandler.Invoke(Object sender, NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.ClearItems()
+   в System.Collections.ObjectModel.Collection`1.Clear()
+   в Classification.DB.DbReader.<>c__DisplayClass21_0.<RefreshKeys>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 590Ключевое слово = 00000000-0000-0000-0000-000000000000 Документ = 859795bb-265c-4fe3-8dd2-0105940da492|
+04-07-2017 14:19:42|FATAL|IKSAR|System.NotSupportedException: Данный тип CollectionView не поддерживает изменения в своем SourceCollection из потока, отличного от потока Dispatcher.
+   в System.Windows.Data.CollectionView.OnCollectionChanged(Object sender, NotifyCollectionChangedEventArgs args)
+   в System.Collections.Specialized.NotifyCollectionChangedEventHandler.Invoke(Object sender, NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.ClearItems()
+   в System.Collections.ObjectModel.Collection`1.Clear()
+   в Classification.DB.DbReader.<>c__DisplayClass20_0.<RefreshRubrics>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 544Рубрика = 00000000-0000-0000-0000-000000000000 Документ = 859795bb-265c-4fe3-8dd2-0105940da492|
+04-07-2017 14:19:42|FATAL|IKSAR|System.NotSupportedException: Данный тип CollectionView не поддерживает изменения в своем SourceCollection из потока, отличного от потока Dispatcher.
+   в System.Windows.Data.CollectionView.OnCollectionChanged(Object sender, NotifyCollectionChangedEventArgs args)
+   в System.Collections.Specialized.NotifyCollectionChangedEventHandler.Invoke(Object sender, NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.ClearItems()
+   в System.Collections.ObjectModel.Collection`1.Clear()
+   в Classification.DB.DbReader.<>c__DisplayClass21_0.<RefreshKeys>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 590Ключевое слово = 00000000-0000-0000-0000-000000000000 Документ = 859795bb-265c-4fe3-8dd2-0105940da492|
+04-07-2017 14:38:14|FATAL|IKSAR|System.NotSupportedException: Данный тип CollectionView не поддерживает изменения в своем SourceCollection из потока, отличного от потока Dispatcher.
+   в System.Windows.Data.CollectionView.OnCollectionChanged(Object sender, NotifyCollectionChangedEventArgs args)
+   в System.Collections.Specialized.NotifyCollectionChangedEventHandler.Invoke(Object sender, NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.ClearItems()
+   в System.Collections.ObjectModel.Collection`1.Clear()
+   в Classification.DB.DbReader.<>c__DisplayClass21_0.<RefreshKeys>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 590Ключевое слово = 00000000-0000-0000-0000-000000000000 Документ = 0601b5b8-79b6-46a4-80e3-b90ddc513417|
+04-07-2017 14:38:14|FATAL|IKSAR|System.NotSupportedException: Данный тип CollectionView не поддерживает изменения в своем SourceCollection из потока, отличного от потока Dispatcher.
+   в System.Windows.Data.CollectionView.OnCollectionChanged(Object sender, NotifyCollectionChangedEventArgs args)
+   в System.Collections.Specialized.NotifyCollectionChangedEventHandler.Invoke(Object sender, NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.ClearItems()
+   в System.Collections.ObjectModel.Collection`1.Clear()
+   в Classification.DB.DbReader.<>c__DisplayClass20_0.<RefreshRubrics>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 544Рубрика = 00000000-0000-0000-0000-000000000000 Документ = 0601b5b8-79b6-46a4-80e3-b90ddc513417|
+04-07-2017 14:38:44|FATAL|IKSAR|System.NotSupportedException: Данный тип CollectionView не поддерживает изменения в своем SourceCollection из потока, отличного от потока Dispatcher.
+   в System.Windows.Data.CollectionView.OnCollectionChanged(Object sender, NotifyCollectionChangedEventArgs args)
+   в System.Collections.Specialized.NotifyCollectionChangedEventHandler.Invoke(Object sender, NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.ClearItems()
+   в System.Collections.ObjectModel.Collection`1.Clear()
+   в Classification.DB.DbReader.<>c__DisplayClass21_0.<RefreshKeys>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 590Ключевое слово = 00000000-0000-0000-0000-000000000000 Документ = 0601b5b8-79b6-46a4-80e3-b90ddc513417|
+04-07-2017 14:38:44|FATAL|IKSAR|System.NotSupportedException: Данный тип CollectionView не поддерживает изменения в своем SourceCollection из потока, отличного от потока Dispatcher.
+   в System.Windows.Data.CollectionView.OnCollectionChanged(Object sender, NotifyCollectionChangedEventArgs args)
+   в System.Collections.Specialized.NotifyCollectionChangedEventHandler.Invoke(Object sender, NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.ClearItems()
+   в System.Collections.ObjectModel.Collection`1.Clear()
+   в Classification.DB.DbReader.<>c__DisplayClass20_0.<RefreshRubrics>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 544Рубрика = 00000000-0000-0000-0000-000000000000 Документ = 0601b5b8-79b6-46a4-80e3-b90ddc513417|
+04-07-2017 14:46:33|FATAL|IKSAR|System.NotSupportedException: Данный тип CollectionView не поддерживает изменения в своем SourceCollection из потока, отличного от потока Dispatcher.
+   в System.Windows.Data.CollectionView.OnCollectionChanged(Object sender, NotifyCollectionChangedEventArgs args)
+   в System.Collections.Specialized.NotifyCollectionChangedEventHandler.Invoke(Object sender, NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.ClearItems()
+   в System.Collections.ObjectModel.Collection`1.Clear()
+   в Classification.DB.DbReader.<>c__DisplayClass20_0.<RefreshRubrics>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 544Рубрика = 00000000-0000-0000-0000-000000000000 Документ = 40976643-bc2a-4a72-bfdc-6613bdcf3310|
+04-07-2017 14:46:33|FATAL|IKSAR|System.NotSupportedException: Данный тип CollectionView не поддерживает изменения в своем SourceCollection из потока, отличного от потока Dispatcher.
+   в System.Windows.Data.CollectionView.OnCollectionChanged(Object sender, NotifyCollectionChangedEventArgs args)
+   в System.Collections.Specialized.NotifyCollectionChangedEventHandler.Invoke(Object sender, NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.ClearItems()
+   в System.Collections.ObjectModel.Collection`1.Clear()
+   в Classification.DB.DbReader.<>c__DisplayClass21_0.<RefreshKeys>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 590Ключевое слово = 00000000-0000-0000-0000-000000000000 Документ = 40976643-bc2a-4a72-bfdc-6613bdcf3310|
+04-07-2017 14:48:49|FATAL|IKSAR|System.NotSupportedException: Данный тип CollectionView не поддерживает изменения в своем SourceCollection из потока, отличного от потока Dispatcher.
+   в System.Windows.Data.CollectionView.OnCollectionChanged(Object sender, NotifyCollectionChangedEventArgs args)
+   в System.Collections.Specialized.NotifyCollectionChangedEventHandler.Invoke(Object sender, NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.ClearItems()
+   в System.Collections.ObjectModel.Collection`1.Clear()
+   в Classification.DB.DbReader.<>c__DisplayClass21_0.<RefreshKeys>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 590Ключевое слово = 00000000-0000-0000-0000-000000000000 Документ = 06ae6cdd-1d11-4d63-b897-7ade4ef44202|
+04-07-2017 14:48:49|FATAL|IKSAR|System.NotSupportedException: Данный тип CollectionView не поддерживает изменения в своем SourceCollection из потока, отличного от потока Dispatcher.
+   в System.Windows.Data.CollectionView.OnCollectionChanged(Object sender, NotifyCollectionChangedEventArgs args)
+   в System.Collections.Specialized.NotifyCollectionChangedEventHandler.Invoke(Object sender, NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.ClearItems()
+   в System.Collections.ObjectModel.Collection`1.Clear()
+   в Classification.DB.DbReader.<>c__DisplayClass20_0.<RefreshRubrics>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 544Рубрика = 00000000-0000-0000-0000-000000000000 Документ = 06ae6cdd-1d11-4d63-b897-7ade4ef44202|
+04-07-2017 15:13:19|FATAL|IKSAR|System.InvalidOperationException: A worksheet with this name already exists in the workbook
+   в OfficeOpenXml.ExcelWorksheets.Add(String Name)
+   в Classification.Modules.MainListViewModule.ExcelExporter.<>c__DisplayClass44_0.<UploadToExcel>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ExcelExporter.cs:строка 118
+   в System.Threading.Tasks.Task.InnerInvoke()
+   в System.Threading.Tasks.Task.Execute()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   в Classification.Modules.MainListViewModule.ExcelExporter.<UploadToExcel>d__44.MoveNext() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ExcelExporter.cs:строка 111|System.InvalidOperationException: A worksheet with this name already exists in the workbook
+   в OfficeOpenXml.ExcelWorksheets.Add(String Name)
+   в Classification.Modules.MainListViewModule.ExcelExporter.<>c__DisplayClass44_0.<UploadToExcel>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ExcelExporter.cs:строка 118
+   в System.Threading.Tasks.Task.InnerInvoke()
+   в System.Threading.Tasks.Task.Execute()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   в Classification.Modules.MainListViewModule.ExcelExporter.<UploadToExcel>d__44.MoveNext() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ExcelExporter.cs:строка 111
+04-07-2017 15:15:19|FATAL|IKSAR|System.InvalidOperationException: A worksheet with this name already exists in the workbook
+   в OfficeOpenXml.ExcelWorksheets.Add(String Name)
+   в Classification.Modules.MainListViewModule.ExcelExporter.<>c__DisplayClass44_0.<UploadToExcel>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ExcelExporter.cs:строка 118
+   в System.Threading.Tasks.Task.InnerInvoke()
+   в System.Threading.Tasks.Task.Execute()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   в Classification.Modules.MainListViewModule.ExcelExporter.<UploadToExcel>d__44.MoveNext() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ExcelExporter.cs:строка 111|System.InvalidOperationException: A worksheet with this name already exists in the workbook
+   в OfficeOpenXml.ExcelWorksheets.Add(String Name)
+   в Classification.Modules.MainListViewModule.ExcelExporter.<>c__DisplayClass44_0.<UploadToExcel>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ExcelExporter.cs:строка 118
+   в System.Threading.Tasks.Task.InnerInvoke()
+   в System.Threading.Tasks.Task.Execute()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   в Classification.Modules.MainListViewModule.ExcelExporter.<UploadToExcel>d__44.MoveNext() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ExcelExporter.cs:строка 111
+04-07-2017 17:20:54|INFO|IKSAR|Установлены рубрики для 0 документов|
+04-07-2017 17:27:22|INFO|IKSAR|Удалено 0 ключевых слов из документа 3b35500d-cc39-48a5-9ecf-36fd81183b62 на замену|
+04-07-2017 17:27:22|INFO|IKSAR|К документу 3b35500d-cc39-48a5-9ecf-36fd81183b62 добавлено ключевое слово: Кубок|
+04-07-2017 17:27:22|INFO|IKSAR|К документу 3b35500d-cc39-48a5-9ecf-36fd81183b62 добавлено ключевое слово: Мероприятие|
+04-07-2017 17:27:22|INFO|IKSAR|К документу 3b35500d-cc39-48a5-9ecf-36fd81183b62 добавлено ключевое слово: Проведение|
+04-07-2017 17:27:22|INFO|IKSAR|К документу 3b35500d-cc39-48a5-9ecf-36fd81183b62 добавлено ключевое слово: Программа|
+04-07-2017 17:27:22|INFO|IKSAR|К документу 3b35500d-cc39-48a5-9ecf-36fd81183b62 добавлено ключевое слово: Футбол|
+04-07-2017 17:27:22|INFO|IKSAR|К документу 3b35500d-cc39-48a5-9ecf-36fd81183b62 добавлено ключевое слово: Чемпионат|
+04-07-2017 17:27:22|INFO|IKSAR|Удалено 0 рубрик из документа 3b35500d-cc39-48a5-9ecf-36fd81183b62 на замену|
+04-07-2017 17:27:22|INFO|IKSAR|К документу 3b35500d-cc39-48a5-9ecf-36fd81183b62 добавлена рубрика: 020.030.020 Государственные программы. Концепции|
+04-07-2017 17:27:22|INFO|IKSAR|К документу 3b35500d-cc39-48a5-9ecf-36fd81183b62 добавлена рубрика: 140.020.030 Общественные объединения физкультурно-оздоровительной и спортивной направленности|
+04-07-2017 17:27:22|INFO|IKSAR|Документу 3b35500d-cc39-48a5-9ecf-36fd81183b62 выставлен флаг IsReadyToExport = True, Строк обработано 1|
+04-07-2017 19:49:40|INFO|IKSAR|В базу импортирован документ 502a0966-d01f-423c-bc52-17dfc369e9e2 из файла EXCEL|
+04-07-2017 19:52:11|FATAL|IKSAR|System.Data.SqlClient.SqlException (0x80131904): Ошибка! Документ с такими реквизитами уже существует в базе данных! Происходит откат транзакции.
+Транзакция завершилась в триггере. Выполнение пакета прервано.
+   в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   в System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   в System.Data.SqlClient.SqlCommand.EndExecuteNonQueryAsync(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в Classification.DB.DbWriter.<ImportExcelRecord>d__6.MoveNext() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbWriter.cs:строка 88
+ClientConnectionId:c1b1b8ac-b8ee-4f3a-8774-87f4afda05e5
+Error Number: 50000, State: 1, Class: 16|System.Data.SqlClient.SqlException (0x80131904): Ошибка! Документ с такими реквизитами уже существует в базе данных! Происходит откат транзакции.
+Транзакция завершилась в триггере. Выполнение пакета прервано.
+   в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   в System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   в System.Data.SqlClient.SqlCommand.EndExecuteNonQueryAsync(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в Classification.DB.DbWriter.<ImportExcelRecord>d__6.MoveNext() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbWriter.cs:строка 88
+ClientConnectionId:c1b1b8ac-b8ee-4f3a-8774-87f4afda05e5
+Error Number: 50000, State: 1, Class: 16
+04-07-2017 19:53:56|INFO|IKSAR|В базу импортирован документ 4e85498d-2934-4d59-9cf0-e1a4e4d5ad51 из файла EXCEL|
+04-07-2017 19:57:00|INFO|IKSAR|В базу импортирован документ 0c745fa7-a930-4af2-9609-a6814c429930 из файла EXCEL|
+04-07-2017 20:01:54|INFO|IKSAR|В базу импортирован документ 4931f444-8192-4a47-9d76-de7b641df951 из файла EXCEL|
+04-07-2017 20:02:07|FATAL|IKSAR|System.InvalidOperationException: Коллекция была изменена; невозможно выполнить операцию перечисления.
+   в System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   в System.Collections.Generic.List`1.Enumerator.MoveNextRare()
+   в System.Collections.Generic.List`1.Enumerator.MoveNext()
+   в System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   в System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   в Classification.DB.DbReader.<>c__DisplayClass18_0.<RefreshItems>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 502|System.InvalidOperationException: Коллекция была изменена; невозможно выполнить операцию перечисления.
+   в System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   в System.Collections.Generic.List`1.Enumerator.MoveNextRare()
+   в System.Collections.Generic.List`1.Enumerator.MoveNext()
+   в System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   в System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   в Classification.DB.DbReader.<>c__DisplayClass18_0.<RefreshItems>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 502
+04-07-2017 20:04:02|INFO|IKSAR|В базу импортирован документ c3dc2a0d-e206-4722-a478-5c60a1278a92 из файла EXCEL|
+04-07-2017 20:04:08|FATAL|IKSAR|System.Data.SqlClient.SqlException (0x80131904): Ошибка! Документ с такими реквизитами уже существует в базе данных! Происходит откат транзакции.
+Транзакция завершилась в триггере. Выполнение пакета прервано.
+   в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   в System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   в System.Data.SqlClient.SqlCommand.EndExecuteNonQueryAsync(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в Classification.DB.DbWriter.<ImportExcelRecord>d__6.MoveNext() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbWriter.cs:строка 88
+ClientConnectionId:5787e657-18e5-4237-bd89-a0a8b154bebd
+Error Number: 50000, State: 1, Class: 16|System.Data.SqlClient.SqlException (0x80131904): Ошибка! Документ с такими реквизитами уже существует в базе данных! Происходит откат транзакции.
+Транзакция завершилась в триггере. Выполнение пакета прервано.
+   в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   в System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   в System.Data.SqlClient.SqlCommand.EndExecuteNonQueryAsync(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в Classification.DB.DbWriter.<ImportExcelRecord>d__6.MoveNext() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbWriter.cs:строка 88
+ClientConnectionId:5787e657-18e5-4237-bd89-a0a8b154bebd
+Error Number: 50000, State: 1, Class: 16
+04-07-2017 20:04:12|FATAL|IKSAR|System.Data.SqlClient.SqlException (0x80131904): Ошибка! Документ с такими реквизитами уже существует в базе данных! Происходит откат транзакции.
+Транзакция завершилась в триггере. Выполнение пакета прервано.
+   в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   в System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   в System.Data.SqlClient.SqlCommand.EndExecuteNonQueryAsync(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в Classification.DB.DbWriter.<ImportExcelRecord>d__6.MoveNext() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbWriter.cs:строка 88
+ClientConnectionId:5787e657-18e5-4237-bd89-a0a8b154bebd
+Error Number: 50000, State: 1, Class: 16|System.Data.SqlClient.SqlException (0x80131904): Ошибка! Документ с такими реквизитами уже существует в базе данных! Происходит откат транзакции.
+Транзакция завершилась в триггере. Выполнение пакета прервано.
+   в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   в System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   в System.Data.SqlClient.SqlCommand.EndExecuteNonQueryAsync(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в Classification.DB.DbWriter.<ImportExcelRecord>d__6.MoveNext() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbWriter.cs:строка 88
+ClientConnectionId:5787e657-18e5-4237-bd89-a0a8b154bebd
+Error Number: 50000, State: 1, Class: 16
+04-07-2017 20:07:33|INFO|IKSAR|В базу импортирован документ 878ad2fb-e821-46d6-a8d3-36d6717bedb4 из файла EXCEL|
+04-07-2017 20:07:37|FATAL|IKSAR|System.Data.SqlClient.SqlException (0x80131904): Ошибка! Документ с такими реквизитами уже существует в базе данных! Происходит откат транзакции.
+Транзакция завершилась в триггере. Выполнение пакета прервано.
+   в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   в System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   в System.Data.SqlClient.SqlCommand.EndExecuteNonQueryAsync(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в Classification.DB.DbWriter.<ImportExcelRecord>d__6.MoveNext() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbWriter.cs:строка 88
+ClientConnectionId:3e0d5637-27b3-4851-8875-6d830f9c63b4
+Error Number: 50000, State: 1, Class: 16|System.Data.SqlClient.SqlException (0x80131904): Ошибка! Документ с такими реквизитами уже существует в базе данных! Происходит откат транзакции.
+Транзакция завершилась в триггере. Выполнение пакета прервано.
+   в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   в System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   в System.Data.SqlClient.SqlCommand.EndExecuteNonQueryAsync(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в Classification.DB.DbWriter.<ImportExcelRecord>d__6.MoveNext() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbWriter.cs:строка 88
+ClientConnectionId:3e0d5637-27b3-4851-8875-6d830f9c63b4
+Error Number: 50000, State: 1, Class: 16
+04-07-2017 20:07:39|FATAL|IKSAR|System.Data.SqlClient.SqlException (0x80131904): Ошибка! Документ с такими реквизитами уже существует в базе данных! Происходит откат транзакции.
+Транзакция завершилась в триггере. Выполнение пакета прервано.
+   в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   в System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   в System.Data.SqlClient.SqlCommand.EndExecuteNonQueryAsync(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в Classification.DB.DbWriter.<ImportExcelRecord>d__6.MoveNext() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbWriter.cs:строка 88
+ClientConnectionId:3e0d5637-27b3-4851-8875-6d830f9c63b4
+Error Number: 50000, State: 1, Class: 16|System.Data.SqlClient.SqlException (0x80131904): Ошибка! Документ с такими реквизитами уже существует в базе данных! Происходит откат транзакции.
+Транзакция завершилась в триггере. Выполнение пакета прервано.
+   в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   в System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   в System.Data.SqlClient.SqlCommand.EndExecuteNonQueryAsync(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в Classification.DB.DbWriter.<ImportExcelRecord>d__6.MoveNext() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbWriter.cs:строка 88
+ClientConnectionId:3e0d5637-27b3-4851-8875-6d830f9c63b4
+Error Number: 50000, State: 1, Class: 16
+04-07-2017 20:09:38|INFO|IKSAR|В базу импортирован документ 0b45c6a8-a9f4-4bc9-87db-130dafc2744d из файла EXCEL|
+04-07-2017 20:09:38|FATAL|IKSAR|System.Data.SqlClient.SqlException (0x80131904): Ошибка! Документ с такими реквизитами уже существует в базе данных! Происходит откат транзакции.
+Транзакция завершилась в триггере. Выполнение пакета прервано.
+   в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   в System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   в System.Data.SqlClient.SqlCommand.EndExecuteNonQueryAsync(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в Classification.DB.DbWriter.<ImportExcelRecord>d__6.MoveNext() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbWriter.cs:строка 88
+ClientConnectionId:3e0d5637-27b3-4851-8875-6d830f9c63b4
+Error Number: 50000, State: 1, Class: 16|System.Data.SqlClient.SqlException (0x80131904): Ошибка! Документ с такими реквизитами уже существует в базе данных! Происходит откат транзакции.
+Транзакция завершилась в триггере. Выполнение пакета прервано.
+   в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   в System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   в System.Data.SqlClient.SqlCommand.EndExecuteNonQueryAsync(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в Classification.DB.DbWriter.<ImportExcelRecord>d__6.MoveNext() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbWriter.cs:строка 88
+ClientConnectionId:3e0d5637-27b3-4851-8875-6d830f9c63b4
+Error Number: 50000, State: 1, Class: 16
+04-07-2017 20:09:38|FATAL|IKSAR|System.Data.SqlClient.SqlException (0x80131904): Ошибка! Документ с такими реквизитами уже существует в базе данных! Происходит откат транзакции.
+Транзакция завершилась в триггере. Выполнение пакета прервано.
+   в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   в System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   в System.Data.SqlClient.SqlCommand.EndExecuteNonQueryAsync(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в Classification.DB.DbWriter.<ImportExcelRecord>d__6.MoveNext() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbWriter.cs:строка 88
+ClientConnectionId:3e0d5637-27b3-4851-8875-6d830f9c63b4
+Error Number: 50000, State: 1, Class: 16|System.Data.SqlClient.SqlException (0x80131904): Ошибка! Документ с такими реквизитами уже существует в базе данных! Происходит откат транзакции.
+Транзакция завершилась в триггере. Выполнение пакета прервано.
+   в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   в System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   в System.Data.SqlClient.SqlCommand.EndExecuteNonQueryAsync(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в Classification.DB.DbWriter.<ImportExcelRecord>d__6.MoveNext() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbWriter.cs:строка 88
+ClientConnectionId:3e0d5637-27b3-4851-8875-6d830f9c63b4
+Error Number: 50000, State: 1, Class: 16

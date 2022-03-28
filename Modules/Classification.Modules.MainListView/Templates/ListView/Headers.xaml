@@ -1,0 +1,119 @@
+﻿<ResourceDictionary 
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+             xmlns:metro="http://metro.mahapps.com/winfx/xaml/controls"
+             xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+             xmlns:system="clr-namespace:System;assembly=mscorlib"
+             xmlns:prism="http://prismlibrary.com/">
+
+
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="pack://application:,,,/Classification.Core;component/Styles/Buttons.xaml"/>
+        <ResourceDictionary Source="pack://application:,,,/Classification.Core;component/Images/Images.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+
+    <system:Boolean x:Key="TrueKey">True</system:Boolean>
+    <system:Boolean x:Key="FalseKey">False</system:Boolean>
+
+    <Style x:Key="UsualyListViewHeader" TargetType="{x:Type GridViewColumnHeader}">
+        <Setter Property="FontSize" Value="18"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type GridViewColumnHeader}">
+                    <Border BorderThickness="1" BorderBrush="#FF8F8F8F" Background="White">
+                        <ContentPresenter TextBlock.TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="OverridesDefaultStyle" Value="True"/>
+    </Style>
+
+    <Style x:Key="KeywordsHeader" TargetType="{x:Type GridViewColumnHeader}">
+        <Setter Property="FontSize" Value="18"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type GridViewColumnHeader}">
+                    <Border BorderThickness="1" BorderBrush="#FF8F8F8F" Background="White">
+                        <StackPanel Orientation="Horizontal"  HorizontalAlignment="Center" VerticalAlignment="Center">
+                            <ContentPresenter TextBlock.TextAlignment="Center"/>
+                            <TextBlock Text="{Binding NotReadyKeywordsCount}" Margin="3 0 0 0" Foreground="Red"/>
+                        </StackPanel>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="OverridesDefaultStyle" Value="True"/>
+    </Style>
+
+    <Style x:Key="RubricsHeader" TargetType="{x:Type GridViewColumnHeader}">
+        <Setter Property="FontSize" Value="18"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type GridViewColumnHeader}">
+                    <Border BorderThickness="1" BorderBrush="#FF8F8F8F" Background="White">
+                        <StackPanel Orientation="Horizontal"  HorizontalAlignment="Center" VerticalAlignment="Center">
+                            <ContentPresenter TextBlock.TextAlignment="Center"/>
+                            <TextBlock Text="{Binding NotReadyRubricsCount}" Margin="3 0 0 0" Foreground="Red"/>
+                        </StackPanel>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="OverridesDefaultStyle" Value="True"/>
+    </Style>
+
+
+    <Style x:Key="NameHeader" TargetType="{x:Type GridViewColumnHeader}">
+        <Setter Property="FontSize" Value="18"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type GridViewColumnHeader}">
+                    <Border BorderThickness="1" BorderBrush="#FF8F8F8F" Background="White">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                            </Grid.RowDefinitions>
+
+                            <TextBlock  ToolTip="Количество документов в списке"
+                                     Text="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ListView}}, Path=Items.Count}" 
+                                     HorizontalAlignment="Left">
+                                <Image Source="{StaticResource RobotImage}" Width="30"/>
+                            </TextBlock>
+                            <CheckBox Content="Показывать готовые" IsChecked="{Binding ShowReadyDocumentsInListView, Mode=TwoWay}" HorizontalAlignment="Right"/>
+
+                            <Button 
+                                    Command="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ListView}}, Path=DataContext.OpenSerializationInterfaceCommand}" 
+                                    VerticalAlignment="Center"
+                                    HorizontalAlignment="Center"
+                                    Style="{StaticResource OkButton}">
+                                <TextBlock VerticalAlignment="Center"
+                                       HorizontalAlignment="Center"
+                                       FontSize="18"
+                                       Foreground="Black"
+                                       >
+                               
+                                <Run Text="{Binding InWorkDocumentsCount, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"
+                                     Foreground="Red"
+                                     ToolTip="Документы в работе"/>
+                                <Run Text="/" />
+                                <Run Text="{Binding ReadyItemsCount, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"
+                                     Foreground="Orange"
+                                     ToolTip="Документы готовые к выгрузке в Excel">
+                                </Run>
+                                <Run Text="/"/>
+                                <Run Text="{Binding ExportedDocumentsCount, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"
+                                     Foreground="#FF2BD11A"
+                                     ToolTip="Документы выгруженные в Excel"/>
+
+
+                                </TextBlock>
+                            </Button>
+                        </Grid>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="OverridesDefaultStyle" Value="True"/>
+    </Style>
+
+</ResourceDictionary>

@@ -1,0 +1,38 @@
+﻿<ResourceDictionary 
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+             xmlns:metro="http://metro.mahapps.com/winfx/xaml/controls"
+             xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+             xmlns:prism="http://prismlibrary.com/">
+
+
+    <ResourceDictionary.MergedDictionaries>
+     
+    </ResourceDictionary.MergedDictionaries>
+
+    <Style x:Key="ListBoxItemStyle" TargetType="{x:Type ListBoxItem}" BasedOn="{StaticResource {x:Type ListBoxItem}}">
+        <Setter Property="FontSize" Value="16"/>
+        <Style.Triggers>
+            <DataTrigger Binding="{Binding Visible, UpdateSourceTrigger=PropertyChanged}" Value="false">
+                <Setter Property="Visibility" Value="Collapsed"/>
+            </DataTrigger>
+        </Style.Triggers>
+    </Style>
+
+    <DataTemplate x:Key="ListItemTemplate">
+        <Grid>
+            <TextBlock x:Name="etalonbox"  Foreground="Transparent" Panel.ZIndex="1" SnapsToDevicePixels="True"><InlineUIContainer>
+                                		<TextBlock x:Name="textBefore" 
+                                			Text="{Binding TextBeforeSelect}"/>
+                                	</InlineUIContainer><Run Text=""/><InlineUIContainer>
+                                		<TextBlock 
+                                			x:Name="textSelect" 
+                                			Text="{Binding SelectedText}" 
+                                			Background="#FF8CEE5E"/>
+                                	</InlineUIContainer></TextBlock>
+            <TextBlock x:Name="TextContent"  Text="{Binding SourceText}" Panel.ZIndex="1" SnapsToDevicePixels="True"/>
+        </Grid>
+    </DataTemplate>
+
+
+</ResourceDictionary>

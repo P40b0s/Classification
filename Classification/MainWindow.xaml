@@ -1,0 +1,483 @@
+﻿<Controls:MetroWindow
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:toolbox="http://schemas.xceed.com/wpf/xaml/toolkit"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:local="clr-namespace:Classification" 
+        xmlns:Themes="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Aero" 
+        x:Class="Classification.MainWindow"        
+        BorderThickness="1"
+        Title="Классификация правовых актов" Height="976.474" Width="1700">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Colours.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Fonts.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.AnimatedSingleRowTabControl.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro.Resources;component/Icons.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/Blue.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/BaseLight.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+            
+            <VisualBrush x:Key="cancel" Stretch="Fill" Visual="{StaticResource appbar_close}"/>
+            <VisualBrush x:Key="door" Stretch="Fill" Visual="{StaticResource appbar_door_enter}"/>
+            <Style x:Key="MainListBoxItemStyle" TargetType="{x:Type ListBoxItem}">
+                <Setter Property="Background" Value="Black"/>
+                <Setter Property="HorizontalContentAlignment" Value="{Binding HorizontalContentAlignment, RelativeSource={RelativeSource AncestorType={x:Type ItemsControl}}}"/>
+                <Setter Property="VerticalContentAlignment" Value="{Binding VerticalContentAlignment, RelativeSource={RelativeSource AncestorType={x:Type ItemsControl}}}"/>
+                <Setter Property="Padding" Value="2,0,0,0"/>
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="{x:Type ListBoxItem}">
+                            <Border x:Name="Bd"  Background="Transparent"  SnapsToDevicePixels="true" Width="{Binding ElementName=SpisokListBox, Path=ActialWidth}" BorderBrush="#FFAD54" BorderThickness="0,0,0,0">
+                                <Grid x:Name="grid" Background="#FFF9F5C8" Panel.ZIndex="1" Opacity="{Binding Opacity}" >
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="125"/>
+                                        <ColumnDefinition Width="425"/>
+                                        <ColumnDefinition Width="358*"/>
+                                        <ColumnDefinition Width="225"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Rectangle Width="20" Height="20" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,7,0,0" Fill="{StaticResource door}"/>
+                                    <TextBlock Margin="35,7,0,0" TextWrapping="Wrap" Text="{Binding IndexNum}" VerticalAlignment="Top" Background="{Binding BorderColor}" Height="Auto" FontFamily="Calibri" FontWeight="Bold" FontSize="18" OpacityMask="#CCFB7B67"/>
+                                    <TextBlock  Margin="10,28,0,0" TextWrapping="Wrap" Text="{Binding Number}" VerticalAlignment="Top"  Height="16" FontWeight="Bold" FontFamily="Calibri"/>
+                                    <TextBlock  Margin="10,49,0,0" TextWrapping="Wrap" Text="{Binding SignDate}" VerticalAlignment="Top"  Height="16" FontFamily="Calibri" FontWeight="Bold"/>
+                                    <TextBlock Grid.Column="1"  Margin="5,10,5,0" TextWrapping="Wrap" Text="{Binding ActName}" VerticalAlignment="Top"  Background="{x:Null}" MaxWidth="460"  Height="Auto" FontFamily="Calibri" FontSize="14"/>
+                                    <Border BorderBrush="#FF0AF173" BorderThickness="1,2" Grid.Column="2" Height="{Binding ActualHeight, ElementName=grid}" Margin="0" Visibility="{Binding rubVis}"  VerticalAlignment="Top"  Panel.ZIndex="-1" Grid.ColumnSpan="1" CornerRadius="6">                                   
+                                    </Border>
+                                    <Border BorderBrush="#CC0AF173" BorderThickness="1,2,2,2" Grid.Column="3" Height="{Binding ActualHeight, ElementName=grid}" Visibility="{Binding keyVis}"  VerticalAlignment="Top" Panel.ZIndex="-1" CornerRadius="6">
+                                    </Border>
+                                    <Border BorderBrush="{Binding BorderColor}" BorderThickness="1,2" Grid.Column="1" Height="{Binding ActualHeight, ElementName=grid}" VerticalAlignment="Top" Panel.ZIndex="-1" Grid.ColumnSpan="1" CornerRadius="6">                                       
+                                    </Border>
+                                    <Border BorderBrush="{Binding BorderColor}" BorderThickness="2,2,1,2" Grid.Column="0"  Height="{Binding ActualHeight, ElementName=grid}" VerticalAlignment="Top" Panel.ZIndex="-1" Grid.ColumnSpan="1" CornerRadius="6">                                       
+                                    </Border>
+                                    <ListBox x:Name="_rubriki" ScrollViewer.HorizontalScrollBarVisibility="Disabled" Focusable="False"  Grid.Column="2" ItemsSource="{Binding Rubriki}" Visibility="{Binding rubVis}"  Margin="10" VerticalAlignment="Top"  Height="Auto"   FontFamily="Calibri" FontSize="14" ItemContainerStyle="{DynamicResource RubricsListBoxStyle}" BorderThickness="0" />
+                                    <ListBox x:Name="_keywords" Grid.Column="3" ItemsSource="{Binding Keywordd}" Focusable="False"  Margin="10" VerticalAlignment="Top" Height="Auto" Visibility="{Binding keyVis}"   FontFamily="Calibri" FontSize="14" ItemContainerStyle="{DynamicResource KeywordsListBoxStyle}" BorderThickness="0"/>
+                                </Grid>
+                            </Border>
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsSelected" Value="true">
+                                    <Setter Property="Background" TargetName="Bd" Value="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"/>
+                                    <Setter Property="Foreground" Value="#000000"/>
+                                    <Setter Property="Background" TargetName="grid" Value="#FF99EE79"/>
+                                </Trigger>
+                                <MultiTrigger>
+                                    <MultiTrigger.Conditions>
+                                        <Condition Property="IsSelected" Value="true"/>
+                                        <Condition Property="Selector.IsSelectionActive" Value="false"/>
+                                    </MultiTrigger.Conditions>
+                                    <Setter Property="Background" TargetName="Bd" Value="{DynamicResource {x:Static SystemColors.ControlBrushKey}}"/>
+                                    <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+                                </MultiTrigger>
+                                <Trigger Property="IsEnabled" Value="false">
+                                    <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.GrayTextBrushKey}}"/>
+                                </Trigger>
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+
+            <Style x:Key="RubrikiListBoxStyle" TargetType="{x:Type ListBoxItem}">
+                <Setter Property="Background" Value="Transparent"/>
+                <Setter Property="HorizontalContentAlignment" Value="{Binding HorizontalContentAlignment, RelativeSource={RelativeSource AncestorType={x:Type ItemsControl}}}"/>
+                <Setter Property="VerticalContentAlignment" Value="{Binding VerticalContentAlignment, RelativeSource={RelativeSource AncestorType={x:Type ItemsControl}}}"/>
+                <Setter Property="Padding" Value="0,0,0,0"/>
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="{x:Type ListBoxItem}">
+                            <Border x:Name="Bd" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" Padding="{TemplateBinding Padding}" SnapsToDevicePixels="true">
+                                <Grid Height="auto" Width="auto">
+                                    <TextBlock x:Name="etalonbox"  Foreground="Transparent" Panel.ZIndex="1" SnapsToDevicePixels="True"><InlineUIContainer>
+                                		<TextBlock x:Name="textBefore" 
+                                			Text="{Binding TextBeforeSelect}"/>
+                                	</InlineUIContainer><Run Text=""/><InlineUIContainer>
+                                		<TextBlock 
+                                			x:Name="textSelect" 
+                                			Text="{Binding TextSelect}" 
+                                			Background="#FF8CEE5E"/>
+                                	</InlineUIContainer></TextBlock>
+                                    <TextBlock x:Name="TextContent"  Text="{Binding TextBefore}" Panel.ZIndex="1" SnapsToDevicePixels="True" MouseLeftButtonDown="ListBoxMouseLeftButtonDown"/>
+                                </Grid>
+                            </Border>
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsSelected" Value="true">
+                                    <Setter Property="Background" TargetName="Bd" Value="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"/>
+                                    <Setter Property="Foreground" Value="Black"/>
+                                </Trigger>
+                                <MultiTrigger>
+                                    <MultiTrigger.Conditions>
+                                        <Condition Property="IsSelected" Value="true"/>
+                                        <Condition Property="Selector.IsSelectionActive" Value="false"/>
+                                    </MultiTrigger.Conditions>
+                                    <Setter Property="Background" TargetName="Bd" Value="{DynamicResource {x:Static SystemColors.ControlBrushKey}}"/>
+                                    <Setter Property="Foreground" Value="Black"/>
+                                </MultiTrigger>
+                                <Trigger Property="IsEnabled" Value="false">
+                                    <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.GrayTextBrushKey}}"/>
+                                </Trigger>
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+            
+            <Storyboard x:Key="OnChecked1">
+                <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="ExportFrom">
+                    <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                    <EasingDoubleKeyFrame KeyTime="0:0:2" Value="1"/>
+                </DoubleAnimationUsingKeyFrames>
+                <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="ExportTo">
+                    <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                    <EasingDoubleKeyFrame KeyTime="0:0:2" Value="1"/>
+                </DoubleAnimationUsingKeyFrames>
+            </Storyboard>
+            <Storyboard x:Key="OnUnchecked1">
+                <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="ExportFrom">
+                    <EasingDoubleKeyFrame KeyTime="0:0:2" Value="0"/>
+                </DoubleAnimationUsingKeyFrames>
+                <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="ExportTo">
+                    <EasingDoubleKeyFrame KeyTime="0:0:2" Value="0"/>
+                </DoubleAnimationUsingKeyFrames>
+            </Storyboard>
+            
+           
+
+
+            <Style x:Key="KeywordsListBoxStyle" TargetType="{x:Type ListBoxItem}">
+                <Setter Property="Background" Value="Transparent"/>
+                <Setter Property="HorizontalContentAlignment" Value="{Binding HorizontalContentAlignment, RelativeSource={RelativeSource AncestorType={x:Type ItemsControl}}}"/>
+                <Setter Property="VerticalContentAlignment" Value="{Binding VerticalContentAlignment, RelativeSource={RelativeSource AncestorType={x:Type ItemsControl}}}"/>
+                <Setter Property="Padding" Value="0,0,0,0"/>
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="{x:Type ListBoxItem}">
+                            <ControlTemplate.Resources>
+                                <Storyboard x:Key="OnMouseEnter1">
+                                    <ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(Panel.Background).(SolidColorBrush.Color)" Storyboard.TargetName="grid">
+                                        <EasingColorKeyFrame KeyTime="0:0:0.5" Value="#FFAD54"/>
+                                    </ColorAnimationUsingKeyFrames>
+                                </Storyboard>
+                            </ControlTemplate.Resources>
+                            <Grid x:Name="grid" Height="Auto" Width="Auto" Background="#FFF9F5C8">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="45*"/>
+                                </Grid.ColumnDefinitions>
+                                <VisualStateManager.VisualStateGroups>
+                                    <VisualStateGroup x:Name="CommonStates">
+                                        <VisualState x:Name="MouseOver"/>
+                                        <VisualState x:Name="Disabled"/>
+                                    </VisualStateGroup>
+                                    <VisualStateGroup x:Name="SelectionStates">
+                                        <VisualState x:Name="Selected"/>
+                                        <VisualState x:Name="SelectedUnfocused"/>
+                                    </VisualStateGroup>
+                                    <VisualStateGroup x:Name="FocusStates">
+                                        <VisualState x:Name="Focused"/>
+                                    </VisualStateGroup>
+                                    <VisualStateGroup x:Name="ValidationStates">
+                                        <VisualState x:Name="InvalidFocused"/>
+                                        <VisualState x:Name="InvalidUnfocused"/>
+                                    </VisualStateGroup>
+                                </VisualStateManager.VisualStateGroups>
+                                <TextBlock HorizontalAlignment="Left" Margin="0,0,0,0" Height="Auto" Width="Auto" MaxWidth="160"  TextWrapping="Wrap" VerticalAlignment="Center" Text="{Binding}" />
+                                <Button x:Name="XButton"  Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Center"   Click="DelKeysOrRubricsClick" Background="#CCFB7B67" BorderThickness="0" Margin="0,0,0,1">
+                                    <StackPanel Orientation="Horizontal">
+                                        <Rectangle Width="20" Height="20" Fill="{DynamicResource cancel}"/>
+                                    </StackPanel>
+                                </Button>
+
+                            </Grid>
+                            <ControlTemplate.Triggers>
+                                <EventTrigger RoutedEvent="Mouse.MouseEnter" SourceName="grid">
+                                    <BeginStoryboard x:Name="OnMouseEnter1_BeginStoryboard" Storyboard="{StaticResource OnMouseEnter1}"/>
+                                </EventTrigger>
+                                <EventTrigger RoutedEvent="Mouse.MouseLeave" SourceName="grid">
+                                    <RemoveStoryboard BeginStoryboardName="OnMouseEnter1_BeginStoryboard"/>
+                                </EventTrigger>                               
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+
+            <Style x:Key="RubricsListBoxStyle" TargetType="{x:Type ListBoxItem}">
+                <Setter Property="Background" Value="Transparent"/>
+                <Setter Property="HorizontalContentAlignment" Value="{Binding HorizontalContentAlignment, RelativeSource={RelativeSource AncestorType={x:Type ItemsControl}}}"/>
+                <Setter Property="VerticalContentAlignment" Value="{Binding VerticalContentAlignment, RelativeSource={RelativeSource AncestorType={x:Type ItemsControl}}}"/>
+                <Setter Property="Padding" Value="0,0,0,0"/>
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="{x:Type ListBoxItem}">
+                            <ControlTemplate.Resources>
+                                <Storyboard x:Key="OnMouseEnter2">
+                                    <ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(Panel.Background).(SolidColorBrush.Color)" Storyboard.TargetName="gridrub">
+                                        <EasingColorKeyFrame KeyTime="0:0:0.5" Value="#FFAD54"/>
+                                    </ColorAnimationUsingKeyFrames>
+                                </Storyboard>
+                            </ControlTemplate.Resources>
+
+                            <Grid Background="#FFF9F5C8" x:Name="gridrub">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="300*"/>
+                                    <ColumnDefinition Width="45*"/>
+                                </Grid.ColumnDefinitions>
+                                
+                                <VisualStateManager.VisualStateGroups>
+                                    <VisualStateGroup x:Name="CommonStates">
+                                        <VisualState x:Name="MouseOver"/>
+                                        <VisualState x:Name="Disabled"/>
+                                    </VisualStateGroup>
+                                    <VisualStateGroup x:Name="SelectionStates">
+                                        <VisualState x:Name="Selected"/>
+                                        <VisualState x:Name="SelectedUnfocused"/>
+                                    </VisualStateGroup>
+                                    <VisualStateGroup x:Name="FocusStates">
+                                        <VisualState x:Name="Focused"/>
+                                    </VisualStateGroup>
+                                    <VisualStateGroup x:Name="ValidationStates">
+                                        <VisualState x:Name="InvalidFocused"/>
+                                        <VisualState x:Name="InvalidUnfocused"/>
+                                    </VisualStateGroup>
+                                </VisualStateManager.VisualStateGroups>
+                                <TextBlock Margin="0,0,3,0"   TextWrapping="Wrap" MaxWidth="400"  VerticalAlignment="Center" Text="{Binding}" HorizontalAlignment="Left" />
+                                <Button Grid.Column="1"  HorizontalAlignment="Right" VerticalAlignment="Center" Click="DelKeysOrRubricsClick" Background="#CCFB7B67" BorderThickness="0" Margin="0,2">
+                                    <StackPanel Orientation="Horizontal">
+                                        <Rectangle Width="20" Height="20" Fill="{DynamicResource cancel}">                                          
+                                        </Rectangle>
+                                    </StackPanel>
+                                </Button>
+                            </Grid>
+                            <ControlTemplate.Triggers>
+                                <EventTrigger RoutedEvent="Mouse.MouseEnter" SourceName="gridrub">
+                                    <BeginStoryboard x:Name="OnMouseEnter2_BeginStoryboard" Storyboard="{StaticResource OnMouseEnter2}"/>
+                                </EventTrigger>
+                                <EventTrigger RoutedEvent="Mouse.MouseLeave" SourceName="gridrub">
+                                    <RemoveStoryboard BeginStoryboardName="OnMouseEnter2_BeginStoryboard"/>
+                                </EventTrigger>
+                                
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+
+            <Style x:Key="ButtonFocusVisual">
+                <Setter Property="Control.Template">
+                    <Setter.Value>
+                        <ControlTemplate>
+                            <Rectangle Margin="2" SnapsToDevicePixels="true" Stroke="Black" StrokeThickness="1" StrokeDashArray="1 2"/>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+            <LinearGradientBrush x:Key="ButtonNormalBackground" EndPoint="0,1" StartPoint="0,0">
+                <GradientStop Color="#F3F3F3" Offset="0"/>
+                <GradientStop Color="#EBEBEB" Offset="0.5"/>
+                <GradientStop Color="#DDDDDD" Offset="0.5"/>
+                <GradientStop Color="#CDCDCD" Offset="1"/>
+            </LinearGradientBrush>
+            <SolidColorBrush x:Key="ButtonNormalBorder" Color="Red"/>
+
+            <Storyboard x:Key ="KeysVisible">
+                <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Width)" Storyboard.TargetName="keyslistbox">
+                    <EasingDoubleKeyFrame KeyTime="0:0:1" Value="146"/>
+                </DoubleAnimationUsingKeyFrames>
+            </Storyboard>
+            <Storyboard x:Key ="KeysInvisible">
+                <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Width)" Storyboard.TargetName="keyslistbox">
+                    <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
+                </DoubleAnimationUsingKeyFrames>
+            </Storyboard>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Window.Triggers>
+        <EventTrigger RoutedEvent="ToggleButton.Checked" SourceName="CheckExcelExport">
+            <BeginStoryboard Storyboard="{StaticResource OnChecked1}"/>
+        </EventTrigger>
+        <EventTrigger RoutedEvent="ToggleButton.Unchecked" SourceName="CheckExcelExport">
+            <BeginStoryboard x:Name="OnUnchecked1_BeginStoryboard1" Storyboard="{StaticResource OnUnchecked1}"/>
+        </EventTrigger>
+
+        <EventTrigger RoutedEvent="ToggleButton.Checked" SourceName="keyscheckbox">
+            <BeginStoryboard Storyboard="{StaticResource KeysVisible}"/>
+        </EventTrigger>
+        <EventTrigger RoutedEvent="ToggleButton.Unchecked" SourceName="keyscheckbox">
+            <BeginStoryboard Storyboard="{StaticResource KeysInvisible}"/>
+        </EventTrigger>
+    </Window.Triggers>
+    <Controls:MetroWindow.BorderBrush>
+        <SolidColorBrush Color="{DynamicResource AccentColor}" />
+    </Controls:MetroWindow.BorderBrush>
+    <Controls:MetroWindow.WindowCommands>
+        <Controls:WindowCommands>
+            <Button x:Name="Settings_Button" BorderThickness="0">
+                <StackPanel Orientation="Horizontal">
+                    <Rectangle Width="20" Height="20">
+                        <Rectangle.Fill>
+                            <VisualBrush Stretch="Fill" Visual="{StaticResource appbar_arrow_up_down}"/>
+                        </Rectangle.Fill>
+                    </Rectangle>
+                    <TextBlock Text="Загрузка\Выгрузка" FontFamily="Calibri" FontSize="14" Margin="5,0,0,0"/>
+                </StackPanel>
+            </Button>
+        </Controls:WindowCommands>
+    </Controls:MetroWindow.WindowCommands>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="89*"/>
+            <RowDefinition Height="383*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="391*"/>
+            <ColumnDefinition Width="173*"/>
+        </Grid.ColumnDefinitions>
+        <Controls:Flyout x:Name="FlySettings"  Header="Выгрузка и загрузка порций" Position="Right" Grid.Column="1" Panel.ZIndex="6" Grid.RowSpan="2">
+            <StackPanel Orientation="Vertical">
+                <CheckBox x:Name="CheckExcelExport"  Content="Указать номера для выгрузки" HorizontalAlignment="Left" Height="16" />
+                <StackPanel Orientation=" Horizontal" Margin="0,10,0,15">
+                    <TextBox x:Name="ExportFrom" Opacity="0"  Height="23"  TextWrapping="Wrap" Text="" VerticalAlignment="Bottom" Width="98" Background="#FF6CEC50" Margin="0,0,5,0"/>
+                    <TextBox x:Name="ExportTo" Opacity="0"  Height="23"  TextWrapping="Wrap" Text="" VerticalAlignment="Bottom" Width="98" Background="#FF6CEC50"/>
+                </StackPanel>
+                <Button x:Name="ButtonDelKeywords"   Click="ButtonDelKeywords_Click" Background="#FF46FF10">
+                    <StackPanel Orientation="Horizontal">
+                        <Rectangle Width="20" Height="20">
+                            <Rectangle.Fill>
+                                <VisualBrush Stretch="Fill" Visual="{StaticResource appbar_layer_add}"/>
+                            </Rectangle.Fill>
+                        </Rectangle>
+                        <TextBlock Text="Выгрузка данных в EXCEL" FontFamily="Calibri" FontSize="16" Margin="20,1,0,0" Foreground="#FF191D16"/>
+                    </StackPanel>
+                </Button>                                            
+                <TextBlock x:Name="ProgressTextBlock" TextWrapping="Wrap" Text="" VerticalAlignment="Bottom"  Height="19"/>
+                <ProgressBar x:Name="_ProgressBar"  Height="27" Margin="0,0,0,90"/>
+                <Image Source="pack://siteoforigin:,,,/Resources/KoTe.png" Width="300"/>
+                <Button Click="Button_Click_3"  Background="#FFFF8D8D">
+                    <StackPanel Orientation="Horizontal">
+                        <Rectangle Width="25" Height="25">
+                            <Rectangle.Fill>
+                                <VisualBrush Stretch="Fill" Visual="{StaticResource appbar_warning_circle}"/>
+                            </Rectangle.Fill>
+                        </Rectangle>
+                        <TextBlock Text="Загрузка порции EXCEL" FontFamily="Calibri" FontSize="16" Margin="20,3,0,0" Foreground="#FF191D16"/>
+                    </StackPanel>
+                </Button>
+                <Grid>
+                    <ProgressBar x:Name="ImportFromExcelProgress" Height="26" />
+                    <TextBlock x:Name="SerilizeExcelProcessTextBlock"  HorizontalAlignment="Center"  TextWrapping="Wrap" Text="" Height="16" Width="110"/>
+                </Grid>
+            </StackPanel>
+        </Controls:Flyout>
+        <StackPanel Orientation="Horizontal"  VerticalAlignment="Top" HorizontalAlignment="Left">
+            <StackPanel>
+                <ListBox x:Name="OtraslyListBox" Margin="4,10,0,0" Width="850" Height="137"  FontFamily="Calibri" FontSize="16" ItemContainerStyle="{DynamicResource RubrikiListBoxStyle}">
+                    <ListBox.DataContext>
+                        <local:TextBlockSelection/>
+                    </ListBox.DataContext>
+                    <ListBox.Resources>
+                        <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" Color="#FFAD54"/>
+                    </ListBox.Resources>
+
+                </ListBox>
+                <TextBox x:Name="OtraslySearchBox" TabIndex="1"  Margin="0,5,0,0" TextWrapping="Wrap"  TextChanged="OtraslySearchBoxTextChanged" KeyUp="OtraslySearchBoxKeyUp" Height="22"/>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal"  VerticalAlignment="Top" Margin="0" HorizontalAlignment="Right" >
+            <StackPanel>
+                <ListBox x:Name="KeysListBox"   Height="137" Margin="0,10,10,0" Width="250"  FontFamily="Calibri" FontSize="16" ItemContainerStyle="{DynamicResource RubrikiListBoxStyle}">
+                    <ListBox.DataContext>
+                        <local:TextBlockSelection/>
+                    </ListBox.DataContext>
+                    <ListBox.Resources>
+                        <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" Color="#FFAD54"/>
+                    </ListBox.Resources>
+                </ListBox>
+                <TextBox x:Name="KeySearchBox" TabIndex="2"  Margin="0,5,10,0" TextWrapping="Wrap"  Width="250" TextChanged="KeyTextChanged"  KeyUp="KeySearchKeyUp" Height="22"/>
+            </StackPanel>
+        </StackPanel>
+        <ListBox x:Name="SpisokListBox" ItemsSource="{Binding Source=ReadFromTable}"  VerticalAlignment="Top"  ItemContainerStyle="{DynamicResource MainListBoxItemStyle}" Grid.Row="1" Margin="0,5,0,0" Background="#FFFB0909">
+            <ListBox.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="Копировать рубрики" Click="CopyRubriki"/>
+                    <MenuItem Header="Вставить рубрики"  Click="PasteRubriki"/>
+                    <Separator></Separator>
+                    <MenuItem Header="Копировать ключевые слова"  Click="CopyKeyWords"/>
+                    <MenuItem Header="Вставить ключевые слова"  Click="PasteKeyWorsd"/>
+                </ContextMenu>
+            </ListBox.ContextMenu>
+            <ListBox.DataContext>
+                <local:IPSMySqlConnection/>
+            </ListBox.DataContext>
+        </ListBox>
+        <RichTextBox x:Name="ActText"  VerticalScrollBarVisibility="Visible" Panel.ZIndex="5" Margin="0,5" FontFamily="Calibri" FontSize="16" Grid.Column="1" IsReadOnly ="True" Grid.Row="1"/>
+        <Popup x:Name="cmenu" Placement="MousePoint" StaysOpen="True" AllowsTransparency="True" Grid.RowSpan="2">
+            <StackPanel Background="White">
+                <StackPanel.DataContext>
+                    <local:TextBlockSelection/>
+                </StackPanel.DataContext>
+                <ListBox x:Name="ContextMenuListBox" Margin="0,5,0,0" Height="100" Width="200"  FontFamily="Calibri" FontSize="16" ItemContainerStyle="{DynamicResource RubrikiListBoxStyle}">
+                    <ListBox.Resources>
+                        <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" Color="#FFAD54"/>
+                    </ListBox.Resources>
+                </ListBox>
+                <TextBox x:Name="ContextMenuKeySearchBox" TabIndex="2" Margin="0,5,0,0" TextWrapping="Wrap" KeyUp="KeySearchKeyUp" TextChanged="KeyTextChanged" Height="22"/>
+                <StackPanel Orientation="Horizontal" Width="200">
+                    <Button x:Name="ContextMenuOk" Width="100"  Margin="0,0,5,0" Background="#FFDEFB91">
+                        <StackPanel Orientation="Horizontal">
+                            <Rectangle Width="20" Height="20">
+                                <Rectangle.Fill>
+                                    <VisualBrush Stretch="Fill" Visual="{StaticResource appbar_star_add}"/>
+                                </Rectangle.Fill>
+                            </Rectangle>
+                            <TextBlock Text="OK" FontFamily="Calibri" FontSize="16" Margin="20,1,0,0" Foreground="#FF191D16"/>
+                        </StackPanel>
+                    </Button>
+                    <Button x:Name="ContextMenuCancel" Background="#FFFBB186">
+                        <StackPanel Orientation="Horizontal">
+                            <Rectangle Width="20" Height="20">
+                                <Rectangle.Fill>
+                                    <VisualBrush Stretch="Fill" Visual="{StaticResource appbar_power}"/>
+                                </Rectangle.Fill>
+                            </Rectangle>
+                            <TextBlock Text="Отмена" FontFamily="Calibri" FontSize="16" Margin="10,1,0,0" Foreground="#FF191D16"/>
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+            </StackPanel>
+        </Popup>
+        <Button x:Name="FindDubleButton"   HorizontalAlignment="Left" Margin="130,5,0,0" VerticalAlignment="Top" Grid.Column="1" >
+            <StackPanel Orientation="Horizontal">
+                <Rectangle Width="20" Height="20">
+                    <Rectangle.Fill>
+                        <VisualBrush Stretch="Fill" Visual="{StaticResource appbar_layer_add}"/>
+                    </Rectangle.Fill>
+                </Rectangle>
+                <TextBlock Text="Найти идентичные выделенному" FontFamily="Calibri" FontSize="14" Margin="5,2,0,0"/>
+            </StackPanel>
+        </Button>
+        <TextBox x:Name="CorrectTextBox"  IsEnabled="{Binding IsChecked, ElementName=CorCheck}"  Height="107" Margin="0,40,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Grid.Column="1"/>
+        <CheckBox x:Name="CorCheck"  Content="Скорректировать:" HorizontalAlignment="Left" Margin="0,10,0,0" VerticalAlignment="Top" Width="126" Grid.Column="1" Height="16"/>
+        <TextBlock x:Name="ActsCount"  HorizontalAlignment="Left" Text=""  Margin="0,216,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" FontFamily="calibri" FontSize="16" Grid.Column="1" Height="20" Width="0" Grid.Row="1"/>
+
+
+        <toolbox:BusyIndicator x:Name="bindicator" Background="Red" Margin="0,5,0,0" Height="66"  VerticalAlignment="Top" Grid.Column="1" Panel.ZIndex="5" Grid.Row="1"/>
+        <ListBox x:Name ="keyslistbox" HorizontalAlignment="Left" Background="#CCE6E65E"  Height="695" Margin="0,3,0,0" VerticalAlignment="Top" Width="0" Grid.Column="1" Panel.ZIndex="5" FontFamily="Calibri" FontSize="16" Grid.Row="1">
+            <ListBox.ItemContainerStyle>
+                <Style TargetType="{x:Type ListBoxItem}">
+                    <Setter Property="Foreground" Value="#FFB4F920"/>
+                    <Setter Property="ListBoxItem.Background" Value="#CC000000"/>
+                    <Style.Triggers>
+                        <Trigger Property="IsSelected" Value="true">
+                            <Setter Property="Foreground" Value="#FF0F0F0F"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </ListBox.ItemContainerStyle>
+            <ListBox.Resources>
+                <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" Color="#FFAD54"/>
+            </ListBox.Resources>
+        </ListBox>
+        <Controls:ToggleSwitch x:Name="keyscheckbox"  Content="Список слов " Grid.Column="1" HorizontalAlignment="Left" Margin="0,145,0,0" VerticalAlignment="Top" Foreground="#FF0C77F7" SwitchForeground="#CC3DC927" Grid.RowSpan="2"/>
+    </Grid>
+</Controls:MetroWindow>

@@ -1,0 +1,11 @@
+NameSpace: Classification Module: MoveNext Date: 19.11.2015-10:53:44  Exception:Не удалось преобразовать значение параметра из Int32 в Byte[].
+NameSpace: Classification Module: MoveNext Date: 19.11.2015-10:53:45  Exception:Не удалось привести тип объекта "System.Int32" к типу "System.String".
+NameSpace: Classification Module: MoveNext Date: 19.11.2015-10:53:47  Exception:Неопределенные данные. Этот метод или свойство не может вызываться для значений равных Null.
+NameSpace: Classification Module: MoveNext Date: 19.11.2015-11:05:04  Exception:Не удалось привести тип объекта "System.Int32" к типу "System.String".
+NameSpace: Classification Module: MoveNext Date: 19.11.2015-11:05:07  Exception:Неопределенные данные. Этот метод или свойство не может вызываться для значений равных Null.
+NameSpace: Classification Module: MoveNext Date: 19.11.2015-11:19:32  Exception:Неопределенные данные. Этот метод или свойство не может вызываться для значений равных Null.
+NameSpace: Classification Module: getActText Date: 19.11.2015-13:18:34  Exception:Connector/Net no longer supports server versions prior to 4.1
+NameSpace: Classification Module: getActText Date: 19.11.2015-13:18:47  Exception:Connector/Net no longer supports server versions prior to 4.1
+NameSpace: Classification Module: getActText Date: 19.11.2015-13:21:46  Exception:Connector/Net no longer supports server versions prior to 4.1
+NameSpace: Classification Module: getActText Date: 19.11.2015-13:22:02  Exception:Connector/Net no longer supports server versions prior to 4.1
+NameSpace: Classification Module: MoveNext Date: 19.11.2015-13:40:48  Exception:Недопустимая операция. Подключение закрыто.

@@ -1,0 +1,601 @@
+05-07-2017 08:29:04|INFO|IKSAR|В базу импортирован документ 31e24ccf-2018-4f34-8dc8-6c0ab0f6fe90 из файла EXCEL|
+05-07-2017 08:56:55|INFO|IKSAR|В базу импортирован документ 327cd96f-e7d3-4c2a-8ed1-1da2a45703d1 из файла EXCEL|
+05-07-2017 09:04:05|FATAL|IKSAR|System.Data.SqlClient.SqlException (0x80131904): Ошибка! Документ с такими реквизитами уже существует в базе данных! Происходит откат транзакции.
+Транзакция завершилась в триггере. Выполнение пакета прервано.
+   в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   в System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   в System.Data.SqlClient.SqlCommand.EndExecuteNonQueryAsync(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в Classification.DB.DbWriter.<ImportExcelRecord>d__6.MoveNext() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbWriter.cs:строка 88
+ClientConnectionId:82f57bac-19d5-4fc6-9fea-bb7cf1c4d7a1
+Error Number: 50000, State: 1, Class: 16|System.Data.SqlClient.SqlException (0x80131904): Ошибка! Документ с такими реквизитами уже существует в базе данных! Происходит откат транзакции.
+Транзакция завершилась в триггере. Выполнение пакета прервано.
+   в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   в System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   в System.Data.SqlClient.SqlCommand.EndExecuteNonQueryAsync(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в Classification.DB.DbWriter.<ImportExcelRecord>d__6.MoveNext() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbWriter.cs:строка 88
+ClientConnectionId:82f57bac-19d5-4fc6-9fea-bb7cf1c4d7a1
+Error Number: 50000, State: 1, Class: 16
+05-07-2017 09:04:33|INFO|IKSAR|В базу импортирован документ 5896275a-4292-4847-904d-2c3216643b71 из файла EXCEL|
+05-07-2017 09:21:57|INFO|IKSAR|В базу импортирован документ e4236ce3-03bb-4fc0-87ee-d31fa4b58d3e из файла EXCEL|
+05-07-2017 09:22:37|INFO|IKSAR|В базу импортирован документ 7094f983-a7fe-4209-88b7-2475fb53a8f8 из файла EXCEL|
+05-07-2017 09:22:45|INFO|IKSAR|В базу импортирован документ 998c2507-eb71-4d73-a086-726750e0bc3e из файла EXCEL|
+05-07-2017 11:01:56|FATAL|IKSAR|System.IO.IOException: Процесс не может получить доступ к файлу "C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Import\08082016.xls", так как этот файл используется другим процессом.
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   в System.IO.File.Open(String path, FileMode mode, FileAccess access, FileShare share)
+   в Classification.Modules.MainListViewModule.ExcelExporter.<ViewExcelFileRow>b__26_0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ExcelExporter.cs:строка 82
+   в System.Threading.Tasks.Task.InnerInvoke()
+   в System.Threading.Tasks.Task.Execute()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   в Classification.Modules.MainListViewModule.ExcelExporter.<ViewExcelFileRow>d__26.MoveNext() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ExcelExporter.cs:строка 75|System.IO.IOException: Процесс не может получить доступ к файлу "C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Import\08082016.xls", так как этот файл используется другим процессом.
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   в System.IO.File.Open(String path, FileMode mode, FileAccess access, FileShare share)
+   в Classification.Modules.MainListViewModule.ExcelExporter.<ViewExcelFileRow>b__26_0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ExcelExporter.cs:строка 82
+   в System.Threading.Tasks.Task.InnerInvoke()
+   в System.Threading.Tasks.Task.Execute()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   в Classification.Modules.MainListViewModule.ExcelExporter.<ViewExcelFileRow>d__26.MoveNext() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ExcelExporter.cs:строка 75
+05-07-2017 11:18:42|INFO|IKSAR|В базу импортирован документ 5b12ae96-a50f-4aa8-a9d2-6f397c8728e0 из файла EXCEL|
+05-07-2017 11:18:42|INFO|IKSAR|В базу импортирован документ 31546bfb-9fa6-473b-a3ef-fe8ee9bafdeb из файла EXCEL|
+05-07-2017 11:18:42|INFO|IKSAR|В базу импортирован документ 3d5479ee-1eba-4be8-9782-769222a3944c из файла EXCEL|
+05-07-2017 13:04:52|FATAL|IKSAR|System.ArgumentException: Ключевое слово ee3c398a-b684-4f5e-9c3a-f37fba21da84 уже добавлено к документу
+   в Classification.Modules.MainListViewModule.ViewModels.ViewMainListViewModuleViewModel.AddingKey(Guid Id) в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ViewModels\ViewMainListViewModuleViewModel.cs:строка 120|System.ArgumentException: Ключевое слово ee3c398a-b684-4f5e-9c3a-f37fba21da84 уже добавлено к документу
+   в Classification.Modules.MainListViewModule.ViewModels.ViewMainListViewModuleViewModel.AddingKey(Guid Id) в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ViewModels\ViewMainListViewModuleViewModel.cs:строка 120
+05-07-2017 13:29:33|INFO|IKSAR|Удалено 0 ключевых слов из документа da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 на замену|
+05-07-2017 13:29:33|INFO|IKSAR|К документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 добавлено ключевое слово: Город|
+05-07-2017 13:29:33|INFO|IKSAR|К документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 добавлено ключевое слово: Государство|
+05-07-2017 13:29:33|INFO|IKSAR|К документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 добавлено ключевое слово: Информация|
+05-07-2017 13:29:33|INFO|IKSAR|К документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 добавлено ключевое слово: Программа|
+05-07-2017 13:29:33|INFO|IKSAR|К документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 добавлено ключевое слово: Реализация|
+05-07-2017 13:29:33|INFO|IKSAR|К документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 добавлено ключевое слово: Управление|
+05-07-2017 13:29:33|INFO|IKSAR|Удалено 2 рубрик из документа da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 на замену|
+05-07-2017 13:29:33|INFO|IKSAR|К документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 добавлена рубрика: 020.030.020 Государственные программы. Концепции|
+05-07-2017 13:29:33|INFO|IKSAR|К документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 добавлена рубрика: 120.040.010 Информатизация|
+05-07-2017 13:29:33|INFO|IKSAR|Документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 выставлен флаг IsReadyToExport = True, Строк обработано 1|
+05-07-2017 13:31:13|INFO|IKSAR|Удалено 6 ключевых слов из документа da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 на замену|
+05-07-2017 13:31:13|INFO|IKSAR|К документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 добавлено ключевое слово: Город|
+05-07-2017 13:31:13|INFO|IKSAR|К документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 добавлено ключевое слово: Государство|
+05-07-2017 13:31:13|INFO|IKSAR|К документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 добавлено ключевое слово: Информация|
+05-07-2017 13:31:13|INFO|IKSAR|К документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 добавлено ключевое слово: Программа|
+05-07-2017 13:31:13|INFO|IKSAR|К документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 добавлено ключевое слово: Реализация|
+05-07-2017 13:31:13|INFO|IKSAR|К документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 добавлено ключевое слово: Управление|
+05-07-2017 13:31:13|INFO|IKSAR|Удалено 2 рубрик из документа da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 на замену|
+05-07-2017 13:31:13|INFO|IKSAR|К документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 добавлена рубрика: 020.030.020 Государственные программы. Концепции|
+05-07-2017 13:31:13|INFO|IKSAR|К документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 добавлена рубрика: 120.040.010 Информатизация|
+05-07-2017 13:31:13|INFO|IKSAR|Документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 выставлен флаг IsReadyToExport = True, Строк обработано 1|
+05-07-2017 13:38:26|INFO|IKSAR|Удалено 6 ключевых слов из документа da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 на замену|
+05-07-2017 13:38:26|INFO|IKSAR|К документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 добавлено ключевое слово: Город|
+05-07-2017 13:38:26|INFO|IKSAR|К документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 добавлено ключевое слово: Государство|
+05-07-2017 13:38:26|INFO|IKSAR|К документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 добавлено ключевое слово: Информация|
+05-07-2017 13:38:26|INFO|IKSAR|К документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 добавлено ключевое слово: Программа|
+05-07-2017 13:38:26|INFO|IKSAR|К документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 добавлено ключевое слово: Реализация|
+05-07-2017 13:38:26|INFO|IKSAR|К документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 добавлено ключевое слово: Управление|
+05-07-2017 13:38:26|INFO|IKSAR|Удалено 2 рубрик из документа da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 на замену|
+05-07-2017 13:38:26|INFO|IKSAR|К документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 добавлена рубрика: 020.030.020 Государственные программы. Концепции|
+05-07-2017 13:38:26|INFO|IKSAR|К документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 добавлена рубрика: 120.040.010 Информатизация|
+05-07-2017 13:38:26|INFO|IKSAR|Документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 выставлен флаг IsReadyToExport = True, Строк обработано 1|
+05-07-2017 13:38:38|INFO|IKSAR|Удалено 6 ключевых слов из документа da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 на замену|
+05-07-2017 13:38:38|INFO|IKSAR|К документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 добавлено ключевое слово: Город|
+05-07-2017 13:38:38|INFO|IKSAR|К документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 добавлено ключевое слово: Государство|
+05-07-2017 13:38:38|INFO|IKSAR|К документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 добавлено ключевое слово: Информация|
+05-07-2017 13:38:38|INFO|IKSAR|К документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 добавлено ключевое слово: Программа|
+05-07-2017 13:38:38|INFO|IKSAR|К документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 добавлено ключевое слово: Реализация|
+05-07-2017 13:38:38|INFO|IKSAR|К документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 добавлено ключевое слово: Управление|
+05-07-2017 13:38:38|INFO|IKSAR|Удалено 2 рубрик из документа da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 на замену|
+05-07-2017 13:38:38|INFO|IKSAR|К документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 добавлена рубрика: 020.030.020 Государственные программы. Концепции|
+05-07-2017 13:38:38|INFO|IKSAR|К документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 добавлена рубрика: 120.040.010 Информатизация|
+05-07-2017 13:38:38|INFO|IKSAR|Документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 выставлен флаг IsReadyToExport = True, Строк обработано 1|
+05-07-2017 13:38:58|FATAL|IKSAR|System.ArgumentException: Ключевое слово c98f4dd4-2802-47a6-af26-79e09474f5ee уже добавлено к документу
+   в Classification.Modules.MainListViewModule.ViewModels.ViewMainListViewModuleViewModel.AddingKey(Guid Id) в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ViewModels\ViewMainListViewModuleViewModel.cs:строка 122|System.ArgumentException: Ключевое слово c98f4dd4-2802-47a6-af26-79e09474f5ee уже добавлено к документу
+   в Classification.Modules.MainListViewModule.ViewModels.ViewMainListViewModuleViewModel.AddingKey(Guid Id) в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ViewModels\ViewMainListViewModuleViewModel.cs:строка 122
+05-07-2017 13:39:56|INFO|IKSAR|Удалено 0 ключевых слов из документа 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 на замену|
+05-07-2017 13:39:56|INFO|IKSAR|Удалено 6 ключевых слов из документа da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 на замену|
+05-07-2017 13:39:56|INFO|IKSAR|К документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 добавлено ключевое слово: Город|
+05-07-2017 13:39:56|INFO|IKSAR|К документу 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 добавлено ключевое слово: Культура|
+05-07-2017 13:39:56|INFO|IKSAR|К документу 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 добавлено ключевое слово: Наследие|
+05-07-2017 13:39:56|INFO|IKSAR|К документу 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 добавлено ключевое слово: Объект|
+05-07-2017 13:39:56|INFO|IKSAR|К документу 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 добавлено ключевое слово: Положения|
+05-07-2017 13:39:56|INFO|IKSAR|К документу 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 добавлено ключевое слово: Утверждение|
+05-07-2017 13:39:56|INFO|IKSAR|Удалено 0 рубрик из документа 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 на замену|
+05-07-2017 13:39:56|INFO|IKSAR|К документу 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 добавлена рубрика: 020.010.050 Органы исполнительной власти субъектов Российской Федерации|
+05-07-2017 13:39:56|INFO|IKSAR|К документу 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 добавлена рубрика: 130.030.030 Национальное культурное наследие народов Российской Федерации|
+05-07-2017 13:39:56|INFO|IKSAR|Документу 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 выставлен флаг IsReadyToExport = True, Строк обработано 1|
+05-07-2017 13:39:56|FATAL|IKSAR|System.Data.SqlClient.SqlException (0x80131904): Нарушение "PK_KeysValues_1" ограничения PRIMARY KEY. Невозможно вставить повторяющийся ключ в объект "dbo.KeysValues".
+Выполнение данной инструкции было прервано.
+   в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   в System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   в System.Data.SqlClient.SqlCommand.EndExecuteNonQueryAsync(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в Classification.DB.DbWriter.<AddReadyKeywordToBase>d__9.MoveNext() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbWriter.cs:строка 203
+ClientConnectionId:10fdb7cc-4b66-4db0-9dfb-95267f397222
+Error Number: 2627, State: 1, Class: 14|System.Data.SqlClient.SqlException (0x80131904): Нарушение "PK_KeysValues_1" ограничения PRIMARY KEY. Невозможно вставить повторяющийся ключ в объект "dbo.KeysValues".
+Выполнение данной инструкции было прервано.
+   в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   в System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   в System.Data.SqlClient.SqlCommand.EndExecuteNonQueryAsync(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в Classification.DB.DbWriter.<AddReadyKeywordToBase>d__9.MoveNext() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbWriter.cs:строка 203
+ClientConnectionId:10fdb7cc-4b66-4db0-9dfb-95267f397222
+Error Number: 2627, State: 1, Class: 14
+05-07-2017 13:39:56|INFO|IKSAR|Удалено 2 рубрик из документа da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 на замену|
+05-07-2017 13:39:56|INFO|IKSAR|К документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 добавлена рубрика: 120.040.010 Информатизация|
+05-07-2017 13:39:56|FATAL|IKSAR|System.Data.SqlClient.SqlException (0x80131904): Нарушение "PK_RubricsValues_1" ограничения PRIMARY KEY. Невозможно вставить повторяющийся ключ в объект "dbo.RubricsValues".
+Выполнение данной инструкции было прервано.
+   в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   в System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   в System.Data.SqlClient.SqlCommand.EndExecuteNonQueryAsync(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в Classification.DB.DbWriter.<AddReadyRubricToBase>d__10.MoveNext() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbWriter.cs:строка 250
+ClientConnectionId:10fdb7cc-4b66-4db0-9dfb-95267f397222
+Error Number: 2627, State: 1, Class: 14|System.Data.SqlClient.SqlException (0x80131904): Нарушение "PK_RubricsValues_1" ограничения PRIMARY KEY. Невозможно вставить повторяющийся ключ в объект "dbo.RubricsValues".
+Выполнение данной инструкции было прервано.
+   в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   в System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   в System.Data.SqlClient.SqlCommand.EndExecuteNonQueryAsync(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в Classification.DB.DbWriter.<AddReadyRubricToBase>d__10.MoveNext() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbWriter.cs:строка 250
+ClientConnectionId:10fdb7cc-4b66-4db0-9dfb-95267f397222
+Error Number: 2627, State: 1, Class: 14
+05-07-2017 13:42:04|INFO|IKSAR|Удалено 1 ключевых слов из документа da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 на замену|
+05-07-2017 13:42:04|INFO|IKSAR|Удалено 5 ключевых слов из документа 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 на замену|
+05-07-2017 13:42:04|INFO|IKSAR|К документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 добавлено ключевое слово: Город|
+05-07-2017 13:42:04|INFO|IKSAR|К документу 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 добавлено ключевое слово: Объект|
+05-07-2017 13:43:53|FATAL|IKSAR|System.ArgumentException: Ключевое слово 2f41e417-b7a1-44a0-a3e4-f8d6c5fa2a18 уже добавлено к документу
+   в Classification.Modules.MainListViewModule.ViewModels.ViewMainListViewModuleViewModel.AddingKey(Guid Id) в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ViewModels\ViewMainListViewModuleViewModel.cs:строка 122|System.ArgumentException: Ключевое слово 2f41e417-b7a1-44a0-a3e4-f8d6c5fa2a18 уже добавлено к документу
+   в Classification.Modules.MainListViewModule.ViewModels.ViewMainListViewModuleViewModel.AddingKey(Guid Id) в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ViewModels\ViewMainListViewModuleViewModel.cs:строка 122
+05-07-2017 13:43:56|FATAL|IKSAR|System.ArgumentException: Ключевое слово 0429311d-d0c6-44c6-9b7e-04b1ad037fee уже добавлено к документу
+   в Classification.Modules.MainListViewModule.ViewModels.ViewMainListViewModuleViewModel.AddingKey(Guid Id) в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ViewModels\ViewMainListViewModuleViewModel.cs:строка 122|System.ArgumentException: Ключевое слово 0429311d-d0c6-44c6-9b7e-04b1ad037fee уже добавлено к документу
+   в Classification.Modules.MainListViewModule.ViewModels.ViewMainListViewModuleViewModel.AddingKey(Guid Id) в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ViewModels\ViewMainListViewModuleViewModel.cs:строка 122
+05-07-2017 13:44:07|INFO|IKSAR|Удалено 1 ключевых слов из документа 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 на замену|
+05-07-2017 13:44:07|INFO|IKSAR|К документу 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 добавлено ключевое слово: Культура|
+05-07-2017 13:44:07|INFO|IKSAR|К документу 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 добавлено ключевое слово: Наследие|
+05-07-2017 13:44:07|INFO|IKSAR|К документу 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 добавлено ключевое слово: Объект|
+05-07-2017 13:44:07|INFO|IKSAR|Удалено 2 рубрик из документа 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 на замену|
+05-07-2017 13:44:07|INFO|IKSAR|К документу 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 добавлена рубрика: 020.010.050 Органы исполнительной власти субъектов Российской Федерации|
+05-07-2017 13:44:07|INFO|IKSAR|Документу 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 выставлен флаг IsReadyToExport = True, Строк обработано 1|
+05-07-2017 13:46:32|INFO|IKSAR|Удалено 1 ключевых слов из документа da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 на замену|
+05-07-2017 13:46:32|INFO|IKSAR|К документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 добавлено ключевое слово: Город|
+05-07-2017 13:46:32|INFO|IKSAR|К документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 добавлено ключевое слово: Информация|
+05-07-2017 13:46:32|INFO|IKSAR|К документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 добавлено ключевое слово: Программа|
+05-07-2017 13:46:32|INFO|IKSAR|К документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 добавлено ключевое слово: Утверждение|
+05-07-2017 13:46:32|INFO|IKSAR|Удалено 1 рубрик из документа da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 на замену|
+05-07-2017 13:46:32|INFO|IKSAR|К документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 добавлена рубрика: 020.030.020 Государственные программы. Концепции|
+05-07-2017 13:46:32|INFO|IKSAR|К документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 добавлена рубрика: 120.040.010 Информатизация|
+05-07-2017 13:46:32|INFO|IKSAR|Документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 выставлен флаг IsReadyToExport = True, Строк обработано 1|
+05-07-2017 13:47:02|FATAL|IKSAR|System.ArgumentException: Рубрика 8acdf1dc-d0eb-4ee9-be8e-1ec9da989f7c уже добавлена к рубрикам документа
+   в Classification.Modules.MainListViewModule.ViewModels.ViewMainListViewModuleViewModel.AddingRubric(Guid Id) в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ViewModels\ViewMainListViewModuleViewModel.cs:строка 146|System.ArgumentException: Рубрика 8acdf1dc-d0eb-4ee9-be8e-1ec9da989f7c уже добавлена к рубрикам документа
+   в Classification.Modules.MainListViewModule.ViewModels.ViewMainListViewModuleViewModel.AddingRubric(Guid Id) в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ViewModels\ViewMainListViewModuleViewModel.cs:строка 146
+05-07-2017 13:47:09|INFO|IKSAR|Удалено 3 ключевых слов из документа 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 на замену|
+05-07-2017 13:47:09|INFO|IKSAR|К документу 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 добавлено ключевое слово: Культура|
+05-07-2017 13:47:09|INFO|IKSAR|К документу 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 добавлено ключевое слово: Наследие|
+05-07-2017 13:47:09|INFO|IKSAR|К документу 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 добавлено ключевое слово: Объект|
+05-07-2017 13:47:09|INFO|IKSAR|Удалено 1 рубрик из документа 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 на замену|
+05-07-2017 13:47:09|INFO|IKSAR|К документу 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 добавлена рубрика: 020.010.050 Органы исполнительной власти субъектов Российской Федерации|
+05-07-2017 13:47:09|INFO|IKSAR|К документу 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 добавлена рубрика: 130.030.030 Национальное культурное наследие народов Российской Федерации|
+05-07-2017 13:47:09|INFO|IKSAR|Документу 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 выставлен флаг IsReadyToExport = True, Строк обработано 1|
+05-07-2017 13:47:27|INFO|IKSAR|Удалено 3 ключевых слов из документа 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 на замену|
+05-07-2017 13:47:27|INFO|IKSAR|К документу 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 добавлено ключевое слово: Контроль|
+05-07-2017 13:47:27|INFO|IKSAR|К документу 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 добавлено ключевое слово: Культура|
+05-07-2017 13:47:27|INFO|IKSAR|К документу 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 добавлено ключевое слово: Мероприятие|
+05-07-2017 13:47:27|INFO|IKSAR|К документу 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 добавлено ключевое слово: Наследие|
+05-07-2017 13:47:27|INFO|IKSAR|К документу 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 добавлено ключевое слово: Объект|
+05-07-2017 13:47:27|INFO|IKSAR|Удалено 2 рубрик из документа 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 на замену|
+05-07-2017 13:47:27|INFO|IKSAR|К документу 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 добавлена рубрика: 020.010.050 Органы исполнительной власти субъектов Российской Федерации|
+05-07-2017 13:47:27|INFO|IKSAR|К документу 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 добавлена рубрика: 130.030.030 Национальное культурное наследие народов Российской Федерации|
+05-07-2017 13:47:27|INFO|IKSAR|Документу 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 выставлен флаг IsReadyToExport = True, Строк обработано 1|
+05-07-2017 13:47:54|INFO|IKSAR|Удалено 5 ключевых слов из документа 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 на замену|
+05-07-2017 13:47:54|INFO|IKSAR|К документу 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 добавлено ключевое слово: Объект|
+05-07-2017 13:48:33|FATAL|IKSAR|System.Data.SqlClient.SqlException (0x80131904): Нарушение "PK_KeysValues_1" ограничения PRIMARY KEY. Невозможно вставить повторяющийся ключ в объект "dbo.KeysValues".
+Выполнение данной инструкции было прервано.
+   в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   в System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   в System.Data.SqlClient.SqlCommand.EndExecuteNonQueryAsync(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в Classification.DB.DbWriter.<AddReadyKeywordToBase>d__9.MoveNext() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbWriter.cs:строка 203
+ClientConnectionId:f5013e44-074b-4df0-b637-2854fd604ff4
+Error Number: 2627, State: 1, Class: 14|System.Data.SqlClient.SqlException (0x80131904): Нарушение "PK_KeysValues_1" ограничения PRIMARY KEY. Невозможно вставить повторяющийся ключ в объект "dbo.KeysValues".
+Выполнение данной инструкции было прервано.
+   в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   в System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   в System.Data.SqlClient.SqlCommand.EndExecuteNonQueryAsync(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в Classification.DB.DbWriter.<AddReadyKeywordToBase>d__9.MoveNext() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbWriter.cs:строка 203
+ClientConnectionId:f5013e44-074b-4df0-b637-2854fd604ff4
+Error Number: 2627, State: 1, Class: 14
+05-07-2017 13:48:33|INFO|IKSAR|Удалено 2 рубрик из документа 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 на замену|
+05-07-2017 13:48:33|INFO|IKSAR|К документу 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 добавлена рубрика: 020.010.050 Органы исполнительной власти субъектов Российской Федерации|
+05-07-2017 13:48:35|FATAL|IKSAR|System.Data.SqlClient.SqlException (0x80131904): Нарушение "PK_RubricsValues_1" ограничения PRIMARY KEY. Невозможно вставить повторяющийся ключ в объект "dbo.RubricsValues".
+Выполнение данной инструкции было прервано.
+   в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   в System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   в System.Data.SqlClient.SqlCommand.EndExecuteNonQueryAsync(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в Classification.DB.DbWriter.<AddReadyRubricToBase>d__10.MoveNext() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbWriter.cs:строка 250
+ClientConnectionId:f5013e44-074b-4df0-b637-2854fd604ff4
+Error Number: 2627, State: 1, Class: 14|System.Data.SqlClient.SqlException (0x80131904): Нарушение "PK_RubricsValues_1" ограничения PRIMARY KEY. Невозможно вставить повторяющийся ключ в объект "dbo.RubricsValues".
+Выполнение данной инструкции было прервано.
+   в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader()
+   в System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   в System.Data.SqlClient.SqlCommand.EndExecuteNonQueryAsync(IAsyncResult asyncResult)
+   в System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в Classification.DB.DbWriter.<AddReadyRubricToBase>d__10.MoveNext() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbWriter.cs:строка 250
+ClientConnectionId:f5013e44-074b-4df0-b637-2854fd604ff4
+Error Number: 2627, State: 1, Class: 14
+05-07-2017 13:51:06|INFO|IKSAR|Удалено 1 ключевых слов из документа 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 на замену|
+05-07-2017 13:51:06|INFO|IKSAR|К документу 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 добавлено ключевое слово: Департамент|
+05-07-2017 13:51:06|INFO|IKSAR|К документу 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 добавлено ключевое слово: Культура|
+05-07-2017 13:51:06|INFO|IKSAR|К документу 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 добавлено ключевое слово: Объект|
+05-07-2017 13:51:06|INFO|IKSAR|К документу 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 добавлено ключевое слово: Положения|
+05-07-2017 13:51:06|INFO|IKSAR|К документу 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 добавлено ключевое слово: Утверждение|
+05-07-2017 13:51:06|INFO|IKSAR|Удалено 1 рубрик из документа 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 на замену|
+05-07-2017 13:51:06|INFO|IKSAR|К документу 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 добавлена рубрика: 020.010.050 Органы исполнительной власти субъектов Российской Федерации|
+05-07-2017 13:51:06|INFO|IKSAR|Документу 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 выставлен флаг IsReadyToExport = True, Строк обработано 1|
+05-07-2017 13:55:31|INFO|IKSAR|Удалено 5 ключевых слов из документа 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 на замену|
+05-07-2017 13:55:31|INFO|IKSAR|К документу 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 добавлено ключевое слово: Департамент|
+05-07-2017 13:55:31|INFO|IKSAR|К документу 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 добавлено ключевое слово: Изменение|
+05-07-2017 13:55:31|INFO|IKSAR|К документу 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 добавлено ключевое слово: Культура|
+05-07-2017 13:55:31|INFO|IKSAR|К документу 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 добавлено ключевое слово: Объект|
+05-07-2017 13:55:31|INFO|IKSAR|К документу 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 добавлено ключевое слово: Утверждение|
+05-07-2017 13:55:31|INFO|IKSAR|Удалено 1 рубрик из документа 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 на замену|
+05-07-2017 13:55:31|INFO|IKSAR|К документу 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 добавлена рубрика: 020.010.050 Органы исполнительной власти субъектов Российской Федерации|
+05-07-2017 13:55:31|INFO|IKSAR|Документу 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 выставлен флаг IsReadyToExport = True, Строк обработано 1|
+05-07-2017 13:56:17|INFO|IKSAR|Удалено 5 ключевых слов из документа 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 на замену|
+05-07-2017 13:56:17|INFO|IKSAR|К документу 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 добавлено ключевое слово: Департамент|
+05-07-2017 13:56:17|INFO|IKSAR|К документу 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 добавлено ключевое слово: Изменение|
+05-07-2017 13:56:17|INFO|IKSAR|К документу 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 добавлено ключевое слово: Культура|
+05-07-2017 13:56:17|INFO|IKSAR|К документу 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 добавлено ключевое слово: Объект|
+05-07-2017 13:56:17|INFO|IKSAR|К документу 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 добавлено ключевое слово: Утверждение|
+05-07-2017 13:56:17|INFO|IKSAR|Удалено 1 рубрик из документа 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 на замену|
+05-07-2017 13:56:17|INFO|IKSAR|К документу 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 добавлена рубрика: 020.010.050 Органы исполнительной власти субъектов Российской Федерации|
+05-07-2017 13:56:17|INFO|IKSAR|Документу 9b8c7b72-3d71-42fd-9c6d-a848908f7de7 выставлен флаг IsReadyToExport = True, Строк обработано 1|
+05-07-2017 13:58:41|INFO|IKSAR|Удалено 0 ключевых слов из документа 4488e975-3064-4107-be5c-4598e1d20f46 на замену|
+05-07-2017 13:58:41|INFO|IKSAR|К документу 4488e975-3064-4107-be5c-4598e1d20f46 добавлено ключевое слово: Земля|
+05-07-2017 13:58:41|INFO|IKSAR|К документу 4488e975-3064-4107-be5c-4598e1d20f46 добавлено ключевое слово: Использование|
+05-07-2017 13:58:41|INFO|IKSAR|К документу 4488e975-3064-4107-be5c-4598e1d20f46 добавлено ключевое слово: Пресечение|
+05-07-2017 13:58:41|INFO|IKSAR|К документу 4488e975-3064-4107-be5c-4598e1d20f46 добавлено ключевое слово: Утверждение|
+05-07-2017 13:58:41|INFO|IKSAR|К документу 4488e975-3064-4107-be5c-4598e1d20f46 добавлено ключевое слово: Участок|
+05-07-2017 13:58:41|INFO|IKSAR|Удалено 0 рубрик из документа 4488e975-3064-4107-be5c-4598e1d20f46 на замену|
+05-07-2017 13:58:41|INFO|IKSAR|К документу 4488e975-3064-4107-be5c-4598e1d20f46 добавлена рубрика: 110.020.020 Полномочия государственных органов и органов местного самоуправления в области земельных отношений. Контроль за соблюдением земельного законодательства|
+05-07-2017 13:58:41|INFO|IKSAR|Документу 4488e975-3064-4107-be5c-4598e1d20f46 выставлен флаг IsReadyToExport = True, Строк обработано 1|
+05-07-2017 16:06:54|INFO|IKSAR|Установлены рубрики для 0 документов|
+05-07-2017 16:17:59|INFO|IKSAR|Установлены рубрики для 0 документов|
+05-07-2017 16:22:02|INFO|IKSAR|Установлены рубрики для 0 документов|
+05-07-2017 16:23:11|INFO|IKSAR|Установлены рубрики для 0 документов|
+05-07-2017 16:45:38|FATAL|IKSAR|Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: A. Path '', line 0, position 0.
+   в Newtonsoft.Json.JsonTextReader.ParseValue()
+   в Newtonsoft.Json.JsonTextReader.Read()
+   в Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   в Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   в Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   в Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   в Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   в Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   в Classification.Modules.MainListViewModule.ViewModels.ViewMainListViewModuleViewModel.Deserialize() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ViewModels\ViewMainListViewModuleViewModel.cs:строка 258
+   в Classification.Modules.MainListViewModule.ViewModels.ViewMainListViewModuleViewModel.SerializeAutoClassificationClass() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ViewModels\ViewMainListViewModuleViewModel.cs:строка 306
+   в Classification.Modules.MainListViewModule.ViewModels.ViewMainListViewModuleViewModel.Initialize() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ViewModels\ViewMainListViewModuleViewModel.cs:строка 76|Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: A. Path '', line 0, position 0.
+   в Newtonsoft.Json.JsonTextReader.ParseValue()
+   в Newtonsoft.Json.JsonTextReader.Read()
+   в Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   в Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   в Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   в Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   в Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   в Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   в Classification.Modules.MainListViewModule.ViewModels.ViewMainListViewModuleViewModel.Deserialize() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ViewModels\ViewMainListViewModuleViewModel.cs:строка 258
+   в Classification.Modules.MainListViewModule.ViewModels.ViewMainListViewModuleViewModel.SerializeAutoClassificationClass() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ViewModels\ViewMainListViewModuleViewModel.cs:строка 306
+   в Classification.Modules.MainListViewModule.ViewModels.ViewMainListViewModuleViewModel.Initialize() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ViewModels\ViewMainListViewModuleViewModel.cs:строка 76
+05-07-2017 16:46:21|FATAL|IKSAR|Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: A. Path '', line 0, position 0.
+   в Newtonsoft.Json.JsonTextReader.ParseValue()
+   в Newtonsoft.Json.JsonTextReader.Read()
+   в Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   в Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   в Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   в Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   в Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   в Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   в Classification.Modules.MainListViewModule.ViewModels.ViewMainListViewModuleViewModel.Deserialize() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ViewModels\ViewMainListViewModuleViewModel.cs:строка 258
+   в Classification.Modules.MainListViewModule.ViewModels.ViewMainListViewModuleViewModel.SerializeAutoClassificationClass() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ViewModels\ViewMainListViewModuleViewModel.cs:строка 306
+   в Classification.Modules.MainListViewModule.ViewModels.ViewMainListViewModuleViewModel.Initialize() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ViewModels\ViewMainListViewModuleViewModel.cs:строка 76|Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: A. Path '', line 0, position 0.
+   в Newtonsoft.Json.JsonTextReader.ParseValue()
+   в Newtonsoft.Json.JsonTextReader.Read()
+   в Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   в Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   в Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   в Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   в Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   в Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   в Classification.Modules.MainListViewModule.ViewModels.ViewMainListViewModuleViewModel.Deserialize() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ViewModels\ViewMainListViewModuleViewModel.cs:строка 258
+   в Classification.Modules.MainListViewModule.ViewModels.ViewMainListViewModuleViewModel.SerializeAutoClassificationClass() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ViewModels\ViewMainListViewModuleViewModel.cs:строка 306
+   в Classification.Modules.MainListViewModule.ViewModels.ViewMainListViewModuleViewModel.Initialize() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ViewModels\ViewMainListViewModuleViewModel.cs:строка 76
+05-07-2017 17:32:09|FATAL|IKSAR|System.Data.SqlClient.SqlException (0x80131904): Истекло время ожидания соединения. Время ожидания истекло при попытке обработки подтверждения предварительного согласования. Возможно, произошел сбой во время предварительного согласования, или сервер не смог ответить вовремя.  Время, затраченное на попытки подключиться к этому серверу, составило: [Pre-Login] initialization=71177; handshake=2546;  ---> System.ComponentModel.Win32Exception (0x80004005): Время ожидания операции истекло
+   в System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   в System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   в System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   в System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   в System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   в System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   в System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   в System.Data.SqlClient.SqlConnection.Open()
+   в Classification.DB.DbReader.<>c__DisplayClass39_0.<RefreshItems>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 506
+ClientConnectionId:41c9ea83-8895-4ca7-9caf-41dafb39330d
+Error Number: -2, State: 0, Class: 11|System.Data.SqlClient.SqlException (0x80131904): Истекло время ожидания соединения. Время ожидания истекло при попытке обработки подтверждения предварительного согласования. Возможно, произошел сбой во время предварительного согласования, или сервер не смог ответить вовремя.  Время, затраченное на попытки подключиться к этому серверу, составило: [Pre-Login] initialization=71177; handshake=2546;  ---> System.ComponentModel.Win32Exception (0x80004005): Время ожидания операции истекло
+   в System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   в System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   в System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   в System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   в System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   в System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   в System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   в System.Data.SqlClient.SqlConnection.Open()
+   в Classification.DB.DbReader.<>c__DisplayClass39_0.<RefreshItems>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 506
+ClientConnectionId:41c9ea83-8895-4ca7-9caf-41dafb39330d
+Error Number: -2, State: 0, Class: 11
+05-07-2017 17:32:10|FATAL|IKSAR|System.Data.SqlClient.SqlException (0x80131904): Истекло время ожидания соединения. Время ожидания истекло при попытке обработки подтверждения предварительного согласования. Возможно, произошел сбой во время предварительного согласования, или сервер не смог ответить вовремя.  Время, затраченное на попытки подключиться к этому серверу, составило: [Pre-Login] initialization=71177; handshake=2546;  ---> System.ComponentModel.Win32Exception (0x80004005): Время ожидания операции истекло
+   в System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   в System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   в System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   в System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   в System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   в System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   в System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   в Classification.DB.DbReader.<GetKeywords>d__35.MoveNext() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 334
+ClientConnectionId:41c9ea83-8895-4ca7-9caf-41dafb39330d
+Error Number: -2, State: 0, Class: 11|System.Data.SqlClient.SqlException (0x80131904): Истекло время ожидания соединения. Время ожидания истекло при попытке обработки подтверждения предварительного согласования. Возможно, произошел сбой во время предварительного согласования, или сервер не смог ответить вовремя.  Время, затраченное на попытки подключиться к этому серверу, составило: [Pre-Login] initialization=71177; handshake=2546;  ---> System.ComponentModel.Win32Exception (0x80004005): Время ожидания операции истекло
+   в System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   в System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   в System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   в System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   в System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   в System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   в System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   в Classification.DB.DbReader.<GetKeywords>d__35.MoveNext() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 334
+ClientConnectionId:41c9ea83-8895-4ca7-9caf-41dafb39330d
+Error Number: -2, State: 0, Class: 11
+05-07-2017 17:32:10|FATAL|IKSAR|System.Data.SqlClient.SqlException (0x80131904): Истекло время ожидания соединения. Время ожидания истекло при попытке обработки подтверждения предварительного согласования. Возможно, произошел сбой во время предварительного согласования, или сервер не смог ответить вовремя.  Время, затраченное на попытки подключиться к этому серверу, составило: [Pre-Login] initialization=71177; handshake=2546;  ---> System.ComponentModel.Win32Exception (0x80004005): Время ожидания операции истекло
+   в System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   в System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   в System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   в System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   в System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   в System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   в System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   в System.Data.SqlClient.SqlConnection.OpenAsync(CancellationToken cancellationToken)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   в Classification.DB.DbReader.<GetRubrics>d__37.MoveNext() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 415
+ClientConnectionId:41c9ea83-8895-4ca7-9caf-41dafb39330d
+Error Number: -2, State: 0, Class: 11|System.Data.SqlClient.SqlException (0x80131904): Истекло время ожидания соединения. Время ожидания истекло при попытке обработки подтверждения предварительного согласования. Возможно, произошел сбой во время предварительного согласования, или сервер не смог ответить вовремя.  Время, затраченное на попытки подключиться к этому серверу, составило: [Pre-Login] initialization=71177; handshake=2546;  ---> System.ComponentModel.Win32Exception (0x80004005): Время ожидания операции истекло
+   в System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   в System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   в System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   в System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   в System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   в System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   в System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   в System.Data.SqlClient.SqlConnection.OpenAsync(CancellationToken cancellationToken)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   в Classification.DB.DbReader.<GetRubrics>d__37.MoveNext() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 415
+ClientConnectionId:41c9ea83-8895-4ca7-9caf-41dafb39330d
+Error Number: -2, State: 0, Class: 11
+05-07-2017 17:32:10|FATAL|IKSAR|System.Data.SqlClient.SqlException (0x80131904): Истекло время ожидания соединения. Время ожидания истекло при попытке обработки подтверждения предварительного согласования. Возможно, произошел сбой во время предварительного согласования, или сервер не смог ответить вовремя.  Время, затраченное на попытки подключиться к этому серверу, составило: [Pre-Login] initialization=71177; handshake=2546;  ---> System.ComponentModel.Win32Exception (0x80004005): Время ожидания операции истекло
+   в System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   в System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   в System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   в System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   в System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   в System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   в System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   в System.Data.SqlClient.SqlConnection.Open()
+   в Classification.DB.DbReader.<FillActKeysDictionary>b__33_0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 224
+ClientConnectionId:41c9ea83-8895-4ca7-9caf-41dafb39330d
+Error Number: -2, State: 0, Class: 11|System.Data.SqlClient.SqlException (0x80131904): Истекло время ожидания соединения. Время ожидания истекло при попытке обработки подтверждения предварительного согласования. Возможно, произошел сбой во время предварительного согласования, или сервер не смог ответить вовремя.  Время, затраченное на попытки подключиться к этому серверу, составило: [Pre-Login] initialization=71177; handshake=2546;  ---> System.ComponentModel.Win32Exception (0x80004005): Время ожидания операции истекло
+   в System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   в System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   в System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   в System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   в System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   в System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   в System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   в System.Data.SqlClient.SqlConnection.Open()
+   в Classification.DB.DbReader.<FillActKeysDictionary>b__33_0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 224
+ClientConnectionId:41c9ea83-8895-4ca7-9caf-41dafb39330d
+Error Number: -2, State: 0, Class: 11
+05-07-2017 17:32:10|FATAL|IKSAR|System.Data.SqlClient.SqlException (0x80131904): Истекло время ожидания соединения. Время ожидания истекло при попытке обработки подтверждения предварительного согласования. Возможно, произошел сбой во время предварительного согласования, или сервер не смог ответить вовремя.  Время, затраченное на попытки подключиться к этому серверу, составило: [Pre-Login] initialization=71177; handshake=2546;  ---> System.ComponentModel.Win32Exception (0x80004005): Время ожидания операции истекло
+   в System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   в System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   в System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   в System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   в System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   в System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   в System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   в System.Data.SqlClient.SqlConnection.Open()
+   в Classification.DB.DbReader.<FillActRubricsDictionary>b__34_0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 280
+ClientConnectionId:41c9ea83-8895-4ca7-9caf-41dafb39330d
+Error Number: -2, State: 0, Class: 11|System.Data.SqlClient.SqlException (0x80131904): Истекло время ожидания соединения. Время ожидания истекло при попытке обработки подтверждения предварительного согласования. Возможно, произошел сбой во время предварительного согласования, или сервер не смог ответить вовремя.  Время, затраченное на попытки подключиться к этому серверу, составило: [Pre-Login] initialization=71177; handshake=2546;  ---> System.ComponentModel.Win32Exception (0x80004005): Время ожидания операции истекло
+   в System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   в System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   в System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   в System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   в System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   в System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   в System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   в System.Data.SqlClient.SqlConnection.Open()
+   в Classification.DB.DbReader.<FillActRubricsDictionary>b__34_0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 280
+ClientConnectionId:41c9ea83-8895-4ca7-9caf-41dafb39330d
+Error Number: -2, State: 0, Class: 11
+05-07-2017 17:32:10|FATAL|IKSAR|System.Data.SqlClient.SqlException (0x80131904): Истекло время ожидания соединения. Время ожидания истекло при попытке обработки подтверждения предварительного согласования. Возможно, произошел сбой во время предварительного согласования, или сервер не смог ответить вовремя.  Время, затраченное на попытки подключиться к этому серверу, составило: [Pre-Login] initialization=71177; handshake=2546;  ---> System.ComponentModel.Win32Exception (0x80004005): Время ожидания операции истекло
+   в System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   в System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   в System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   в System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   в System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   в System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   в System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   в System.Data.SqlClient.SqlConnection.OpenAsync(CancellationToken cancellationToken)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   в Classification.DB.DbReader.<GetKeywordsSynonyms>d__36.MoveNext() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 379
+ClientConnectionId:41c9ea83-8895-4ca7-9caf-41dafb39330d
+Error Number: -2, State: 0, Class: 11|System.Data.SqlClient.SqlException (0x80131904): Истекло время ожидания соединения. Время ожидания истекло при попытке обработки подтверждения предварительного согласования. Возможно, произошел сбой во время предварительного согласования, или сервер не смог ответить вовремя.  Время, затраченное на попытки подключиться к этому серверу, составило: [Pre-Login] initialization=71177; handshake=2546;  ---> System.ComponentModel.Win32Exception (0x80004005): Время ожидания операции истекло
+   в System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   в System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   в System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   в System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   в System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   в System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   в System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   в System.Data.SqlClient.SqlConnection.OpenAsync(CancellationToken cancellationToken)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   в Classification.DB.DbReader.<GetKeywordsSynonyms>d__36.MoveNext() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 379
+ClientConnectionId:41c9ea83-8895-4ca7-9caf-41dafb39330d
+Error Number: -2, State: 0, Class: 11
+05-07-2017 17:32:11|FATAL|IKSAR|System.Data.SqlClient.SqlException (0x80131904): Истекло время ожидания соединения. Время ожидания истекло при попытке обработки подтверждения предварительного согласования. Возможно, произошел сбой во время предварительного согласования, или сервер не смог ответить вовремя.  Время, затраченное на попытки подключиться к этому серверу, составило: [Pre-Login] initialization=71177; handshake=2546;  ---> System.ComponentModel.Win32Exception (0x80004005): Время ожидания операции истекло
+   в System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   в System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   в System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   в System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   в System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   в System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   в System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   в System.Data.SqlClient.SqlConnection.OpenAsync(CancellationToken cancellationToken)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   в Classification.DB.DbReader.<FillActsCollection>d__31.MoveNext() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 75
+ClientConnectionId:41c9ea83-8895-4ca7-9caf-41dafb39330d
+Error Number: -2, State: 0, Class: 11|System.Data.SqlClient.SqlException (0x80131904): Истекло время ожидания соединения. Время ожидания истекло при попытке обработки подтверждения предварительного согласования. Возможно, произошел сбой во время предварительного согласования, или сервер не смог ответить вовремя.  Время, затраченное на попытки подключиться к этому серверу, составило: [Pre-Login] initialization=71177; handshake=2546;  ---> System.ComponentModel.Win32Exception (0x80004005): Время ожидания операции истекло
+   в System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   в System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   в System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   в System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   в System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   в System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   в System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   в System.Data.SqlClient.SqlConnection.OpenAsync(CancellationToken cancellationToken)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   в Classification.DB.DbReader.<FillActsCollection>d__31.MoveNext() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 75
+ClientConnectionId:41c9ea83-8895-4ca7-9caf-41dafb39330d
+Error Number: -2, State: 0, Class: 11

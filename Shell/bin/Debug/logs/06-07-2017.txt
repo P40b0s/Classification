@@ -1,0 +1,162 @@
+06-07-2017 09:15:43|INFO|IKSAR|Установлены рубрики для 0 документов|
+06-07-2017 09:15:43|INFO|IKSAR|Удалено 0 ключевых слов из документа 81666c56-c928-4b16-879e-f4a437fceb55 на замену|
+06-07-2017 09:15:43|INFO|IKSAR|Удалено 0 ключевых слов из документа 9613f1a7-eb09-4fb0-b6eb-52a5adb76c99 на замену|
+06-07-2017 09:15:43|INFO|IKSAR|Удалено 0 ключевых слов из документа f778d3b2-0669-49f8-81f4-9d8eb14d7e15 на замену|
+06-07-2017 09:15:43|INFO|IKSAR|Удалено 0 рубрик из документа 81666c56-c928-4b16-879e-f4a437fceb55 на замену|
+06-07-2017 09:15:43|INFO|IKSAR|Удалено 0 рубрик из документа 9613f1a7-eb09-4fb0-b6eb-52a5adb76c99 на замену|
+06-07-2017 09:15:43|INFO|IKSAR|Удалено 0 ключевых слов из документа 412fb124-f6b1-4ca9-b6a1-cefe0bb90bd6 на замену|
+06-07-2017 09:15:43|INFO|IKSAR|Удалено 0 рубрик из документа f778d3b2-0669-49f8-81f4-9d8eb14d7e15 на замену|
+06-07-2017 09:15:43|INFO|IKSAR|Удалено 0 ключевых слов из документа d44175a5-efb2-4b07-b781-c0ad051b70ab на замену|
+06-07-2017 09:15:43|INFO|IKSAR|К документу 9613f1a7-eb09-4fb0-b6eb-52a5adb76c99 добавлена рубрика: 210.010.000 Решения о назначении на должность, освобождении (отзыве) от должности|
+06-07-2017 09:15:43|INFO|IKSAR|К документу 81666c56-c928-4b16-879e-f4a437fceb55 добавлена рубрика: 210.010.000 Решения о назначении на должность, освобождении (отзыве) от должности|
+06-07-2017 09:15:43|INFO|IKSAR|Удалено 0 рубрик из документа 412fb124-f6b1-4ca9-b6a1-cefe0bb90bd6 на замену|
+06-07-2017 09:15:43|INFO|IKSAR|К документу f778d3b2-0669-49f8-81f4-9d8eb14d7e15 добавлена рубрика: 210.010.000 Решения о назначении на должность, освобождении (отзыве) от должности|
+06-07-2017 09:15:43|INFO|IKSAR|Удалено 0 рубрик из документа d44175a5-efb2-4b07-b781-c0ad051b70ab на замену|
+06-07-2017 09:15:43|INFO|IKSAR|Документу 81666c56-c928-4b16-879e-f4a437fceb55 выставлен флаг IsReadyToExport = False, Строк обработано 1|
+06-07-2017 09:15:43|INFO|IKSAR|К документу 412fb124-f6b1-4ca9-b6a1-cefe0bb90bd6 добавлена рубрика: 210.010.000 Решения о назначении на должность, освобождении (отзыве) от должности|
+06-07-2017 09:15:43|INFO|IKSAR|Документу f778d3b2-0669-49f8-81f4-9d8eb14d7e15 выставлен флаг IsReadyToExport = False, Строк обработано 1|
+06-07-2017 09:15:43|INFO|IKSAR|Документу 9613f1a7-eb09-4fb0-b6eb-52a5adb76c99 выставлен флаг IsReadyToExport = False, Строк обработано 1|
+06-07-2017 09:15:43|INFO|IKSAR|К документу d44175a5-efb2-4b07-b781-c0ad051b70ab добавлена рубрика: 210.010.000 Решения о назначении на должность, освобождении (отзыве) от должности|
+06-07-2017 09:15:43|INFO|IKSAR|Документу 412fb124-f6b1-4ca9-b6a1-cefe0bb90bd6 выставлен флаг IsReadyToExport = False, Строк обработано 1|
+06-07-2017 09:15:43|INFO|IKSAR|Документу d44175a5-efb2-4b07-b781-c0ad051b70ab выставлен флаг IsReadyToExport = False, Строк обработано 1|
+06-07-2017 12:30:36|INFO|IKSAR|К ключевому слову 92e791a7-89de-41bf-9bf3-461c626ed15d добавлен синоним земельный|
+06-07-2017 13:14:26|FATAL|IKSAR|System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в System.Data.SqlClient.SqlDataReader.CheckDataIsReady(Int32 columnIndex, Boolean allowPartiallyReadColumn, Boolean permitAsync, String methodName)
+   в System.Data.SqlClient.SqlDataReader.TryReadColumn(Int32 i, Boolean setTimeout, Boolean allowPartiallyReadColumn)
+   в System.Data.SqlClient.SqlDataReader.GetInt32(Int32 i)
+   в Classification.DB.DbReader.<GetKeywords>d__35.MoveNext() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 349|System.IndexOutOfRangeException: Индекс находился вне границ массива.
+   в System.Data.SqlClient.SqlDataReader.CheckDataIsReady(Int32 columnIndex, Boolean allowPartiallyReadColumn, Boolean permitAsync, String methodName)
+   в System.Data.SqlClient.SqlDataReader.TryReadColumn(Int32 i, Boolean setTimeout, Boolean allowPartiallyReadColumn)
+   в System.Data.SqlClient.SqlDataReader.GetInt32(Int32 i)
+   в Classification.DB.DbReader.<GetKeywords>d__35.MoveNext() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 349
+06-07-2017 13:14:28|FATAL|IKSAR|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в Classification.DB.DbReader.<FillActKeysDictionary>b__33_0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 244|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в Classification.DB.DbReader.<FillActKeysDictionary>b__33_0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 244
+06-07-2017 13:17:07|FATAL|IKSAR|System.Data.SqlTypes.SqlNullValueException: Неопределенные данные. Этот метод или свойство не может вызываться для значений равных Null.
+   в System.Data.SqlClient.SqlBuffer.get_Int32()
+   в System.Data.SqlClient.SqlDataReader.GetInt32(Int32 i)
+   в Classification.DB.DbReader.<GetKeywords>d__35.MoveNext() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 349|System.Data.SqlTypes.SqlNullValueException: Неопределенные данные. Этот метод или свойство не может вызываться для значений равных Null.
+   в System.Data.SqlClient.SqlBuffer.get_Int32()
+   в System.Data.SqlClient.SqlDataReader.GetInt32(Int32 i)
+   в Classification.DB.DbReader.<GetKeywords>d__35.MoveNext() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 349
+06-07-2017 13:17:07|FATAL|IKSAR|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в Classification.DB.DbReader.<FillActKeysDictionary>b__33_0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 244|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в Classification.DB.DbReader.<FillActKeysDictionary>b__33_0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 244
+06-07-2017 13:54:08|INFO|IKSAR|К ключевому слову 6686136e-36f6-43d5-8e25-4e00e53dcfaf добавлен синоним должностных|
+06-07-2017 14:26:14|INFO|IKSAR|Установлены рубрики для 0 документов|
+06-07-2017 14:45:24|INFO|IKSAR|Установлены рубрики для 0 документов|
+06-07-2017 14:47:59|INFO|IKSAR|Установлены рубрики для 0 документов|
+06-07-2017 14:48:00|FATAL|IKSAR|System.NotSupportedException: Данный тип CollectionView не поддерживает изменения в своем SourceCollection из потока, отличного от потока Dispatcher.
+   в System.Windows.Data.CollectionView.OnCollectionChanged(Object sender, NotifyCollectionChangedEventArgs args)
+   в System.Collections.Specialized.NotifyCollectionChangedEventHandler.Invoke(Object sender, NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.InsertItem(Int32 index, T item)
+   в System.Collections.ObjectModel.Collection`1.Add(T item)
+   в Classification.Modules.MainListViewModule.ViewModels.ViewMainListViewModuleViewModel.<SetKeywordsToDocuments>b__51_0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ViewModels\ViewMainListViewModuleViewModel.cs:строка 413|System.NotSupportedException: Данный тип CollectionView не поддерживает изменения в своем SourceCollection из потока, отличного от потока Dispatcher.
+   в System.Windows.Data.CollectionView.OnCollectionChanged(Object sender, NotifyCollectionChangedEventArgs args)
+   в System.Collections.Specialized.NotifyCollectionChangedEventHandler.Invoke(Object sender, NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.InsertItem(Int32 index, T item)
+   в System.Collections.ObjectModel.Collection`1.Add(T item)
+   в Classification.Modules.MainListViewModule.ViewModels.ViewMainListViewModuleViewModel.<SetKeywordsToDocuments>b__51_0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ViewModels\ViewMainListViewModuleViewModel.cs:строка 413
+06-07-2017 14:49:57|INFO|IKSAR|Установлены рубрики для 0 документов|
+06-07-2017 14:51:19|INFO|IKSAR|Установлены рубрики для 0 документов|
+06-07-2017 15:22:34|INFO|IKSAR|Установлены рубрики для 0 документов|
+06-07-2017 15:27:20|INFO|IKSAR|К ключевому слову c31667f5-0e5f-4d75-966d-5756b01a5bd2 добавлен синоним градостроительному|
+06-07-2017 15:35:42|INFO|IKSAR|Установлены рубрики для 0 документов|
+06-07-2017 16:00:12|FATAL|IKSAR|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в Classification.DB.DbReader.<FillActKeysDictionary>b__33_0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 239|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в Classification.DB.DbReader.<FillActKeysDictionary>b__33_0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 239
+06-07-2017 16:00:32|INFO|IKSAR|Установлены рубрики для 0 документов|
+06-07-2017 16:00:32|FATAL|IKSAR|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в Classification.Modules.MainListViewModule.ViewModels.ViewMainListViewModuleViewModel.<SetKeywordsToDocuments>b__51_0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ViewModels\ViewMainListViewModuleViewModel.cs:строка 411|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в Classification.Modules.MainListViewModule.ViewModels.ViewMainListViewModuleViewModel.<SetKeywordsToDocuments>b__51_0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ViewModels\ViewMainListViewModuleViewModel.cs:строка 411
+06-07-2017 16:05:32|FATAL|IKSAR|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в Classification.DB.DbReader.<FillActKeysDictionary>b__33_0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 239|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в Classification.DB.DbReader.<FillActKeysDictionary>b__33_0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 239
+06-07-2017 16:05:41|INFO|IKSAR|Установлены рубрики для 0 документов|
+06-07-2017 16:05:41|INFO|IKSAR|4e888dfe-28ee-4275-a0e8-b8fd320bf198|
+06-07-2017 16:05:41|FATAL|IKSAR|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в Classification.Modules.MainListViewModule.ViewModels.ViewMainListViewModuleViewModel.<SetKeywordsToDocuments>b__51_0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ViewModels\ViewMainListViewModuleViewModel.cs:строка 413|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в Classification.Modules.MainListViewModule.ViewModels.ViewMainListViewModuleViewModel.<SetKeywordsToDocuments>b__51_0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ViewModels\ViewMainListViewModuleViewModel.cs:строка 413
+06-07-2017 16:07:39|FATAL|IKSAR|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в Classification.DB.DbReader.<FillActKeysDictionary>b__33_0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 239|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в Classification.DB.DbReader.<FillActKeysDictionary>b__33_0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 239
+06-07-2017 16:07:52|INFO|IKSAR|Установлены рубрики для 0 документов|
+06-07-2017 16:09:12|FATAL|IKSAR|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в Classification.DB.DbReader.<FillActKeysDictionary>b__33_0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 239|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в Classification.DB.DbReader.<FillActKeysDictionary>b__33_0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 239
+06-07-2017 16:09:21|INFO|IKSAR|Установлены рубрики для 0 документов|
+06-07-2017 16:11:29|FATAL|IKSAR|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в Classification.DB.DbReader.<FillActKeysDictionary>b__33_0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 239|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в Classification.DB.DbReader.<FillActKeysDictionary>b__33_0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 239
+06-07-2017 16:11:40|INFO|IKSAR|Установлены рубрики для 0 документов|
+06-07-2017 16:14:32|INFO|IKSAR|К ключевому слову 66bdd85f-0492-4249-bbe9-5b4696797061 добавлен синоним комиссии|
+06-07-2017 16:14:51|INFO|IKSAR|К ключевому слову 501b7cae-3a5d-45d4-8438-06a5ce5ad5df добавлен синоним парада|
+06-07-2017 16:17:52|FATAL|IKSAR|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в Classification.DB.DbReader.<FillActKeysDictionary>b__33_0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 239|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в Classification.DB.DbReader.<FillActKeysDictionary>b__33_0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 239
+06-07-2017 16:18:00|INFO|IKSAR|Установлены рубрики для 0 документов|
+06-07-2017 16:28:29|FATAL|IKSAR|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в Classification.DB.DbReader.<FillActKeysDictionary>b__33_0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 239|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в Classification.DB.DbReader.<FillActKeysDictionary>b__33_0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 239
+06-07-2017 16:28:38|INFO|IKSAR|Установлены рубрики для 0 документов|
+06-07-2017 16:37:29|FATAL|IKSAR|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в Classification.DB.DbReader.<FillActKeysDictionary>b__33_0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 239|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в Classification.DB.DbReader.<FillActKeysDictionary>b__33_0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 239
+06-07-2017 16:37:37|INFO|IKSAR|Установлены рубрики для 0 документов|
+06-07-2017 16:37:39|INFO|IKSAR|63f88902-d34f-4da7-9c82-b62382d2add7|
+06-07-2017 16:37:39|FATAL|IKSAR|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в Classification.Modules.MainListViewModule.ViewModels.ViewMainListViewModuleViewModel.<SetKeywordsToDocuments>b__51_0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ViewModels\ViewMainListViewModuleViewModel.cs:строка 413|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в Classification.Modules.MainListViewModule.ViewModels.ViewMainListViewModuleViewModel.<SetKeywordsToDocuments>b__51_0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ViewModels\ViewMainListViewModuleViewModel.cs:строка 413
+06-07-2017 16:43:15|FATAL|IKSAR|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в Classification.DB.DbReader.<FillActKeysDictionary>b__33_0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 239|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в Classification.DB.DbReader.<FillActKeysDictionary>b__33_0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 239
+06-07-2017 16:43:23|INFO|IKSAR|Установлены рубрики для 0 документов|
+06-07-2017 16:46:54|FATAL|IKSAR|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в Classification.DB.DbReader.<FillActKeysDictionary>b__33_0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 239|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в Classification.DB.DbReader.<FillActKeysDictionary>b__33_0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 239
+06-07-2017 16:49:16|FATAL|IKSAR|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в Classification.DB.DbReader.<FillActKeysDictionary>b__33_0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 239|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в Classification.DB.DbReader.<FillActKeysDictionary>b__33_0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 239
+06-07-2017 16:51:33|FATAL|IKSAR|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в Classification.DB.DbReader.<FillActKeysDictionary>b__33_0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 239|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в Classification.DB.DbReader.<FillActKeysDictionary>b__33_0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 239
+06-07-2017 16:52:03|INFO|IKSAR|К ключевому слову 4644b31f-a524-46b5-be95-42e1c0331995 добавлен синоним услуги|
+06-07-2017 16:52:19|INFO|IKSAR|Установлены рубрики для 0 документов|
+06-07-2017 16:54:29|INFO|IKSAR|К ключевому слову 8d483ce8-a1b4-4537-9bee-6abc3bf1964a добавлен синоним лицензированию|
+06-07-2017 16:55:39|INFO|IKSAR|К ключевому слову 42396be9-30df-4c9f-99d2-e46931ed019d добавлен синоним вознаграждении|

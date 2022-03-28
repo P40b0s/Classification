@@ -1,0 +1,15 @@
+C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\KwywordsUniqueSetter\obj\Debug\KwywordsUniqueSetter.csprojResolveAssemblyReference.cache
+C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\KwywordsUniqueSetter\obj\Debug\MainWindow.g.cs
+C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\KwywordsUniqueSetter\obj\Debug\App.g.cs
+C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\KwywordsUniqueSetter\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\KwywordsUniqueSetter\obj\Debug\KwywordsUniqueSetter_MarkupCompile.cache
+C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\KwywordsUniqueSetter\obj\Debug\KwywordsUniqueSetter_MarkupCompile.lref
+C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\KwywordsUniqueSetter\bin\Debug\KwywordsUniqueSetter.exe.config
+C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\KwywordsUniqueSetter\bin\Debug\KwywordsUniqueSetter.exe
+C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\KwywordsUniqueSetter\bin\Debug\KwywordsUniqueSetter.pdb
+C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\KwywordsUniqueSetter\obj\Debug\MainWindow.baml
+C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\KwywordsUniqueSetter\obj\Debug\KwywordsUniqueSetter.g.resources
+C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\KwywordsUniqueSetter\obj\Debug\KwywordsUniqueSetter.Properties.Resources.resources
+C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\KwywordsUniqueSetter\obj\Debug\KwywordsUniqueSetter.csproj.GenerateResource.Cache
+C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\KwywordsUniqueSetter\obj\Debug\KwywordsUniqueSetter.exe
+C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\KwywordsUniqueSetter\obj\Debug\KwywordsUniqueSetter.pdb

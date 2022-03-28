@@ -1,0 +1,37 @@
+﻿<Window x:Class="KwywordsUniqueSetter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:KwywordsUniqueSetter"
+        x:Name="win"
+        Title="Установление уникальности ключевых слов" Height="820" Width="525">
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <ListBox Grid.Row="0" ItemsSource="{Binding collection}" Height="700">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding Key}" Width="200" FontSize="16"/>
+                        <TextBox Text="{Binding Weight, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="30" FontSize="16"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+        <Button Content="Сохранить" Click="Button_Click" Grid.Row="1"/>
+        <TextBlock Grid.Row="2" Text="Отображение выгруженных документов в клиенте, для повторной классификации" VerticalAlignment="Top" HorizontalAlignment="Center">
+        </TextBlock>
+        <StackPanel Orientation="Horizontal" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Bottom">
+            <TextBlock Text="Номер документа: " VerticalAlignment="Center"/>
+            <TextBox Width="50" VerticalAlignment="Center" Text="{Binding ActNumber, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
+            <TextBlock Text="Дата подписания: " VerticalAlignment="Center"/>
+            <DatePicker SelectedDate="{Binding SignDate, Mode=TwoWay}" DisplayDate="{Binding SelectedDate, Mode=TwoWay}" />
+            <Button Content="Готово" Click="DelAct"/>
+        </StackPanel>
+
+    </Grid>
+</Window>

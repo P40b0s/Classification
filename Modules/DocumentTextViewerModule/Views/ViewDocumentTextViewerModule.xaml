@@ -1,0 +1,104 @@
+﻿<UserControl x:Class="Classification.Modules.DocumentTextViewerModule.Views.ViewDocumentTextViewerModule"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:prism="http://prismlibrary.com/"
+             prism:ViewModelLocator.AutoWireViewModel="True"
+             xmlns:avalon="http://icsharpcode.net/sharpdevelop/avalonedit"
+             xmlns:behaviors="clr-namespace:Classification.Modules.DocumentTextViewerModule.Behaviors"
+             xmlns:dbReader="clr-namespace:Classification.DB;assembly=Classification.DB"
+             xmlns:vm="clr-namespace:Classification.Modules.DocumentTextViewerModule.ViewModels"
+             xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity">
+
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/DocumentTextViewerModule;component/Synonyms/ListBoxTemplates.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/Classification.Core;component/Images/Images.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/Classification.Core;component/Styles/Buttons.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+
+    </UserControl.Resources>
+    <Grid>
+        <avalon:TextEditor WordWrap="True"
+                                   FontSize="16"
+                                   MinHeight="100"
+                                   Foreground="Black"
+                                   Margin="0 0 0 0"
+                                   IsReadOnly="True"
+                                   FontWeight="Normal"
+                                   >
+            <i:Interaction.Behaviors>
+                <behaviors:AvalonBehavior DocumentText="{Binding DocumentText, Mode=TwoWay, ValidatesOnNotifyDataErrors=True, NotifyOnValidationError=True}" 
+                                                  SelectedText="{Binding SelectedWord}"/>
+            </i:Interaction.Behaviors>
+            <avalon:TextEditor.Style>
+                <Style TargetType="{x:Type avalon:TextEditor}">
+                    <!--<Setter Property="LayoutTransform">
+                        <Setter.Value>
+                            <ScaleTransform x:Name="transform"/>
+                        </Setter.Value>
+                    </Setter>-->
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding IsTextChanged}" Value="true">
+                            <DataTrigger.EnterActions>
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <DoubleAnimation Storyboard.TargetProperty="Opacity"
+                                         Duration="00:00:03"
+                                         From="0"
+                                         To="1"/>
+                                        <!--<DoubleAnimation Storyboard.TargetProperty="LayoutTransform.ScaleX"
+                                         Duration="00:00:0.5"
+                                         From="0"/>-->
+                                        <ThicknessAnimationUsingKeyFrames Storyboard.TargetProperty="Margin" BeginTime="00:00:00" AccelerationRatio="0.6">
+                                            <SplineThicknessKeyFrame KeyTime="00:00:00" Value="0 0 0 900"/>
+                                            <SplineThicknessKeyFrame KeyTime="00:00:.5" Value="0 0 0 0"/>
+                                        </ThicknessAnimationUsingKeyFrames>
+                                          
+                                            
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </DataTrigger.EnterActions>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </avalon:TextEditor.Style>
+        </avalon:TextEditor>
+       
+        <Popup IsOpen="{Binding AddSynonymWordPopUpIsOpen, Mode=TwoWay}"
+               Placement="Mouse"
+               Width="150"
+               MaxHeight="300">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="200"/>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="30"/>
+                </Grid.RowDefinitions>
+                <ListBox ItemsSource="{Binding Keywords}"
+                         ItemTemplate="{StaticResource ListItemTemplate}"
+                         SelectedItem="{Binding SelectedKeywordForSynonym}"
+                         Grid.Row="0"
+                         FontSize="14">
+                    
+                </ListBox>
+                <TextBox Text="{Binding SynonymSearchBox, UpdateSourceTrigger=PropertyChanged}"
+                         Grid.Row="1"
+                         FontSize="14">
+                    <i:Interaction.Triggers>
+                        <i:EventTrigger EventName="TextChanged">
+                            <i:InvokeCommandAction Command="{Binding SearchKeywordForSynonymCommand}"/>
+                        </i:EventTrigger>
+                    </i:Interaction.Triggers>
+                </TextBox>
+                <DockPanel Grid.Row="2" Background="White">
+                    <Button Content="Добавить слово" Style="{StaticResource OkButton}" Command="{Binding AddSynonymCommand}"/>
+                    <Button HorizontalAlignment="Right" Command="{Binding CloseSynonymWindowCommand}" Style="{StaticResource CancelButton}">
+                        <Image Source="{StaticResource CancelImage}" />
+                    </Button>
+                </DockPanel>
+            </Grid>
+        </Popup>
+    </Grid>
+</UserControl>

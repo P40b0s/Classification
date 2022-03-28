@@ -1,0 +1,126 @@
+03-07-2017 13:22:27|FATAL|IKSAR|System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в Classification.Modules.DocumentTextViewerModule.ViewModels.ViewDocumentTextViewerModuleViewModel.GetKeysForSynonyms(IEnumerable`1 collection) в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\DocumentTextViewerModule\ViewModels\ViewDocumentTextViewerModuleViewModel.cs:строка 187
+   в Prism.Events.EventSubscription`1.InvokeAction(Action`1 action, TPayload argument)
+   в Prism.Events.EventSubscription`1.<>c__DisplayClass11_0.<GetExecutionStrategy>b__0(Object[] arguments)
+   в Prism.Events.EventBase.InternalPublish(Object[] arguments)
+   в Prism.Events.PubSubEvent`1.Publish(TPayload payload)
+   в Classification.DB.DbReader.<GetKeywords>d__13.MoveNext() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 259|System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в Classification.Modules.DocumentTextViewerModule.ViewModels.ViewDocumentTextViewerModuleViewModel.GetKeysForSynonyms(IEnumerable`1 collection) в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\DocumentTextViewerModule\ViewModels\ViewDocumentTextViewerModuleViewModel.cs:строка 187
+   в Prism.Events.EventSubscription`1.InvokeAction(Action`1 action, TPayload argument)
+   в Prism.Events.EventSubscription`1.<>c__DisplayClass11_0.<GetExecutionStrategy>b__0(Object[] arguments)
+   в Prism.Events.EventBase.InternalPublish(Object[] arguments)
+   в Prism.Events.PubSubEvent`1.Publish(TPayload payload)
+   в Classification.DB.DbReader.<GetKeywords>d__13.MoveNext() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 259
+03-07-2017 13:24:19|FATAL|IKSAR|System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в Classification.Modules.DocumentTextViewerModule.ViewModels.ViewDocumentTextViewerModuleViewModel.GetKeysForSynonyms(IEnumerable`1 collection) в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\DocumentTextViewerModule\ViewModels\ViewDocumentTextViewerModuleViewModel.cs:строка 187
+   в Prism.Events.EventSubscription`1.InvokeAction(Action`1 action, TPayload argument)
+   в Prism.Events.EventSubscription`1.<>c__DisplayClass11_0.<GetExecutionStrategy>b__0(Object[] arguments)
+   в Prism.Events.EventBase.InternalPublish(Object[] arguments)
+   в Prism.Events.PubSubEvent`1.Publish(TPayload payload)
+   в Classification.DB.DbReader.<GetKeywords>d__13.MoveNext() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 259|System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в Classification.Modules.DocumentTextViewerModule.ViewModels.ViewDocumentTextViewerModuleViewModel.GetKeysForSynonyms(IEnumerable`1 collection) в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\DocumentTextViewerModule\ViewModels\ViewDocumentTextViewerModuleViewModel.cs:строка 187
+   в Prism.Events.EventSubscription`1.InvokeAction(Action`1 action, TPayload argument)
+   в Prism.Events.EventSubscription`1.<>c__DisplayClass11_0.<GetExecutionStrategy>b__0(Object[] arguments)
+   в Prism.Events.EventBase.InternalPublish(Object[] arguments)
+   в Prism.Events.PubSubEvent`1.Publish(TPayload payload)
+   в Classification.DB.DbReader.<GetKeywords>d__13.MoveNext() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 259
+03-07-2017 14:51:25|FATAL|IKSAR|System.ArgumentException: Такой ключ уже был добавлен к ключевым словам документа
+   в Classification.Modules.MainListViewModule.ViewModels.ViewMainListViewModuleViewModel.AddingKey(Guid Id) в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ViewModels\ViewMainListViewModuleViewModel.cs:строка 113|System.ArgumentException: Такой ключ уже был добавлен к ключевым словам документа
+   в Classification.Modules.MainListViewModule.ViewModels.ViewMainListViewModuleViewModel.AddingKey(Guid Id) в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ViewModels\ViewMainListViewModuleViewModel.cs:строка 113
+03-07-2017 15:00:36|INFO|IKSAR|К ключевому слову c0ad674c-9b0d-40c8-8bce-3bfc6ce766f1 добавлен синоним проект|
+03-07-2017 15:19:30|FATAL|IKSAR|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в Classification.Modules.MainListViewModule.ViewModels.ViewMainListViewModuleViewModel.AddingKey(Guid Id) в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ViewModels\ViewMainListViewModuleViewModel.cs:строка 119|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в Classification.Modules.MainListViewModule.ViewModels.ViewMainListViewModuleViewModel.AddingKey(Guid Id) в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ViewModels\ViewMainListViewModuleViewModel.cs:строка 119
+03-07-2017 15:35:43|INFO|IKSAR|К ключевому слову c0ad674c-9b0d-40c8-8bce-3bfc6ce766f1 добавлен синоним проекта|
+03-07-2017 15:46:23|INFO|IKSAR|К ключевому слову 1bcd3114-6bae-4b93-9564-dbf16b747e2b добавлен синоним учреждением|
+03-07-2017 16:00:05|INFO|IKSAR|К ключевому слову e1fa737f-49e6-4781-b269-d423646c5580 добавлен синоним программ|
+03-07-2017 16:00:24|INFO|IKSAR|К ключевому слову 6dada2da-1542-4248-a64c-bc3a634706ce добавлен синоним информационных|
+03-07-2017 16:01:02|INFO|IKSAR|Удалено 0 ключевых слов из документа da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 на замену|
+03-07-2017 16:01:02|INFO|IKSAR|К документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 добавлено ключевое слово: Бюджет|
+03-07-2017 16:01:02|INFO|IKSAR|К документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 добавлено ключевое слово: Информация|
+03-07-2017 16:01:02|INFO|IKSAR|К документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 добавлено ключевое слово: Программа|
+03-07-2017 16:01:02|INFO|IKSAR|К документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 добавлено ключевое слово: Расходы|
+03-07-2017 16:01:02|INFO|IKSAR|К документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 добавлено ключевое слово: Реализация|
+03-07-2017 16:01:02|INFO|IKSAR|Удалено 0 рубрик из документа da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 на замену|
+03-07-2017 16:01:02|INFO|IKSAR|К документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 добавлена рубрика: 020.030.020 Государственные программы. Концепции|
+03-07-2017 16:01:02|INFO|IKSAR|Документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 выставлен флаг IsReadyToExport = True, Строк обработано 1|
+03-07-2017 16:36:57|INFO|IKSAR|Удалено 0 ключевых слов из документа b38c96c7-f9ee-441c-b742-48e5f7ba93cd на замену|
+03-07-2017 16:36:57|INFO|IKSAR|К документу b38c96c7-f9ee-441c-b742-48e5f7ba93cd добавлено ключевое слово: Градостроительство|
+03-07-2017 16:36:57|INFO|IKSAR|К документу b38c96c7-f9ee-441c-b742-48e5f7ba93cd добавлено ключевое слово: Метрополитен|
+03-07-2017 16:36:57|INFO|IKSAR|К документу b38c96c7-f9ee-441c-b742-48e5f7ba93cd добавлено ключевое слово: Проект|
+03-07-2017 16:36:57|INFO|IKSAR|К документу b38c96c7-f9ee-441c-b742-48e5f7ba93cd добавлено ключевое слово: Состав|
+03-07-2017 16:36:57|INFO|IKSAR|Удалено 2 рубрик из документа b38c96c7-f9ee-441c-b742-48e5f7ba93cd на замену|
+03-07-2017 16:36:57|INFO|IKSAR|К документу b38c96c7-f9ee-441c-b742-48e5f7ba93cd добавлена рубрика: 090.050.030 Основные направления градостроительной деятельности|
+03-07-2017 16:36:57|INFO|IKSAR|К документу b38c96c7-f9ee-441c-b742-48e5f7ba93cd добавлена рубрика: 090.050.050 Градостроительные нормативы. Градостроительная документация. Экспертиза|
+03-07-2017 16:36:57|INFO|IKSAR|Документу b38c96c7-f9ee-441c-b742-48e5f7ba93cd выставлен флаг IsReadyToExport = True, Строк обработано 1|
+03-07-2017 16:37:24|FATAL|IKSAR|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   в Classification.DB.DbReader.<>c__DisplayClass18_0.<RefreshRubrics>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 467Рубрика = 00000000-0000-0000-0000-000000000000 Документ = 00000000-0000-0000-0000-000000000000|
+03-07-2017 16:37:24|FATAL|IKSAR|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   в Classification.DB.DbReader.<>c__DisplayClass19_0.<RefreshKeys>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 526Ключевое слово = 00000000-0000-0000-0000-000000000000 Документ = 00000000-0000-0000-0000-000000000000|
+03-07-2017 16:37:53|FATAL|IKSAR|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   в Classification.DB.DbReader.<>c__DisplayClass19_0.<RefreshKeys>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 526Ключевое слово = 00000000-0000-0000-0000-000000000000 Документ = 00000000-0000-0000-0000-000000000000|
+03-07-2017 16:37:53|FATAL|IKSAR|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   в Classification.DB.DbReader.<>c__DisplayClass18_0.<RefreshRubrics>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 467Рубрика = 00000000-0000-0000-0000-000000000000 Документ = 00000000-0000-0000-0000-000000000000|
+03-07-2017 16:42:50|INFO|IKSAR|Удалено 0 ключевых слов из документа 3b35500d-cc39-48a5-9ecf-36fd81183b62 на замену|
+03-07-2017 16:42:50|INFO|IKSAR|К документу 3b35500d-cc39-48a5-9ecf-36fd81183b62 добавлено ключевое слово: Кубок|
+03-07-2017 16:42:50|INFO|IKSAR|К документу 3b35500d-cc39-48a5-9ecf-36fd81183b62 добавлено ключевое слово: Организация|
+03-07-2017 16:42:50|INFO|IKSAR|К документу 3b35500d-cc39-48a5-9ecf-36fd81183b62 добавлено ключевое слово: Подготовка|
+03-07-2017 16:42:50|INFO|IKSAR|К документу 3b35500d-cc39-48a5-9ecf-36fd81183b62 добавлено ключевое слово: Проведение|
+03-07-2017 16:42:50|INFO|IKSAR|К документу 3b35500d-cc39-48a5-9ecf-36fd81183b62 добавлено ключевое слово: Программа|
+03-07-2017 16:42:50|INFO|IKSAR|К документу 3b35500d-cc39-48a5-9ecf-36fd81183b62 добавлено ключевое слово: Чемпионат|
+03-07-2017 16:42:50|INFO|IKSAR|Удалено 0 рубрик из документа 3b35500d-cc39-48a5-9ecf-36fd81183b62 на замену|
+03-07-2017 16:42:50|INFO|IKSAR|К документу 3b35500d-cc39-48a5-9ecf-36fd81183b62 добавлена рубрика: 020.030.020 Государственные программы. Концепции|
+03-07-2017 16:42:50|INFO|IKSAR|Документу 3b35500d-cc39-48a5-9ecf-36fd81183b62 выставлен флаг IsReadyToExport = True, Строк обработано 1|
+03-07-2017 16:50:11|INFO|IKSAR|Удалено 0 ключевых слов из документа 13e3bad8-e584-43a1-b198-76e0c3f4c9c5 на замену|
+03-07-2017 16:50:11|INFO|IKSAR|К документу 13e3bad8-e584-43a1-b198-76e0c3f4c9c5 добавлено ключевое слово: Государство|
+03-07-2017 16:50:11|INFO|IKSAR|К документу 13e3bad8-e584-43a1-b198-76e0c3f4c9c5 добавлено ключевое слово: Здоровье|
+03-07-2017 16:50:11|INFO|IKSAR|К документу 13e3bad8-e584-43a1-b198-76e0c3f4c9c5 добавлено ключевое слово: Здравоохранение|
+03-07-2017 16:50:11|INFO|IKSAR|К документу 13e3bad8-e584-43a1-b198-76e0c3f4c9c5 добавлено ключевое слово: Регламент|
+03-07-2017 16:50:11|INFO|IKSAR|К документу 13e3bad8-e584-43a1-b198-76e0c3f4c9c5 добавлено ключевое слово: Услуги|
+03-07-2017 16:50:11|INFO|IKSAR|К документу 13e3bad8-e584-43a1-b198-76e0c3f4c9c5 добавлено ключевое слово: Утверждение|
+03-07-2017 16:50:11|INFO|IKSAR|Удалено 0 рубрик из документа 13e3bad8-e584-43a1-b198-76e0c3f4c9c5 на замену|
+03-07-2017 16:50:11|INFO|IKSAR|К документу 13e3bad8-e584-43a1-b198-76e0c3f4c9c5 добавлена рубрика: 020.030.070 Лицензирование отдельных видов деятельности|
+03-07-2017 16:50:11|INFO|IKSAR|К документу 13e3bad8-e584-43a1-b198-76e0c3f4c9c5 добавлена рубрика: 140.010.040 Медицинские учреждения|
+03-07-2017 16:50:11|INFO|IKSAR|Документу 13e3bad8-e584-43a1-b198-76e0c3f4c9c5 выставлен флаг IsReadyToExport = True, Строк обработано 1|
+03-07-2017 16:50:26|FATAL|IKSAR|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   в Classification.DB.DbReader.<>c__DisplayClass19_0.<RefreshKeys>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 526Ключевое слово = 00000000-0000-0000-0000-000000000000 Документ = 00000000-0000-0000-0000-000000000000|
+03-07-2017 16:50:26|FATAL|IKSAR|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   в Classification.DB.DbReader.<>c__DisplayClass18_0.<RefreshRubrics>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 467Рубрика = 00000000-0000-0000-0000-000000000000 Документ = 00000000-0000-0000-0000-000000000000|
+03-07-2017 16:50:56|FATAL|IKSAR|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   в Classification.DB.DbReader.<>c__DisplayClass19_0.<RefreshKeys>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 526Ключевое слово = 00000000-0000-0000-0000-000000000000 Документ = 00000000-0000-0000-0000-000000000000|
+03-07-2017 16:50:56|FATAL|IKSAR|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   в Classification.DB.DbReader.<>c__DisplayClass18_0.<RefreshRubrics>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 467Рубрика = 00000000-0000-0000-0000-000000000000 Документ = 00000000-0000-0000-0000-000000000000|
+03-07-2017 16:51:26|FATAL|IKSAR|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   в Classification.DB.DbReader.<>c__DisplayClass18_0.<RefreshRubrics>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 467Рубрика = 00000000-0000-0000-0000-000000000000 Документ = 00000000-0000-0000-0000-000000000000|
+03-07-2017 16:51:26|FATAL|IKSAR|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   в Classification.DB.DbReader.<>c__DisplayClass19_0.<RefreshKeys>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 526Ключевое слово = 00000000-0000-0000-0000-000000000000 Документ = 00000000-0000-0000-0000-000000000000|
+03-07-2017 16:51:56|FATAL|IKSAR|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   в Classification.DB.DbReader.<>c__DisplayClass19_0.<RefreshKeys>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 526Ключевое слово = 00000000-0000-0000-0000-000000000000 Документ = 00000000-0000-0000-0000-000000000000|
+03-07-2017 16:51:56|FATAL|IKSAR|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   в Classification.DB.DbReader.<>c__DisplayClass18_0.<RefreshRubrics>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 467Рубрика = 00000000-0000-0000-0000-000000000000 Документ = 00000000-0000-0000-0000-000000000000|
+03-07-2017 16:52:26|FATAL|IKSAR|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   в Classification.DB.DbReader.<>c__DisplayClass18_0.<RefreshRubrics>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 467Рубрика = 00000000-0000-0000-0000-000000000000 Документ = 00000000-0000-0000-0000-000000000000|
+03-07-2017 16:52:26|FATAL|IKSAR|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   в Classification.DB.DbReader.<>c__DisplayClass19_0.<RefreshKeys>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 526Ключевое слово = 00000000-0000-0000-0000-000000000000 Документ = 00000000-0000-0000-0000-000000000000|
+03-07-2017 16:52:56|FATAL|IKSAR|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   в Classification.DB.DbReader.<>c__DisplayClass19_0.<RefreshKeys>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 526Ключевое слово = 00000000-0000-0000-0000-000000000000 Документ = 00000000-0000-0000-0000-000000000000|
+03-07-2017 16:52:56|FATAL|IKSAR|System.Collections.Generic.KeyNotFoundException: Данный ключ отсутствует в словаре.
+   в System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   в Classification.DB.DbReader.<>c__DisplayClass18_0.<RefreshRubrics>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbReader.cs:строка 467Рубрика = 00000000-0000-0000-0000-000000000000 Документ = 00000000-0000-0000-0000-000000000000|

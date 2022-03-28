@@ -1,0 +1,195 @@
+[
+  {
+    "IsRegex": true,
+    "SearchModel": "^О\\s[А-Я]{1}[а-я]{4,20}\\s[А-Я]{1}.[А-Я]{1}.",
+    "Rubrics": [
+      "95fe40ae-d464-4516-8832-912c58e4dcf2"
+    ]
+  },
+  {
+    "IsRegex": true,
+    "SearchModel": "^Об\\s[А-Я]{1}[а-я]{4,20}\\s[А-Я]{1}.[А-Я]{1}.",
+    "Rubrics": [
+      "95fe40ae-d464-4516-8832-912c58e4dcf2"
+    ]
+  },
+  {
+    "IsRegex": true,
+    "SearchModel": "О\\sпредоставлении\\s[а-яА-Я1-9\\s\"-,.]{1,}\\sземельн[огых]{2,3}\\sучастк[аов]{1,2}",
+    "Rubrics": [
+      "E278899D-C2D3-4AC7-A17B-2B7799CAD8FE"
+    ]
+  },
+  {
+    "IsRegex": true,
+    "SearchModel": "\\sграницах\\sособо\\sохраняем[ыхой]{2}\\sприродн[ыхой]{2}\\sтерритор[ий]{2}",
+    "Rubrics": [
+      "FB6F89C8-5CB2-4EDA-BB5A-A700DE942F1E"
+    ]
+  },
+  {
+    "IsRegex": true,
+    "SearchModel": "^Об\\sутверждении\\sграниц[ы]{0, 1}",
+    "Rubrics": [
+      "E482A0C9-C90D-4768-85A4-9D69D4B9B78D"
+    ]
+  },
+  {
+    "IsRegex": false,
+	"ContainsType": "Start",
+    "SearchModel": "О реорганизации",
+    "Rubrics": [
+      "13617fac-9e75-4d40-9841-20fb02fd2d95",
+      "08ab5425-4568-4fa1-b40f-967584ed25c7"
+    ]
+  },
+  {
+    "IsRegex": false,
+	"ContainsType": "Start",
+    "SearchModel": "Об объявлении благодарности",
+    "Rubrics": [
+      "A61E8872-4F17-4815-8821-9576246EDEA1"
+    ],
+  },
+  {
+    "IsRegex": false,
+	"ContainsType": "Start",
+    "SearchModel": "О награждении",
+    "Rubrics": [
+      "A61E8872-4F17-4815-8821-9576246EDEA1"
+    ]
+  },
+  {
+    "IsRegex": false,
+	"ContainsType": "Start",
+    "SearchModel": "О назначении",
+    "Rubrics": [
+      "95fe40ae-d464-4516-8832-912c58e4dcf2"
+    ]
+  },
+  {
+    "IsRegex": false,
+	"ContainsType": "Start",
+    "SearchModel": "Об установлении карантина",
+    "Rubrics": [
+      "A6D7DBD8-D670-4534-B0B2-D6FE65402653"
+    ]
+  },
+  {
+    "IsRegex": false,
+	"ContainsType": "Keys",
+    "Rubrics": [
+	  "275C6B96-39F2-4C34-BE0C-EF79E7BCD5C0",
+      "16B1010A-E118-473A-911E-FFF93E62FB9A"
+    ],
+	 "IdentifyKeys": [
+      "планировк",
+	  "проект",
+	  "территор"
+    ]
+  },
+  {
+    "IsRegex": false,
+	"ContainsType": "Keys",
+    "Rubrics": [
+      "257BF0EF-67D4-48B2-81EC-A4B5CA75740B"
+    ],
+	 "IdentifyKeys": [
+      "транспорт",
+	  "пересадочн"
+    ]
+  },
+  {
+    "IsRegex": false,
+	"ContainsType": "Keys",
+    "Rubrics": [
+      "257BF0EF-67D4-48B2-81EC-A4B5CA75740B"
+    ],
+	 "IdentifyKeys": [
+      "уличн",
+	  "дорожн"
+    ]
+  },
+  {
+    "IsRegex": false,
+	"ContainsType": "Keys",
+    "Rubrics": [
+      "88D297B7-515B-463D-997B-27DEC2ED66C2"
+    ],
+	 "IdentifyKeys": [
+      "комисс"
+    ]
+  },
+  {
+    "IsRegex": false,
+	"ContainsType": "Keys",
+    "Rubrics": [
+      "A976FADA-16E3-4C9F-9402-1AD7C131D10B"
+    ],
+	 "IdentifyKeys": [
+      "медицинск"
+    ]
+  },
+  {
+    "IsRegex": false,
+	"ContainsType": "Keys",
+    "Rubrics": [
+	  "8ACDF1DC-D0EB-4EE9-BE8E-1EC9DA989F7C"
+    ],
+	 "IdentifyKeys": [
+      "наслед"
+    ]
+  },
+  {
+    "IsRegex": false,
+	"ContainsType": "Keys",
+    "Rubrics": [
+      "7F5F3373-3CBF-4117-9848-77540307AF04"
+    ],
+	 "IdentifyKeys": [
+      "программ"
+    ]
+  },
+  {
+    "IsRegex": false,
+	"ContainsType": "Keys",
+    "Rubrics": [
+      "08ab5425-4568-4fa1-b40f-967584ed25c7"
+    ],
+	 "IdentifyKeys": [
+      "подчинен"
+    ]
+  },
+  {
+    "IsRegex": false,
+	"ContainsType": "Keywords",
+    "Rubrics": [
+      "16B1010A-E118-473A-911E-FFF93E62FB9A"
+    ],
+	 "IdentifyKeys": [
+      "Земля",
+	  "Комиссия",
+	  "Градостроительство"
+    ]
+  },
+  {
+    "IsRegex": false,
+	"ContainsType": "Keywords",
+    "Rubrics": [
+      "939E8623-2F7C-4CC6-A5C3-25DDF2A24C18"
+    ],
+	 "IdentifyKeys": [
+	  "Инвестиция"
+    ]
+  },
+  {
+    "IsRegex": false,
+	"ContainsType": "Keywords",
+    "Rubrics": [
+      "050F2417-5F10-4EE2-ACAA-EBAE8BF7FD0C"
+    ],
+	 "IdentifyKeys": [
+	  "Строительство"
+    ]
+  }
+]

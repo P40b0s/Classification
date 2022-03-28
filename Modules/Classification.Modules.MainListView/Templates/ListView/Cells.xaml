@@ -1,0 +1,193 @@
+﻿<ResourceDictionary 
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+             xmlns:metro="http://metro.mahapps.com/winfx/xaml/controls"
+             xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+             xmlns:local="clr-namespace:Classification.Modules.MainListViewModule.ViewModels"
+             xmlns:system="clr-namespace:System;assembly=mscorlib"
+             xmlns:prism="http://prismlibrary.com/">
+
+
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="pack://application:,,,/Classification.Core;component/Images/Images.xaml"/>
+        <ResourceDictionary Source="pack://application:,,,/Classification.Core;component/Styles/Buttons.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+
+    <system:Boolean x:Key="TrueKey">True</system:Boolean>
+    <system:Boolean x:Key="FalseKey">False</system:Boolean>
+
+    <DataTemplate x:Key="ActNameCellTemplate">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="50"/>
+                <ColumnDefinition Width="350"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="saveButton"
+                        Grid.Column="0"
+                        Command="{Binding RelativeSource={RelativeSource AncestorType={x:Type ListView}}, Path=DataContext.SaveDocumentCommand}">
+                <Grid>
+                    <Image Source="{StaticResource SaveImage}"
+                           VerticalAlignment="Center"
+                           MaxWidth="50"
+                           HorizontalAlignment="Center"/>
+                    <!--<Popup x:Name="searchpopup"
+                                           Opacity="0"
+                                           IsOpen="False"
+                                           Placement="Right"
+                                           PlacementTarget="{Binding ElementName=selectButton}"
+                                           AllowsTransparency="True">
+                        <Border BorderBrush="#FF9EE637" BorderThickness="1">
+                            <StackPanel Orientation="Vertical"  Margin="1" x:Name="buttonsStack">
+                                <TextBox Text="{Binding RelativeSource={RelativeSource AncestorType={x:Type ListView}}, Path=DataContext.CorrectedActName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                                         Width="350"
+                                         TextWrapping="Wrap"
+                                         FontSize="14"/>
+
+                                <Button     ToolTip="Выставить рубрики и ключевые слова на похожие документы"
+                                            Command="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ListView}}, Path=DataContext.SearchDocumentAnalogCommand}" 
+                                            Style="{StaticResource OkButton}"
+                                            Background="White">
+                                    <Image Source="{StaticResource RobotImage}" Width="30"/>
+                                </Button>
+
+                            </StackPanel>
+                        </Border>
+                    </Popup>-->
+                </Grid>
+                <!--<Button.Triggers>
+                    <EventTrigger RoutedEvent="MouseEnter">
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <ObjectAnimationUsingKeyFrames Storyboard.TargetName="searchpopup" Storyboard.TargetProperty="IsOpen">
+                                    <DiscreteObjectKeyFrame KeyTime="00:00:01" Value="{StaticResource TrueKey}"/>
+                                </ObjectAnimationUsingKeyFrames>
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger>
+                    <EventTrigger RoutedEvent="MouseLeave">
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <ObjectAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="searchpopup" Storyboard.TargetProperty="IsOpen">
+                                    <DiscreteObjectKeyFrame KeyTime="00:00:00.2" Value="{StaticResource FalseKey}"/>
+                                </ObjectAnimationUsingKeyFrames>
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger>
+                </Button.Triggers>-->
+
+                <Button.Style>
+                    <Style TargetType="{x:Type Button}" BasedOn="{StaticResource OkButton}">
+                        <Setter Property="IsEnabled" Value="False"/>
+                    </Style>
+                </Button.Style>
+            </Button>
+
+            <TextBlock TextWrapping="Wrap"
+                   HorizontalAlignment="Left"
+                   TextAlignment="Left"
+                   Grid.Column="1"
+                   FontSize="16">
+            <Run Text="{Binding ItemNumber}" Foreground="Red"/>
+            <Run Text=". "/>
+            <Run Text="{Binding ActName}"/>
+            </TextBlock>
+        </Grid>
+        <DataTemplate.Triggers>
+            <DataTrigger Binding="{Binding Path=IsSelected, RelativeSource={RelativeSource AncestorType={x:Type ListViewItem}}}" Value="false">
+                <Setter Property="Visibility" TargetName="saveButton" Value="Hidden"/>
+            </DataTrigger>
+            <DataTrigger Binding="{Binding Path=IsNotSaved}" Value="true">
+                <Setter Property="IsEnabled" TargetName="saveButton" Value="true"/>
+            </DataTrigger>
+        </DataTemplate.Triggers>
+    </DataTemplate>
+
+    <DataTemplate x:Key="NumberCellTemplate">
+        <TextBlock Text="{Binding ActNumber}"
+                   HorizontalAlignment="Center"
+                   TextAlignment="Center"
+                   FontSize="16"/>
+    </DataTemplate>
+
+    <DataTemplate x:Key="SignDateCellTemplate">
+        <TextBlock Text="{Binding SignDate, StringFormat=\{0:dd.MM.yyyy\}}"
+                   TextAlignment="Center"
+                   HorizontalAlignment="Center"
+                   FontSize="16"/>
+    </DataTemplate>
+
+    <DataTemplate x:Key="KeysCellTemplate">
+        <ListBox ItemsSource="{Binding Keys}"
+                 HorizontalAlignment="Left"
+                 Background="Transparent"
+                 FontSize="16">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="30"/>
+                            <ColumnDefinition Width="auto"/>
+                        </Grid.ColumnDefinitions>
+                        <Button Grid.Column="0"
+                                Command="{Binding RelativeSource={RelativeSource AncestorType={x:Type ListView}}, Path=DataContext.RemoveKeyCommand}"
+                                CommandParameter="{Binding ItemId}"
+                                Style="{StaticResource CancelButton}">
+                            <Image Width="30">
+                                <Image.Style>
+                                    <Style TargetType="{x:Type Image}">
+                                        <Setter Property="Source" Value="{StaticResource SimplyCancelImage}"/>
+                                    </Style>
+                                </Image.Style>
+                            </Image>
+                        </Button>
+                        <TextBlock Text="{Binding Item}" Grid.Column="1" TextWrapping="Wrap" x:Name="item"/>
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <DataTemplate.Triggers>
+            <DataTrigger Binding="{Binding Path=IsSelected, RelativeSource={RelativeSource AncestorType={x:Type ListViewItem}}}" Value="false">
+                <Setter Property="IsEnabled" Value="False"/>
+            </DataTrigger>
+        </DataTemplate.Triggers>
+    </DataTemplate>
+
+    <DataTemplate x:Key="RubricsCellTemplate">
+        <ListBox ItemsSource="{Binding Rubrics}"
+                   HorizontalAlignment="Left"
+                 Background="Transparent"
+                   Width="345"
+                   FontSize="16">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="30"/>
+                            <ColumnDefinition Width="300"/>
+                        </Grid.ColumnDefinitions>
+                        <Button Grid.Column="0"
+                                Command="{Binding RelativeSource={RelativeSource AncestorType={x:Type ListView}}, Path=DataContext.RemoveRubricCommand}"
+                                CommandParameter="{Binding ItemId}"
+                                Style="{StaticResource CancelButton}">
+                            <Image Width="30">
+                                <Image.Style>
+                                    <Style TargetType="{x:Type Image}">
+                                        <Setter Property="Source" Value="{StaticResource SimplyCancelImage}"/>
+                                    </Style>
+                                </Image.Style>
+                            </Image>
+                        </Button>
+                        <TextBlock Text="{Binding Item}" Grid.Column="1" TextWrapping="Wrap"/>
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <DataTemplate.Triggers>
+            <DataTrigger Binding="{Binding Path=IsSelected, RelativeSource={RelativeSource AncestorType={x:Type ListViewItem}}}" Value="false">
+                <Setter Property="IsEnabled" Value="False"/>
+            </DataTrigger>
+        </DataTemplate.Triggers>
+    </DataTemplate>
+
+
+</ResourceDictionary>

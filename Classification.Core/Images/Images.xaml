@@ -1,0 +1,14 @@
+﻿<ResourceDictionary 
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+             xmlns:metro="http://metro.mahapps.com/winfx/xaml/controls">
+
+
+    <ImageSource x:Key="CancelImage">pack://application:,,,/Classification.Core;component/Images/cancel.png</ImageSource>
+    <ImageSource x:Key="SimplyCancelImage">pack://application:,,,/Classification.Core;component/Images/cancel_red.png</ImageSource>
+    <ImageSource x:Key="ChangeImage">pack://application:,,,/Classification.Core;component/Images/change.png</ImageSource>
+    <ImageSource x:Key="RobotImage">pack://application:,,,/Classification.Core;component/Images/robot.png</ImageSource>
+    <ImageSource x:Key="SaveImage">pack://application:,,,/Classification.Core;component/Images/save.png</ImageSource>
+    <ImageSource x:Key="KoteImage">pack://application:,,,/Classification.Core;component/Images/KoTe.png</ImageSource>
+
+</ResourceDictionary>

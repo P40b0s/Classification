@@ -1,0 +1,72 @@
+﻿<UserControl x:Class="Classification.Modules.SearchModule.Views.ViewSearchModule"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:prism="http://prismlibrary.com/"
+             xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+             xmlns:metro="http://metro.mahapps.com/winfx/xaml/controls"
+             xmlns:DB="clr-namespace:Classification.DB;assembly=Classification.DB"
+             prism:ViewModelLocator.AutoWireViewModel="True"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <UserControl.Resources>
+    <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/SearchModule;component/Templates/ListBoxTemplates.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+
+
+
+    <StackPanel Orientation="Horizontal">
+        <StackPanel Orientation="Vertical">
+            <TextBlock Text="Рубрики" FontSize="18" Foreground="Green" HorizontalAlignment="Stretch" TextAlignment="Center"  Background="#FFCDFDFB"/>
+            <Border BorderThickness="2 2 1 2" BorderBrush="#FFCDFDFB">
+            <ListBox ItemsSource="{Binding Rubrics}"
+                     ItemContainerStyle="{StaticResource ListBoxItemStyle}"
+                     ItemTemplate="{StaticResource ListItemTemplate}"
+                     ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                     SelectedItem="{Binding SelectedRubric}"
+                     Height="150"
+                     Width="1050">
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="MouseDoubleClick">
+                        <i:InvokeCommandAction Command="{Binding AddRubricCommand}" />
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </ListBox>
+            </Border>
+            <TextBox metro:TextBoxHelper.ClearTextButton="True" Text="{Binding RubricSearchBox, UpdateSourceTrigger=PropertyChanged}">
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="TextChanged">
+                        <i:InvokeCommandAction Command="{Binding SearchRubricCommand}"/>
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </TextBox>
+                
+        </StackPanel>
+
+        <StackPanel Orientation="Vertical">
+            <TextBlock Text="Ключевые слова" FontSize="18" Foreground="Green" HorizontalAlignment="Stretch" TextAlignment="Center"  Background="#FFCDFDFB"/>
+            <Border BorderThickness="1 2 2 2" BorderBrush="#FFCDFDFB">
+                <ListBox ItemsSource="{Binding Keywords}"
+                     ItemContainerStyle="{StaticResource ListBoxItemStyle}"
+                     ItemTemplate="{StaticResource ListItemTemplate}"
+                     SelectedItem="{Binding SelectedKey}"
+                     Height="150"
+                     Width="200">
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="MouseDoubleClick">
+                        <i:InvokeCommandAction Command="{Binding AddKeyCommand}" />
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </ListBox>
+            </Border>
+            <TextBox metro:TextBoxHelper.ClearTextButton="True" Text="{Binding KeySearchBox, UpdateSourceTrigger=PropertyChanged}">
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="TextChanged">
+                        <i:InvokeCommandAction Command="{Binding SearchKeywordCommand}"/>
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </TextBox>
+        </StackPanel>
+    </StackPanel>
+</UserControl>

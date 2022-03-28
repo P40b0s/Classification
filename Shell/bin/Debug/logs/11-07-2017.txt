@@ -1,0 +1,364 @@
+11-07-2017 09:19:59|INFO|IKSAR|Удалено 6 ключевых слов из документа 2e163bc4-37d1-45ad-a5b3-a9b52f2fd87c на замену|
+11-07-2017 09:19:59|INFO|IKSAR|К документу 2e163bc4-37d1-45ad-a5b3-a9b52f2fd87c добавлено ключевое слово: Документ|
+11-07-2017 09:19:59|INFO|IKSAR|К документу 2e163bc4-37d1-45ad-a5b3-a9b52f2fd87c добавлено ключевое слово: Жалоба|
+11-07-2017 09:19:59|INFO|IKSAR|К документу 2e163bc4-37d1-45ad-a5b3-a9b52f2fd87c добавлено ключевое слово: Помещение|
+11-07-2017 09:19:59|INFO|IKSAR|К документу 2e163bc4-37d1-45ad-a5b3-a9b52f2fd87c добавлено ключевое слово: Предоставление|
+11-07-2017 09:19:59|INFO|IKSAR|К документу 2e163bc4-37d1-45ad-a5b3-a9b52f2fd87c добавлено ключевое слово: Срок|
+11-07-2017 09:19:59|INFO|IKSAR|К документу 2e163bc4-37d1-45ad-a5b3-a9b52f2fd87c добавлено ключевое слово: Услуга|
+11-07-2017 09:19:59|INFO|IKSAR|Удалено 0 рубрик из документа 2e163bc4-37d1-45ad-a5b3-a9b52f2fd87c на замену|
+11-07-2017 09:20:07|INFO|IKSAR|Удалено 6 ключевых слов из документа 601bba86-4908-4bf7-b481-c5c4d92aebbd на замену|
+11-07-2017 09:20:07|INFO|IKSAR|К документу 601bba86-4908-4bf7-b481-c5c4d92aebbd добавлено ключевое слово: Документ|
+11-07-2017 09:20:07|INFO|IKSAR|К документу 601bba86-4908-4bf7-b481-c5c4d92aebbd добавлено ключевое слово: Здание|
+11-07-2017 09:20:07|INFO|IKSAR|К документу 601bba86-4908-4bf7-b481-c5c4d92aebbd добавлено ключевое слово: Культура|
+11-07-2017 09:20:07|INFO|IKSAR|К документу 601bba86-4908-4bf7-b481-c5c4d92aebbd добавлено ключевое слово: Паспорт|
+11-07-2017 09:20:07|INFO|IKSAR|К документу 601bba86-4908-4bf7-b481-c5c4d92aebbd добавлено ключевое слово: Предоставление|
+11-07-2017 09:20:07|INFO|IKSAR|К документу 601bba86-4908-4bf7-b481-c5c4d92aebbd добавлено ключевое слово: Услуга|
+11-07-2017 09:20:07|INFO|IKSAR|Удалено 0 рубрик из документа 601bba86-4908-4bf7-b481-c5c4d92aebbd на замену|
+11-07-2017 09:20:11|INFO|IKSAR|Удалено 6 ключевых слов из документа 2e163bc4-37d1-45ad-a5b3-a9b52f2fd87c на замену|
+11-07-2017 09:20:11|INFO|IKSAR|К документу 2e163bc4-37d1-45ad-a5b3-a9b52f2fd87c добавлено ключевое слово: Документ|
+11-07-2017 09:20:11|INFO|IKSAR|К документу 2e163bc4-37d1-45ad-a5b3-a9b52f2fd87c добавлено ключевое слово: Жалоба|
+11-07-2017 09:20:11|INFO|IKSAR|К документу 2e163bc4-37d1-45ad-a5b3-a9b52f2fd87c добавлено ключевое слово: Помещение|
+11-07-2017 09:20:11|INFO|IKSAR|К документу 2e163bc4-37d1-45ad-a5b3-a9b52f2fd87c добавлено ключевое слово: Предоставление|
+11-07-2017 09:20:11|INFO|IKSAR|К документу 2e163bc4-37d1-45ad-a5b3-a9b52f2fd87c добавлено ключевое слово: Срок|
+11-07-2017 09:20:11|INFO|IKSAR|К документу 2e163bc4-37d1-45ad-a5b3-a9b52f2fd87c добавлено ключевое слово: Услуга|
+11-07-2017 09:20:11|INFO|IKSAR|Удалено 0 рубрик из документа 2e163bc4-37d1-45ad-a5b3-a9b52f2fd87c на замену|
+11-07-2017 09:34:23|INFO|IKSAR|ee1dec90-0093-4abe-888c-6c197cf4d9a8|
+11-07-2017 09:34:23|FATAL|IKSAR|System.NotSupportedException: Данный тип CollectionView не поддерживает изменения в своем SourceCollection из потока, отличного от потока Dispatcher.
+   в System.Windows.Data.CollectionView.OnCollectionChanged(Object sender, NotifyCollectionChangedEventArgs args)
+   в System.Collections.Specialized.NotifyCollectionChangedEventHandler.Invoke(Object sender, NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.InsertItem(Int32 index, T item)
+   в System.Collections.ObjectModel.Collection`1.Add(T item)
+   в Classification.Modules.MainListViewModule.ExcelExporter.SetKeywordsToDocuments(ClassificationModel& model, Boolean saveToBase) в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ExcelExporter.cs:строка 941|System.NotSupportedException: Данный тип CollectionView не поддерживает изменения в своем SourceCollection из потока, отличного от потока Dispatcher.
+   в System.Windows.Data.CollectionView.OnCollectionChanged(Object sender, NotifyCollectionChangedEventArgs args)
+   в System.Collections.Specialized.NotifyCollectionChangedEventHandler.Invoke(Object sender, NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+   в System.Collections.ObjectModel.ObservableCollection`1.InsertItem(Int32 index, T item)
+   в System.Collections.ObjectModel.Collection`1.Add(T item)
+   в Classification.Modules.MainListViewModule.ExcelExporter.SetKeywordsToDocuments(ClassificationModel& model, Boolean saveToBase) в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ExcelExporter.cs:строка 941
+11-07-2017 10:01:49|FATAL|IKSAR|MySql.Data.MySqlClient.MySqlException (0x80004005): Reading from the stream has failed. ---> System.IO.IOException: Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение. ---> System.Net.Sockets.SocketException: Программа на вашем хост-компьютере разорвала установленное подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   в System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   в System.IO.BufferedStream.ReadByte()
+   в MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   в MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   в MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   в MySql.Data.MySqlClient.NativeDriver.ReadOk(Boolean read)
+   в MySql.Data.MySqlClient.NativeDriver.AuthenticateOld()
+   в MySql.Data.MySqlClient.NativeDriver.Authenticate()
+   в MySql.Data.MySqlClient.NativeDriver.Open()
+   в MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   в MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   в MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   в MySql.Data.MySqlClient.MySqlConnection.Open()
+   в Classification.Core.Methods.IPS30.GetActTextFromIPS30(DateTime data, String number) в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.Core\Methods\IPS30.cs:строка 22|MySql.Data.MySqlClient.MySqlException (0x80004005): Reading from the stream has failed. ---> System.IO.IOException: Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение. ---> System.Net.Sockets.SocketException: Программа на вашем хост-компьютере разорвала установленное подключение
+   в System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   в System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   в System.IO.BufferedStream.ReadByte()
+   в MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   в MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   в MySql.Data.MySqlClient.MySqlStream.OpenPacket()
+   в MySql.Data.MySqlClient.NativeDriver.ReadOk(Boolean read)
+   в MySql.Data.MySqlClient.NativeDriver.AuthenticateOld()
+   в MySql.Data.MySqlClient.NativeDriver.Authenticate()
+   в MySql.Data.MySqlClient.NativeDriver.Open()
+   в MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   в MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   в MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   в MySql.Data.MySqlClient.MySqlConnection.Open()
+   в Classification.Core.Methods.IPS30.GetActTextFromIPS30(DateTime data, String number) в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.Core\Methods\IPS30.cs:строка 22
+11-07-2017 10:43:27|INFO|IKSAR|Удалено 6 ключевых слов из документа 601bba86-4908-4bf7-b481-c5c4d92aebbd на замену|
+11-07-2017 10:43:27|INFO|IKSAR|К документу 601bba86-4908-4bf7-b481-c5c4d92aebbd добавлено ключевое слово: Документ|
+11-07-2017 10:43:27|INFO|IKSAR|К документу 601bba86-4908-4bf7-b481-c5c4d92aebbd добавлено ключевое слово: Здание|
+11-07-2017 10:43:27|INFO|IKSAR|К документу 601bba86-4908-4bf7-b481-c5c4d92aebbd добавлено ключевое слово: Культура|
+11-07-2017 10:43:27|INFO|IKSAR|К документу 601bba86-4908-4bf7-b481-c5c4d92aebbd добавлено ключевое слово: Паспорт|
+11-07-2017 10:43:27|INFO|IKSAR|К документу 601bba86-4908-4bf7-b481-c5c4d92aebbd добавлено ключевое слово: Предоставление|
+11-07-2017 10:43:27|INFO|IKSAR|К документу 601bba86-4908-4bf7-b481-c5c4d92aebbd добавлено ключевое слово: Услуга|
+11-07-2017 11:03:34|INFO|IKSAR|Удалено 6 ключевых слов из документа 2e163bc4-37d1-45ad-a5b3-a9b52f2fd87c на замену|
+11-07-2017 11:03:34|INFO|IKSAR|К документу 2e163bc4-37d1-45ad-a5b3-a9b52f2fd87c добавлено ключевое слово: Документ|
+11-07-2017 11:03:34|INFO|IKSAR|К документу 2e163bc4-37d1-45ad-a5b3-a9b52f2fd87c добавлено ключевое слово: Жалоба|
+11-07-2017 11:03:34|INFO|IKSAR|К документу 2e163bc4-37d1-45ad-a5b3-a9b52f2fd87c добавлено ключевое слово: Помещение|
+11-07-2017 11:03:34|INFO|IKSAR|К документу 2e163bc4-37d1-45ad-a5b3-a9b52f2fd87c добавлено ключевое слово: Предоставление|
+11-07-2017 11:03:34|INFO|IKSAR|К документу 2e163bc4-37d1-45ad-a5b3-a9b52f2fd87c добавлено ключевое слово: Срок|
+11-07-2017 11:03:35|INFO|IKSAR|К документу 2e163bc4-37d1-45ad-a5b3-a9b52f2fd87c добавлено ключевое слово: Услуга|
+11-07-2017 11:13:20|INFO|IKSAR|bf24d223-a8a9-4e22-bfda-5a49392c58f4|
+11-07-2017 11:13:21|FATAL|IKSAR|System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в Classification.Core.AsyncObservableCollection`1.OnPropertyChanged(PropertyChangedEventArgs e) в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.Core\AsyncObservableCollection.cs:строка 50
+   в System.Collections.ObjectModel.ObservableCollection`1.InsertItem(Int32 index, T item)
+   в System.Collections.ObjectModel.Collection`1.Insert(Int32 index, T item)
+   в Classification.Core.AsyncObservableCollection`1.AddSorted(T item) в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.Core\AsyncObservableCollection.cs:строка 73
+   в Classification.Modules.MainListViewModule.ExcelExporter.<>c__DisplayClass135_4.<SetKeywordsToDocuments>b__8() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ExcelExporter.cs:строка 947
+   в System.Windows.Threading.DispatcherOperation.InvokeDelegateCore()
+   в System.Windows.Threading.DispatcherOperation.InvokeImpl()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Windows.Threading.DispatcherOperation.Wait(TimeSpan timeout)
+   в System.Windows.Threading.Dispatcher.InvokeImpl(DispatcherOperation operation, CancellationToken cancellationToken, TimeSpan timeout)
+   в System.Windows.Threading.Dispatcher.Invoke(Action callback, DispatcherPriority priority, CancellationToken cancellationToken, TimeSpan timeout)
+   в System.Windows.Threading.Dispatcher.Invoke(Action callback)
+   в Classification.Modules.MainListViewModule.ExcelExporter.<>c__DisplayClass135_0.<SetKeywordsToDocuments>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ExcelExporter.cs:строка 947|System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в Classification.Core.AsyncObservableCollection`1.OnPropertyChanged(PropertyChangedEventArgs e) в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.Core\AsyncObservableCollection.cs:строка 50
+   в System.Collections.ObjectModel.ObservableCollection`1.InsertItem(Int32 index, T item)
+   в System.Collections.ObjectModel.Collection`1.Insert(Int32 index, T item)
+   в Classification.Core.AsyncObservableCollection`1.AddSorted(T item) в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.Core\AsyncObservableCollection.cs:строка 73
+   в Classification.Modules.MainListViewModule.ExcelExporter.<>c__DisplayClass135_4.<SetKeywordsToDocuments>b__8() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ExcelExporter.cs:строка 947
+   в System.Windows.Threading.DispatcherOperation.InvokeDelegateCore()
+   в System.Windows.Threading.DispatcherOperation.InvokeImpl()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Windows.Threading.DispatcherOperation.Wait(TimeSpan timeout)
+   в System.Windows.Threading.Dispatcher.InvokeImpl(DispatcherOperation operation, CancellationToken cancellationToken, TimeSpan timeout)
+   в System.Windows.Threading.Dispatcher.Invoke(Action callback, DispatcherPriority priority, CancellationToken cancellationToken, TimeSpan timeout)
+   в System.Windows.Threading.Dispatcher.Invoke(Action callback)
+   в Classification.Modules.MainListViewModule.ExcelExporter.<>c__DisplayClass135_0.<SetKeywordsToDocuments>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ExcelExporter.cs:строка 947
+11-07-2017 11:13:21|FATAL|IKSAR|System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в Classification.Core.AsyncObservableCollection`1.OnPropertyChanged(PropertyChangedEventArgs e) в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.Core\AsyncObservableCollection.cs:строка 50
+   в System.Collections.ObjectModel.ObservableCollection`1.InsertItem(Int32 index, T item)
+   в System.Collections.ObjectModel.Collection`1.Add(T item)
+   в Classification.Modules.MainListViewModule.ExcelExporter.<>c__DisplayClass134_1.<addRubrics>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ExcelExporter.cs:строка 877
+   в System.Windows.Threading.DispatcherOperation.InvokeDelegateCore()
+   в System.Windows.Threading.DispatcherOperation.InvokeImpl()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Windows.Threading.DispatcherOperation.Wait(TimeSpan timeout)
+   в System.Windows.Threading.Dispatcher.InvokeImpl(DispatcherOperation operation, CancellationToken cancellationToken, TimeSpan timeout)
+   в System.Windows.Threading.Dispatcher.Invoke(Action callback, DispatcherPriority priority, CancellationToken cancellationToken, TimeSpan timeout)
+   в System.Windows.Threading.Dispatcher.Invoke(Action callback)
+   в Classification.Modules.MainListViewModule.ExcelExporter.addRubrics(ClassificationModel model, AutoClassificationModel item) в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ExcelExporter.cs:строка 877|System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в Classification.Core.AsyncObservableCollection`1.OnPropertyChanged(PropertyChangedEventArgs e) в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.Core\AsyncObservableCollection.cs:строка 50
+   в System.Collections.ObjectModel.ObservableCollection`1.InsertItem(Int32 index, T item)
+   в System.Collections.ObjectModel.Collection`1.Add(T item)
+   в Classification.Modules.MainListViewModule.ExcelExporter.<>c__DisplayClass134_1.<addRubrics>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ExcelExporter.cs:строка 877
+   в System.Windows.Threading.DispatcherOperation.InvokeDelegateCore()
+   в System.Windows.Threading.DispatcherOperation.InvokeImpl()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Windows.Threading.DispatcherOperation.Wait(TimeSpan timeout)
+   в System.Windows.Threading.Dispatcher.InvokeImpl(DispatcherOperation operation, CancellationToken cancellationToken, TimeSpan timeout)
+   в System.Windows.Threading.Dispatcher.Invoke(Action callback, DispatcherPriority priority, CancellationToken cancellationToken, TimeSpan timeout)
+   в System.Windows.Threading.Dispatcher.Invoke(Action callback)
+   в Classification.Modules.MainListViewModule.ExcelExporter.addRubrics(ClassificationModel model, AutoClassificationModel item) в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ExcelExporter.cs:строка 877
+11-07-2017 11:13:21|INFO|IKSAR|В базу импортирован документ a5ddebe6-3001-45d1-a247-d532f2643047 из файла EXCEL|
+11-07-2017 11:24:45|INFO|IKSAR|Удалено 6 ключевых слов из документа 2e163bc4-37d1-45ad-a5b3-a9b52f2fd87c на замену|
+11-07-2017 11:24:45|INFO|IKSAR|К документу 2e163bc4-37d1-45ad-a5b3-a9b52f2fd87c добавлено ключевое слово: Документ|
+11-07-2017 11:24:45|INFO|IKSAR|К документу 2e163bc4-37d1-45ad-a5b3-a9b52f2fd87c добавлено ключевое слово: Жалоба|
+11-07-2017 11:24:45|INFO|IKSAR|К документу 2e163bc4-37d1-45ad-a5b3-a9b52f2fd87c добавлено ключевое слово: Помещение|
+11-07-2017 11:24:45|INFO|IKSAR|К документу 2e163bc4-37d1-45ad-a5b3-a9b52f2fd87c добавлено ключевое слово: Предоставление|
+11-07-2017 11:24:45|INFO|IKSAR|К документу 2e163bc4-37d1-45ad-a5b3-a9b52f2fd87c добавлено ключевое слово: Срок|
+11-07-2017 11:24:45|INFO|IKSAR|К документу 2e163bc4-37d1-45ad-a5b3-a9b52f2fd87c добавлено ключевое слово: Услуга|
+11-07-2017 11:25:08|INFO|IKSAR|В базу импортирован документ 2c3d9e2e-eab1-4165-9637-acbe13a92520 из файла EXCEL|
+11-07-2017 11:29:31|INFO|IKSAR|В базу импортирован документ effc2e86-0164-454c-9b7d-9e385e29d235 из файла EXCEL|
+11-07-2017 11:55:06|FATAL|IKSAR|System.ArgumentException: Ключевое слово 92e791a7-89de-41bf-9bf3-461c626ed15d уже добавлено к документу
+   в Classification.Modules.MainListViewModule.ViewModels.ViewMainListViewModuleViewModel.AddingKey(Guid Id) в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ViewModels\ViewMainListViewModuleViewModel.cs:строка 104|System.ArgumentException: Ключевое слово 92e791a7-89de-41bf-9bf3-461c626ed15d уже добавлено к документу
+   в Classification.Modules.MainListViewModule.ViewModels.ViewMainListViewModuleViewModel.AddingKey(Guid Id) в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ViewModels\ViewMainListViewModuleViewModel.cs:строка 104
+11-07-2017 11:57:21|FATAL|IKSAR|System.ArgumentException: Ключевое слово 47e37240-fad2-413b-8554-6729792f6c82 уже добавлено к документу
+   в Classification.Modules.MainListViewModule.ViewModels.ViewMainListViewModuleViewModel.AddingKey(Guid Id) в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ViewModels\ViewMainListViewModuleViewModel.cs:строка 104|System.ArgumentException: Ключевое слово 47e37240-fad2-413b-8554-6729792f6c82 уже добавлено к документу
+   в Classification.Modules.MainListViewModule.ViewModels.ViewMainListViewModuleViewModel.AddingKey(Guid Id) в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ViewModels\ViewMainListViewModuleViewModel.cs:строка 104
+11-07-2017 11:59:26|INFO|IKSAR|Удалено 6 ключевых слов из документа af2b4462-1ea8-47d0-bcc2-161bdfaf5dfe на замену|
+11-07-2017 11:59:26|INFO|IKSAR|К документу af2b4462-1ea8-47d0-bcc2-161bdfaf5dfe добавлено ключевое слово: Благоустройство|
+11-07-2017 11:59:26|INFO|IKSAR|К документу af2b4462-1ea8-47d0-bcc2-161bdfaf5dfe добавлено ключевое слово: Дом|
+11-07-2017 11:59:26|INFO|IKSAR|К документу af2b4462-1ea8-47d0-bcc2-161bdfaf5dfe добавлено ключевое слово: Жилище|
+11-07-2017 11:59:26|INFO|IKSAR|К документу af2b4462-1ea8-47d0-bcc2-161bdfaf5dfe добавлено ключевое слово: Предоставление|
+11-07-2017 11:59:26|INFO|IKSAR|К документу af2b4462-1ea8-47d0-bcc2-161bdfaf5dfe добавлено ключевое слово: Ремонт|
+11-07-2017 11:59:26|INFO|IKSAR|К документу af2b4462-1ea8-47d0-bcc2-161bdfaf5dfe добавлено ключевое слово: Фонд|
+11-07-2017 11:59:26|INFO|IKSAR|Удалено 0 рубрик из документа af2b4462-1ea8-47d0-bcc2-161bdfaf5dfe на замену|
+11-07-2017 11:59:26|INFO|IKSAR|К документу af2b4462-1ea8-47d0-bcc2-161bdfaf5dfe добавлена рубрика: 020.010.050 Органы исполнительной власти субъектов Российской Федерации|
+11-07-2017 11:59:26|INFO|IKSAR|К документу af2b4462-1ea8-47d0-bcc2-161bdfaf5dfe добавлена рубрика: 090.040.090 Реконструкция, расширение, техническое перевооружение и капитальный ремонт действующих предприятий, зданий, сооружений|
+11-07-2017 11:59:26|INFO|IKSAR|Документу af2b4462-1ea8-47d0-bcc2-161bdfaf5dfe выставлен флаг IsReadyToExport = True, Строк обработано 1|
+11-07-2017 12:00:42|INFO|IKSAR|Удалено 6 ключевых слов из документа bcb7754b-772d-4515-8548-f655ca0ed934 на замену|
+11-07-2017 12:00:42|INFO|IKSAR|К документу bcb7754b-772d-4515-8548-f655ca0ed934 добавлено ключевое слово: Граница|
+11-07-2017 12:00:42|INFO|IKSAR|К документу bcb7754b-772d-4515-8548-f655ca0ed934 добавлено ключевое слово: Движение|
+11-07-2017 12:00:42|INFO|IKSAR|К документу bcb7754b-772d-4515-8548-f655ca0ed934 добавлено ключевое слово: Жилище|
+11-07-2017 12:00:42|INFO|IKSAR|К документу bcb7754b-772d-4515-8548-f655ca0ed934 добавлено ключевое слово: Категория|
+11-07-2017 12:00:42|INFO|IKSAR|К документу bcb7754b-772d-4515-8548-f655ca0ed934 добавлено ключевое слово: Содержание|
+11-07-2017 12:00:42|INFO|IKSAR|К документу bcb7754b-772d-4515-8548-f655ca0ed934 добавлено ключевое слово: Хозяйство|
+11-07-2017 12:00:42|INFO|IKSAR|Удалено 0 рубрик из документа bcb7754b-772d-4515-8548-f655ca0ed934 на замену|
+11-07-2017 12:00:42|INFO|IKSAR|К документу bcb7754b-772d-4515-8548-f655ca0ed934 добавлена рубрика: 020.010.050 Органы исполнительной власти субъектов Российской Федерации|
+11-07-2017 12:00:42|INFO|IKSAR|К документу bcb7754b-772d-4515-8548-f655ca0ed934 добавлена рубрика: 090.050.030 Основные направления градостроительной деятельности|
+11-07-2017 12:00:42|INFO|IKSAR|Документу bcb7754b-772d-4515-8548-f655ca0ed934 выставлен флаг IsReadyToExport = True, Строк обработано 1|
+11-07-2017 12:00:50|INFO|IKSAR|Удалено 6 ключевых слов из документа 6f4a7c9f-98e3-48fa-bb16-19ec66f39d43 на замену|
+11-07-2017 12:00:50|INFO|IKSAR|К документу 6f4a7c9f-98e3-48fa-bb16-19ec66f39d43 добавлено ключевое слово: Заместитель|
+11-07-2017 12:00:50|INFO|IKSAR|К документу 6f4a7c9f-98e3-48fa-bb16-19ec66f39d43 добавлено ключевое слово: Земля|
+11-07-2017 12:00:52|FATAL|IKSAR|System.Data.SqlClient.SqlException (0x80131904): Нарушение "PK_KeysValues_1" ограничения PRIMARY KEY. Невозможно вставить повторяющийся ключ в объект "dbo.KeysValues".
+Выполнение данной инструкции было прервано.
+   в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   в System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   в System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   в Classification.DB.DbWriter.AddReadyKeywordToBase(ClassificationModel item) в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbWriter.cs:строка 299
+ClientConnectionId:6a90bf22-2945-401c-ad67-044ce54efe4e
+Error Number: 2627, State: 1, Class: 14|System.Data.SqlClient.SqlException (0x80131904): Нарушение "PK_KeysValues_1" ограничения PRIMARY KEY. Невозможно вставить повторяющийся ключ в объект "dbo.KeysValues".
+Выполнение данной инструкции было прервано.
+   в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   в System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   в System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   в Classification.DB.DbWriter.AddReadyKeywordToBase(ClassificationModel item) в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbWriter.cs:строка 299
+ClientConnectionId:6a90bf22-2945-401c-ad67-044ce54efe4e
+Error Number: 2627, State: 1, Class: 14
+11-07-2017 12:00:55|INFO|IKSAR|Classification.Core.AsyncObservableCollection`1[Classification.Core.Models.KeysAndRubricsModel]|
+11-07-2017 12:01:53|INFO|IKSAR|Удалено 2 ключевых слов из документа 6f4a7c9f-98e3-48fa-bb16-19ec66f39d43 на замену|
+11-07-2017 12:01:53|INFO|IKSAR|К документу 6f4a7c9f-98e3-48fa-bb16-19ec66f39d43 добавлено ключевое слово: Заместитель|
+11-07-2017 12:01:53|INFO|IKSAR|К документу 6f4a7c9f-98e3-48fa-bb16-19ec66f39d43 добавлено ключевое слово: Земля|
+11-07-2017 12:01:53|INFO|IKSAR|К документу 6f4a7c9f-98e3-48fa-bb16-19ec66f39d43 добавлено ключевое слово: Имущество|
+11-07-2017 12:01:53|INFO|IKSAR|К документу 6f4a7c9f-98e3-48fa-bb16-19ec66f39d43 добавлено ключевое слово: Обязанность|
+11-07-2017 12:01:53|INFO|IKSAR|К документу 6f4a7c9f-98e3-48fa-bb16-19ec66f39d43 добавлено ключевое слово: Экономика|
+11-07-2017 12:01:53|INFO|IKSAR|Удалено 0 рубрик из документа 6f4a7c9f-98e3-48fa-bb16-19ec66f39d43 на замену|
+11-07-2017 12:01:53|INFO|IKSAR|К документу 6f4a7c9f-98e3-48fa-bb16-19ec66f39d43 добавлена рубрика: 020.010.050 Органы исполнительной власти субъектов Российской Федерации|
+11-07-2017 12:01:53|INFO|IKSAR|Документу 6f4a7c9f-98e3-48fa-bb16-19ec66f39d43 выставлен флаг IsReadyToExport = True, Строк обработано 1|
+11-07-2017 12:03:01|INFO|IKSAR|Удалено 6 ключевых слов из документа a83b925d-efb8-42f4-a64a-d110813b57e6 на замену|
+11-07-2017 12:03:01|INFO|IKSAR|К документу a83b925d-efb8-42f4-a64a-d110813b57e6 добавлено ключевое слово: Документ|
+11-07-2017 12:03:01|INFO|IKSAR|К документу a83b925d-efb8-42f4-a64a-d110813b57e6 добавлено ключевое слово: Недвижимость|
+11-07-2017 12:03:01|INFO|IKSAR|К документу a83b925d-efb8-42f4-a64a-d110813b57e6 добавлено ключевое слово: Право|
+11-07-2017 12:03:01|INFO|IKSAR|К документу a83b925d-efb8-42f4-a64a-d110813b57e6 добавлено ключевое слово: Предоставление|
+11-07-2017 12:03:01|INFO|IKSAR|К документу a83b925d-efb8-42f4-a64a-d110813b57e6 добавлено ключевое слово: Рынок|
+11-07-2017 12:03:01|INFO|IKSAR|К документу a83b925d-efb8-42f4-a64a-d110813b57e6 добавлено ключевое слово: Услуга|
+11-07-2017 12:03:01|INFO|IKSAR|Удалено 0 рубрик из документа a83b925d-efb8-42f4-a64a-d110813b57e6 на замену|
+11-07-2017 12:03:01|INFO|IKSAR|К документу a83b925d-efb8-42f4-a64a-d110813b57e6 добавлена рубрика: 020.010.050 Органы исполнительной власти субъектов Российской Федерации|
+11-07-2017 12:03:01|INFO|IKSAR|Документу a83b925d-efb8-42f4-a64a-d110813b57e6 выставлен флаг IsReadyToExport = True, Строк обработано 1|
+11-07-2017 12:03:04|INFO|IKSAR|Удалено 5 ключевых слов из документа 14239258-4b8c-4fc9-97ee-afc3c9551d34 на замену|
+11-07-2017 12:03:05|INFO|IKSAR|К документу 14239258-4b8c-4fc9-97ee-afc3c9551d34 добавлено ключевое слово: Безопасность|
+11-07-2017 12:03:05|FATAL|IKSAR|System.Data.SqlClient.SqlException (0x80131904): Нарушение "PK_KeysValues_1" ограничения PRIMARY KEY. Невозможно вставить повторяющийся ключ в объект "dbo.KeysValues".
+Выполнение данной инструкции было прервано.
+   в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   в System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   в System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   в Classification.DB.DbWriter.AddReadyKeywordToBase(ClassificationModel item) в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbWriter.cs:строка 299
+ClientConnectionId:6a90bf22-2945-401c-ad67-044ce54efe4e
+Error Number: 2627, State: 1, Class: 14|System.Data.SqlClient.SqlException (0x80131904): Нарушение "PK_KeysValues_1" ограничения PRIMARY KEY. Невозможно вставить повторяющийся ключ в объект "dbo.KeysValues".
+Выполнение данной инструкции было прервано.
+   в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   в System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   в System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   в Classification.DB.DbWriter.AddReadyKeywordToBase(ClassificationModel item) в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbWriter.cs:строка 299
+ClientConnectionId:6a90bf22-2945-401c-ad67-044ce54efe4e
+Error Number: 2627, State: 1, Class: 14
+11-07-2017 12:03:05|INFO|IKSAR|Classification.Core.AsyncObservableCollection`1[Classification.Core.Models.KeysAndRubricsModel]|
+11-07-2017 12:04:45|INFO|IKSAR|Удалено 6 ключевых слов из документа bc14d7c3-70ff-40f7-95ac-0a6318bb7d4b на замену|
+11-07-2017 12:04:45|INFO|IKSAR|К документу bc14d7c3-70ff-40f7-95ac-0a6318bb7d4b добавлено ключевое слово: Комиссия|
+11-07-2017 12:04:45|INFO|IKSAR|К документу bc14d7c3-70ff-40f7-95ac-0a6318bb7d4b добавлено ключевое слово: Культура|
+11-07-2017 12:04:45|INFO|IKSAR|К документу bc14d7c3-70ff-40f7-95ac-0a6318bb7d4b добавлено ключевое слово: Наследие|
+11-07-2017 12:04:45|INFO|IKSAR|К документу bc14d7c3-70ff-40f7-95ac-0a6318bb7d4b добавлено ключевое слово: Питание|
+11-07-2017 12:04:45|INFO|IKSAR|К документу bc14d7c3-70ff-40f7-95ac-0a6318bb7d4b добавлено ключевое слово: Проект|
+11-07-2017 12:04:45|INFO|IKSAR|К документу bc14d7c3-70ff-40f7-95ac-0a6318bb7d4b добавлено ключевое слово: Размещение|
+11-07-2017 12:04:45|INFO|IKSAR|Удалено 0 рубрик из документа bc14d7c3-70ff-40f7-95ac-0a6318bb7d4b на замену|
+11-07-2017 12:04:45|INFO|IKSAR|К документу bc14d7c3-70ff-40f7-95ac-0a6318bb7d4b добавлена рубрика: 050.060.000 Нежилые помещения. Административные здания|
+11-07-2017 12:04:45|INFO|IKSAR|К документу bc14d7c3-70ff-40f7-95ac-0a6318bb7d4b добавлена рубрика: 090.110.020 Управление в сфере общественного питания|
+11-07-2017 12:04:45|INFO|IKSAR|Документу bc14d7c3-70ff-40f7-95ac-0a6318bb7d4b выставлен флаг IsReadyToExport = True, Строк обработано 1|
+11-07-2017 12:06:08|INFO|IKSAR|К ключевому слову 06e32e18-d8a3-40bc-960d-4d04071bde67 добавлен синоним детям|
+11-07-2017 12:06:17|INFO|IKSAR|Удалено 6 ключевых слов из документа 95dd46e1-5b73-4f5c-ab90-231fc1c1939d на замену|
+11-07-2017 12:06:17|INFO|IKSAR|К документу 95dd46e1-5b73-4f5c-ab90-231fc1c1939d добавлено ключевое слово: Больница|
+11-07-2017 12:06:17|INFO|IKSAR|К документу 95dd46e1-5b73-4f5c-ab90-231fc1c1939d добавлено ключевое слово: Бюджет|
+11-07-2017 12:06:18|INFO|IKSAR|К документу 95dd46e1-5b73-4f5c-ab90-231fc1c1939d добавлено ключевое слово: Врач|
+11-07-2017 12:06:18|INFO|IKSAR|К документу 95dd46e1-5b73-4f5c-ab90-231fc1c1939d добавлено ключевое слово: Здравоохранение|
+11-07-2017 12:06:20|FATAL|IKSAR|System.Data.SqlClient.SqlException (0x80131904): Нарушение "PK_KeysValues_1" ограничения PRIMARY KEY. Невозможно вставить повторяющийся ключ в объект "dbo.KeysValues".
+Выполнение данной инструкции было прервано.
+   в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   в System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   в System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   в Classification.DB.DbWriter.AddReadyKeywordToBase(ClassificationModel item) в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbWriter.cs:строка 299
+ClientConnectionId:5c0ec740-1610-4dea-b5a8-df89cecb2a9d
+Error Number: 2627, State: 1, Class: 14|System.Data.SqlClient.SqlException (0x80131904): Нарушение "PK_KeysValues_1" ограничения PRIMARY KEY. Невозможно вставить повторяющийся ключ в объект "dbo.KeysValues".
+Выполнение данной инструкции было прервано.
+   в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   в System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   в System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   в Classification.DB.DbWriter.AddReadyKeywordToBase(ClassificationModel item) в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.DB\DbWriter.cs:строка 299
+ClientConnectionId:5c0ec740-1610-4dea-b5a8-df89cecb2a9d
+Error Number: 2627, State: 1, Class: 14
+11-07-2017 12:06:20|INFO|IKSAR|Classification.Core.AsyncObservableCollection`1[Classification.Core.Models.KeysAndRubricsModel]|
+11-07-2017 12:24:48|INFO|IKSAR|К ключевому слову f0887254-07a7-4c49-bfa5-b5a1cd4a0a00 добавлен синоним природные|
+11-07-2017 12:25:02|INFO|IKSAR|К ключевому слову 9aa298b1-395f-4699-99ec-ca652b2af4d9 добавлен синоним охраняемые|
+11-07-2017 12:25:19|INFO|IKSAR|Удалено 6 ключевых слов из документа 338a2e80-ea37-451f-8d74-505b2a48e043 на замену|
+11-07-2017 12:25:19|INFO|IKSAR|К документу 338a2e80-ea37-451f-8d74-505b2a48e043 добавлено ключевое слово: Договор|
+11-07-2017 12:25:19|INFO|IKSAR|К документу 338a2e80-ea37-451f-8d74-505b2a48e043 добавлено ключевое слово: Конкурс|
+11-07-2017 12:25:19|INFO|IKSAR|К документу 338a2e80-ea37-451f-8d74-505b2a48e043 добавлено ключевое слово: Охрана|
+11-07-2017 12:25:19|INFO|IKSAR|К документу 338a2e80-ea37-451f-8d74-505b2a48e043 добавлено ключевое слово: Порядок|
+11-07-2017 12:25:19|INFO|IKSAR|К документу 338a2e80-ea37-451f-8d74-505b2a48e043 добавлено ключевое слово: Природа|
+11-07-2017 12:25:19|INFO|IKSAR|К документу 338a2e80-ea37-451f-8d74-505b2a48e043 добавлено ключевое слово: Территория|
+11-07-2017 12:28:09|INFO|IKSAR|Удалено 0 ключевых слов из документа a00403b3-16bb-4e9d-bb07-a2cc622d4bbc на замену|
+11-07-2017 12:28:09|INFO|IKSAR|К документу a00403b3-16bb-4e9d-bb07-a2cc622d4bbc добавлено ключевое слово: Дом|
+11-07-2017 12:28:09|INFO|IKSAR|К документу a00403b3-16bb-4e9d-bb07-a2cc622d4bbc добавлено ключевое слово: Мусор|
+11-07-2017 12:28:09|INFO|IKSAR|К документу a00403b3-16bb-4e9d-bb07-a2cc622d4bbc добавлено ключевое слово: Порядок|
+11-07-2017 12:28:09|INFO|IKSAR|К документу a00403b3-16bb-4e9d-bb07-a2cc622d4bbc добавлено ключевое слово: Субсидия|
+11-07-2017 12:28:09|INFO|IKSAR|К документу a00403b3-16bb-4e9d-bb07-a2cc622d4bbc добавлено ключевое слово: Территория|
+11-07-2017 12:28:09|INFO|IKSAR|К документу a00403b3-16bb-4e9d-bb07-a2cc622d4bbc добавлено ключевое слово: Эксперимент|
+11-07-2017 12:28:16|INFO|IKSAR|Удалено 6 ключевых слов из документа a00403b3-16bb-4e9d-bb07-a2cc622d4bbc на замену|
+11-07-2017 12:28:16|INFO|IKSAR|К документу a00403b3-16bb-4e9d-bb07-a2cc622d4bbc добавлено ключевое слово: Дом|
+11-07-2017 12:28:16|INFO|IKSAR|К документу a00403b3-16bb-4e9d-bb07-a2cc622d4bbc добавлено ключевое слово: Мусор|
+11-07-2017 12:28:16|INFO|IKSAR|К документу a00403b3-16bb-4e9d-bb07-a2cc622d4bbc добавлено ключевое слово: Порядок|
+11-07-2017 12:28:16|INFO|IKSAR|К документу a00403b3-16bb-4e9d-bb07-a2cc622d4bbc добавлено ключевое слово: Субсидия|
+11-07-2017 12:28:16|INFO|IKSAR|К документу a00403b3-16bb-4e9d-bb07-a2cc622d4bbc добавлено ключевое слово: Территория|
+11-07-2017 12:28:16|INFO|IKSAR|К документу a00403b3-16bb-4e9d-bb07-a2cc622d4bbc добавлено ключевое слово: Эксперимент|
+11-07-2017 12:28:16|INFO|IKSAR|Удалено 2 рубрик из документа a00403b3-16bb-4e9d-bb07-a2cc622d4bbc на замену|
+11-07-2017 12:28:16|INFO|IKSAR|К документу a00403b3-16bb-4e9d-bb07-a2cc622d4bbc добавлена рубрика: 050.040.050 Уборка мусора, содержание придомовых территорий|
+11-07-2017 12:28:16|INFO|IKSAR|К документу a00403b3-16bb-4e9d-bb07-a2cc622d4bbc добавлена рубрика: 080.060.030 Расходы бюджетов субъектов Российской Федерации|
+11-07-2017 12:28:16|INFO|IKSAR|Документу a00403b3-16bb-4e9d-bb07-a2cc622d4bbc выставлен флаг IsReadyToExport = True, Строк обработано 1|
+11-07-2017 12:28:27|INFO|IKSAR|Удалено 4 ключевых слов из документа da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 на замену|
+11-07-2017 12:28:27|INFO|IKSAR|К документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 добавлено ключевое слово: Город|
+11-07-2017 12:28:27|INFO|IKSAR|К документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 добавлено ключевое слово: Информация|
+11-07-2017 12:28:27|INFO|IKSAR|К документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 добавлено ключевое слово: Округ|
+11-07-2017 12:28:27|INFO|IKSAR|К документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 добавлено ключевое слово: Программа|
+11-07-2017 12:28:27|INFO|IKSAR|К документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 добавлено ключевое слово: Технология|
+11-07-2017 12:28:27|INFO|IKSAR|К документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 добавлено ключевое слово: Утверждение|
+11-07-2017 12:28:35|INFO|IKSAR|Удалено 6 ключевых слов из документа da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 на замену|
+11-07-2017 12:28:35|INFO|IKSAR|К документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 добавлено ключевое слово: Город|
+11-07-2017 12:28:35|INFO|IKSAR|К документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 добавлено ключевое слово: Информация|
+11-07-2017 12:28:35|INFO|IKSAR|К документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 добавлено ключевое слово: Округ|
+11-07-2017 12:28:35|INFO|IKSAR|К документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 добавлено ключевое слово: Программа|
+11-07-2017 12:28:35|INFO|IKSAR|К документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 добавлено ключевое слово: Технология|
+11-07-2017 12:28:35|INFO|IKSAR|К документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 добавлено ключевое слово: Утверждение|
+11-07-2017 12:28:35|INFO|IKSAR|Удалено 2 рубрик из документа da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 на замену|
+11-07-2017 12:28:35|INFO|IKSAR|К документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 добавлена рубрика: 020.030.020 Государственные программы. Концепции|
+11-07-2017 12:28:35|INFO|IKSAR|К документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 добавлена рубрика: 120.040.010 Информатизация|
+11-07-2017 12:28:35|INFO|IKSAR|Документу da6a3f4d-33b4-4e13-83ad-dff0e0b4b059 выставлен флаг IsReadyToExport = True, Строк обработано 1|
+11-07-2017 12:29:40|INFO|IKSAR|К ключевому слову a54b0f1a-ff7f-4a35-9597-11ee9ad3c79f добавлен синоним поставки|
+11-07-2017 12:29:56|INFO|IKSAR|Удалено 6 ключевых слов из документа 31223074-7412-49b3-ba89-7812d655c7f3 на замену|
+11-07-2017 12:29:56|INFO|IKSAR|К документу 31223074-7412-49b3-ba89-7812d655c7f3 добавлено ключевое слово: Конкурс|
+11-07-2017 12:29:56|INFO|IKSAR|К документу 31223074-7412-49b3-ba89-7812d655c7f3 добавлено ключевое слово: Пассажир|
+11-07-2017 12:29:56|INFO|IKSAR|К документу 31223074-7412-49b3-ba89-7812d655c7f3 добавлено ключевое слово: Право|
+11-07-2017 12:29:56|INFO|IKSAR|К документу 31223074-7412-49b3-ba89-7812d655c7f3 добавлено ключевое слово: Состав|
+11-07-2017 12:29:56|INFO|IKSAR|К документу 31223074-7412-49b3-ba89-7812d655c7f3 добавлено ключевое слово: Топливо|
+11-07-2017 12:29:56|INFO|IKSAR|К документу 31223074-7412-49b3-ba89-7812d655c7f3 добавлено ключевое слово: Транспорт|

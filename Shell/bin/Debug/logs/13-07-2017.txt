@@ -1,0 +1,307 @@
+13-07-2017 09:27:52|FATAL|IKSAR|System.IO.FileNotFoundException: ‘айл 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe' не найден.
+»м€ файла: 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe'
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   в System.IO.File.ReadAllBytes(String path)
+   в Classification.Shell.Views.StartWindow.getTitle() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\Views\Shell.xaml.cs:строка 51|System.IO.FileNotFoundException: ‘айл 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe' не найден.
+»м€ файла: 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe'
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   в System.IO.File.ReadAllBytes(String path)
+   в Classification.Shell.Views.StartWindow.getTitle() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\Views\Shell.xaml.cs:строка 51
+13-07-2017 09:59:33|FATAL|IKSAR|System.IO.FileNotFoundException: ‘айл 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe' не найден.
+»м€ файла: 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe'
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   в System.IO.File.ReadAllBytes(String path)
+   в Classification.Shell.Views.StartWindow.getTitle() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\Views\Shell.xaml.cs:строка 51|System.IO.FileNotFoundException: ‘айл 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe' не найден.
+»м€ файла: 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe'
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   в System.IO.File.ReadAllBytes(String path)
+   в Classification.Shell.Views.StartWindow.getTitle() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\Views\Shell.xaml.cs:строка 51
+13-07-2017 10:00:54|FATAL|IKSAR|System.IO.FileNotFoundException: ‘айл 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe' не найден.
+»м€ файла: 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe'
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   в System.IO.File.ReadAllBytes(String path)
+   в Classification.Shell.Views.StartWindow.getTitle() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\Views\Shell.xaml.cs:строка 51|System.IO.FileNotFoundException: ‘айл 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe' не найден.
+»м€ файла: 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe'
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   в System.IO.File.ReadAllBytes(String path)
+   в Classification.Shell.Views.StartWindow.getTitle() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\Views\Shell.xaml.cs:строка 51
+13-07-2017 10:03:38|FATAL|IKSAR|System.IO.FileNotFoundException: ‘айл 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe' не найден.
+»м€ файла: 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe'
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   в System.IO.File.ReadAllBytes(String path)
+   в Classification.Shell.Views.StartWindow.getTitle() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\Views\Shell.xaml.cs:строка 51|System.IO.FileNotFoundException: ‘айл 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe' не найден.
+»м€ файла: 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe'
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   в System.IO.File.ReadAllBytes(String path)
+   в Classification.Shell.Views.StartWindow.getTitle() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\Views\Shell.xaml.cs:строка 51
+13-07-2017 10:05:19|FATAL|IKSAR|System.IO.FileNotFoundException: ‘айл 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe' не найден.
+»м€ файла: 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe'
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   в System.IO.File.ReadAllBytes(String path)
+   в Classification.Shell.Views.StartWindow.getTitle() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\Views\Shell.xaml.cs:строка 51|System.IO.FileNotFoundException: ‘айл 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe' не найден.
+»м€ файла: 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe'
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   в System.IO.File.ReadAllBytes(String path)
+   в Classification.Shell.Views.StartWindow.getTitle() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\Views\Shell.xaml.cs:строка 51
+13-07-2017 10:06:51|FATAL|IKSAR|System.IO.FileNotFoundException: ‘айл 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe' не найден.
+»м€ файла: 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe'
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   в System.IO.File.ReadAllBytes(String path)
+   в Classification.Shell.Views.StartWindow.getTitle() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\Views\Shell.xaml.cs:строка 51|System.IO.FileNotFoundException: ‘айл 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe' не найден.
+»м€ файла: 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe'
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   в System.IO.File.ReadAllBytes(String path)
+   в Classification.Shell.Views.StartWindow.getTitle() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\Views\Shell.xaml.cs:строка 51
+13-07-2017 10:15:39|FATAL|IKSAR|System.IO.FileNotFoundException: ‘айл 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe' не найден.
+»м€ файла: 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe'
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   в System.IO.File.ReadAllBytes(String path)
+   в Classification.Shell.Views.StartWindow.getTitle() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\Views\Shell.xaml.cs:строка 51|System.IO.FileNotFoundException: ‘айл 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe' не найден.
+»м€ файла: 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe'
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   в System.IO.File.ReadAllBytes(String path)
+   в Classification.Shell.Views.StartWindow.getTitle() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\Views\Shell.xaml.cs:строка 51
+13-07-2017 10:17:45|FATAL|IKSAR|System.IO.FileNotFoundException: ‘айл 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe' не найден.
+»м€ файла: 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe'
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   в System.IO.File.ReadAllBytes(String path)
+   в Classification.Shell.Views.StartWindow.getTitle() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\Views\Shell.xaml.cs:строка 51|System.IO.FileNotFoundException: ‘айл 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe' не найден.
+»м€ файла: 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe'
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   в System.IO.File.ReadAllBytes(String path)
+   в Classification.Shell.Views.StartWindow.getTitle() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\Views\Shell.xaml.cs:строка 51
+13-07-2017 10:19:38|FATAL|IKSAR|System.IO.FileNotFoundException: ‘айл 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe' не найден.
+»м€ файла: 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe'
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   в System.IO.File.ReadAllBytes(String path)
+   в Classification.Shell.Views.StartWindow.getTitle() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\Views\Shell.xaml.cs:строка 51|System.IO.FileNotFoundException: ‘айл 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe' не найден.
+»м€ файла: 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe'
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   в System.IO.File.ReadAllBytes(String path)
+   в Classification.Shell.Views.StartWindow.getTitle() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\Views\Shell.xaml.cs:строка 51
+13-07-2017 10:19:43|FATAL|IKSAR|System.Collections.Generic.KeyNotFoundException: ƒанный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в Classification.Modules.MainListViewModule.ExcelExporter.Morphology(String text) в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ExcelExporter.cs:строка 507
+   в Classification.Modules.MainListViewModule.ExcelExporter.<>c__DisplayClass129_0.<SetRubricsToDocuments>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ExcelExporter.cs:строка 555|System.Collections.Generic.KeyNotFoundException: ƒанный ключ отсутствует в словаре.
+   в System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   в Classification.Modules.MainListViewModule.ExcelExporter.Morphology(String text) в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ExcelExporter.cs:строка 507
+   в Classification.Modules.MainListViewModule.ExcelExporter.<>c__DisplayClass129_0.<SetRubricsToDocuments>b__0() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Modules\Classification.Modules.MainListView\ExcelExporter.cs:строка 555
+13-07-2017 10:21:56|FATAL|IKSAR|System.IO.FileNotFoundException: ‘айл 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe' не найден.
+»м€ файла: 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe'
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   в System.IO.File.ReadAllBytes(String path)
+   в Classification.Shell.Views.StartWindow.getTitle() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\Views\Shell.xaml.cs:строка 51|System.IO.FileNotFoundException: ‘айл 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe' не найден.
+»м€ файла: 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe'
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   в System.IO.File.ReadAllBytes(String path)
+   в Classification.Shell.Views.StartWindow.getTitle() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\Views\Shell.xaml.cs:строка 51
+13-07-2017 10:30:06|FATAL|IKSAR|System.IO.FileNotFoundException: ‘айл 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe' не найден.
+»м€ файла: 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe'
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   в System.IO.File.ReadAllBytes(String path)
+   в Classification.Shell.Views.StartWindow.getTitle() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\Views\Shell.xaml.cs:строка 51|System.IO.FileNotFoundException: ‘айл 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe' не найден.
+»м€ файла: 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe'
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   в System.IO.File.ReadAllBytes(String path)
+   в Classification.Shell.Views.StartWindow.getTitle() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\Views\Shell.xaml.cs:строка 51
+13-07-2017 10:39:57|FATAL|IKSAR|System.IO.FileNotFoundException: ‘айл 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe' не найден.
+»м€ файла: 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe'
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   в System.IO.File.ReadAllBytes(String path)
+   в Classification.Shell.Views.StartWindow.getTitle() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\Views\Shell.xaml.cs:строка 51|System.IO.FileNotFoundException: ‘айл 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe' не найден.
+»м€ файла: 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe'
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   в System.IO.File.ReadAllBytes(String path)
+   в Classification.Shell.Views.StartWindow.getTitle() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\Views\Shell.xaml.cs:строка 51
+13-07-2017 10:42:29|FATAL|IKSAR|System.IO.FileNotFoundException: ‘айл 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe' не найден.
+»м€ файла: 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe'
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   в System.IO.File.ReadAllBytes(String path)
+   в Classification.Shell.Views.StartWindow.getTitle() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\Views\Shell.xaml.cs:строка 51|System.IO.FileNotFoundException: ‘айл 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe' не найден.
+»м€ файла: 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe'
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   в System.IO.File.ReadAllBytes(String path)
+   в Classification.Shell.Views.StartWindow.getTitle() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\Views\Shell.xaml.cs:строка 51
+13-07-2017 10:47:20|FATAL|IKSAR|System.IO.FileNotFoundException: ‘айл 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe' не найден.
+»м€ файла: 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe'
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   в System.IO.File.ReadAllBytes(String path)
+   в Classification.Shell.Views.StartWindow.getTitle() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\Views\Shell.xaml.cs:строка 51|System.IO.FileNotFoundException: ‘айл 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe' не найден.
+»м€ файла: 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe'
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   в System.IO.File.ReadAllBytes(String path)
+   в Classification.Shell.Views.StartWindow.getTitle() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\Views\Shell.xaml.cs:строка 51
+13-07-2017 10:48:16|FATAL|IKSAR|System.IO.FileNotFoundException: ‘айл 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe' не найден.
+»м€ файла: 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe'
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   в System.IO.File.ReadAllBytes(String path)
+   в Classification.Shell.Views.StartWindow.getTitle() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\Views\Shell.xaml.cs:строка 51|System.IO.FileNotFoundException: ‘айл 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe' не найден.
+»м€ файла: 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe'
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   в System.IO.File.ReadAllBytes(String path)
+   в Classification.Shell.Views.StartWindow.getTitle() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\Views\Shell.xaml.cs:строка 51
+13-07-2017 11:20:52|FATAL|IKSAR|System.IO.FileNotFoundException: ‘айл 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe' не найден.
+»м€ файла: 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe'
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   в System.IO.File.ReadAllBytes(String path)
+   в Classification.Shell.Views.StartWindow.getTitle() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\Views\Shell.xaml.cs:строка 51|System.IO.FileNotFoundException: ‘айл 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe' не найден.
+»м€ файла: 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe'
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   в System.IO.File.ReadAllBytes(String path)
+   в Classification.Shell.Views.StartWindow.getTitle() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\Views\Shell.xaml.cs:строка 51
+13-07-2017 11:21:43|FATAL|IKSAR|System.IO.FileNotFoundException: ‘айл 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe' не найден.
+»м€ файла: 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe'
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   в System.IO.File.ReadAllBytes(String path)
+   в Classification.Shell.Views.StartWindow.getTitle() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\Views\Shell.xaml.cs:строка 51|System.IO.FileNotFoundException: ‘айл 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe' не найден.
+»м€ файла: 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe'
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   в System.IO.File.ReadAllBytes(String path)
+   в Classification.Shell.Views.StartWindow.getTitle() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\Views\Shell.xaml.cs:строка 51
+13-07-2017 11:41:02|FATAL|IKSAR|System.IO.FileNotFoundException: ‘айл 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe' не найден.
+»м€ файла: 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe'
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   в System.IO.File.ReadAllBytes(String path)
+   в Classification.Shell.Views.StartWindow.getTitle() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\Views\Shell.xaml.cs:строка 51|System.IO.FileNotFoundException: ‘айл 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe' не найден.
+»м€ файла: 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe'
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   в System.IO.File.ReadAllBytes(String path)
+   в Classification.Shell.Views.StartWindow.getTitle() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\Views\Shell.xaml.cs:строка 51
+13-07-2017 11:43:07|FATAL|IKSAR|System.IO.FileNotFoundException: ‘айл 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe' не найден.
+»м€ файла: 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe'
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   в System.IO.File.ReadAllBytes(String path)
+   в Classification.Shell.Views.StartWindow.getTitle() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\Views\Shell.xaml.cs:строка 51|System.IO.FileNotFoundException: ‘айл 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe' не найден.
+»м€ файла: 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe'
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   в System.IO.File.ReadAllBytes(String path)
+   в Classification.Shell.Views.StartWindow.getTitle() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\Views\Shell.xaml.cs:строка 51
+13-07-2017 11:44:09|FATAL|IKSAR|System.IO.FileNotFoundException: ‘айл 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe' не найден.
+»м€ файла: 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe'
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   в System.IO.File.ReadAllBytes(String path)
+   в Classification.Shell.Views.StartWindow.getTitle() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\Views\Shell.xaml.cs:строка 51|System.IO.FileNotFoundException: ‘айл 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe' не найден.
+»м€ файла: 'C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\bin\Debug\Classification.Shell.exe'
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   в System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   в System.IO.File.ReadAllBytes(String path)
+   в Classification.Shell.Views.StartWindow.getTitle() в C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Shell\Views\Shell.xaml.cs:строка 51

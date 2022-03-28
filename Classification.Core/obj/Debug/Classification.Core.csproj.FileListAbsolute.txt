@@ -1,0 +1,17 @@
+C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.Core\obj\Debug\Classification.Core.csprojResolveAssemblyReference.cache
+C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.Core\bin\Debug\Classification.Core.dll
+C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.Core\bin\Debug\Classification.Core.pdb
+C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.Core\obj\Debug\Classification.Core.dll
+C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.Core\obj\Debug\Classification.Core.pdb
+C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.Core\bin\Debug\NLog.dll
+C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.Core\bin\Debug\NLog.xml
+C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.Core\bin\Debug\Prism.dll
+C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.Core\bin\Debug\Prism.xml
+C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.Core\bin\Debug\Classification.DB.dll
+C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.Core\bin\Debug\Classification.DB.pdb
+C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.Core\obj\Debug\Images\Images.baml
+C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.Core\obj\Debug\Classification.Core_MarkupCompile.cache
+C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.Core\obj\Debug\Classification.Core.g.resources
+C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.Core\obj\Debug\Styles\Buttons.baml
+C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.Core\bin\Debug\Classification.Core.dll.config
+C:\Users\Iksar\Documents\Visual Studio 2015\Projects\Classification_with_live_word_selection\Classification.Core\bin\Debug\MySql.Data.dll
